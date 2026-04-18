@@ -15,6 +15,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from agents import interpreter, signal_scout, content_engine, audience_sim, monitor
+from agents._llm import update_outcome as kalibr_update_outcome
 
 
 app = FastAPI(title="LaunchLayer")
@@ -180,6 +181,22 @@ async def launch(req: LaunchRequest):
     # Keep full content+audience per iteration so the UI can let users
     # click back and see exactly what changed between drafts.
     result["iterations"] = iterations
+
+    # Feed the ground-truth audience score back to Kalibr for every
+    # content_engine trace we produced. This is the outcome-aware learning
+    # loop: future products get content from whichever Claude tier
+    # historically produced drafts that real personas upvoted.
+    final_audience = iterations[-1]["audience_sim"]
+    final_score = _score(final_audience) / 9.0  # normalize 0..1
+    for it in iterations:
+        trace = (it["content_engine"].get("_kalibr") or {}).get("trace_id")
+        if trace:
+            await kalibr_update_outcome(
+                trace,
+                "launchlayer_generate_content",
+                success=final_score >= 0.5,
+                score=final_score,
+            )
 
     timings["content_engine"] = round(content_time_total, 2)
     timings["audience_sim"] = round(audience_time_total, 2)

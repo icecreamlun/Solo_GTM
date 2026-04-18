@@ -8,6 +8,7 @@ import ContentTabs from "./components/ContentTabs.jsx";
 import AudienceSim from "./components/AudienceSim.jsx";
 import ActionPanel from "./components/ActionPanel.jsx";
 import IterationBanner from "./components/IterationBanner.jsx";
+import KalibrDashboard from "./components/KalibrDashboard.jsx";
 import { MOCK } from "./mockData.js";
 
 const STEPS = ["interpreter", "signal_scout", "content_engine", "audience_sim"];
@@ -124,6 +125,7 @@ export default function App() {
           const viewingFinal = activeIter === lastIdx || iters.length === 0;
           return (
             <>
+              <KalibrDashboard data={data} />
               <LaunchScore data={data.interpreter} />
               <SignalPanel data={data.signal_scout} inputUrl={data.meta?.input} />
               {iters.length > 0 && (

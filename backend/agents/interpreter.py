@@ -99,4 +99,8 @@ async def run(input_text: str, input_type: str = "github_url") -> dict:
         context = await _fetch_github_context(input_text)
     if context is None:
         context = input_text
-    return await claude_json(PROMPT.format(context=context))
+    result, kalibr_meta = await claude_json(
+        PROMPT.format(context=context), goal="interpret_product"
+    )
+    result["_kalibr"] = kalibr_meta
+    return result

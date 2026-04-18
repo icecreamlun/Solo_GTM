@@ -127,4 +127,8 @@ async def run(
             signal_json=signal_json,
         )
 
-    return await claude_json(prompt, max_tokens=6000)
+    result, kalibr_meta = await claude_json(
+        prompt, goal="generate_content", max_tokens=6000
+    )
+    result["_kalibr"] = kalibr_meta
+    return result

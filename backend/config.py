@@ -19,6 +19,8 @@ _load_env()
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 APIFY_API_TOKEN = os.environ["APIFY_API_TOKEN"]
 MINDS_API_KEY = os.environ["MINDS_API_KEY"]
+KALIBR_API_KEY = os.environ.get("KALIBR_API_KEY", "")
+KALIBR_TENANT_ID = os.environ.get("KALIBR_TENANT_ID", "")
 
 CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-5-20250929")
 APIFY_REDDIT_ACTOR_ID = "FgJtjDwJCLhRH9saM"

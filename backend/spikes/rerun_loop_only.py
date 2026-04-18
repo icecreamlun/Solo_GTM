@@ -14,6 +14,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from agents import content_engine, audience_sim
+from agents._llm import update_outcome as kalibr_update_outcome
 from main import _should_stop, _score, MAX_ITERATIONS
 
 
@@ -74,6 +75,17 @@ async def main():
     fallback["content_engine"] = iterations[-1]["content_engine"]
     fallback["audience_sim"] = iterations[-1]["audience_sim"]
     fallback["iterations"] = iterations
+
+    # Feed ground-truth engagement back to Kalibr for content_engine traces.
+    final_score = _score(iterations[-1]["audience_sim"]) / 9.0
+    for it in iterations:
+        trace = (it["content_engine"].get("_kalibr") or {}).get("trace_id")
+        if trace:
+            await kalibr_update_outcome(
+                trace, "launchlayer_generate_content",
+                success=final_score >= 0.5, score=final_score,
+            )
+    print(f"   reported final_score={final_score:.2f} to Kalibr for {len(iterations)} content traces")
     fallback["meta"]["iteration_count"] = len(iterations)
     fallback["meta"]["stop_reason"] = stop_reason
     fallback["meta"]["timings"]["content_engine"] = round(content_total, 2)

@@ -19,7 +19,7 @@ export default function LaunchScore({ data }) {
 
   return (
     <section className="card">
-      <div className="card-header">03 · Launch Score</div>
+      <div className="card-header">04 · Launch Score</div>
       <div className="grid md:grid-cols-[auto,1fr] gap-6 items-center">
         <div className="flex flex-col items-center">
           <div className="text-5xl font-bold font-mono">

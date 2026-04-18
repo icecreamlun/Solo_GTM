@@ -19,7 +19,7 @@ export default function AudienceSim({ data }) {
   return (
     <section className="card">
       <div className="flex items-center justify-between mb-4">
-        <div className="card-header mb-0">06 · Audience Simulation</div>
+        <div className="card-header mb-0">07 · Audience Simulation</div>
         <div className="text-[10px] uppercase tracking-wider text-cyan-400/70 font-mono">
           🧠 Powered by Minds AI
         </div>

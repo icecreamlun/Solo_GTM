@@ -84,7 +84,7 @@ async def run(content_output: dict) -> dict:
 
     sarah_raw, mike_raw, alex_raw = await ask_panel_parallel(spark_ids, user_prompt)
 
-    structured = await claude_json(
+    structured, kalibr_meta = await claude_json(
         STRUCTURE_PROMPT.format(
             title=title,
             body=body,
@@ -93,6 +93,7 @@ async def run(content_output: dict) -> dict:
             mike_comment=mike_raw,
             alex_comment=alex_raw,
         ),
+        goal="structure_personas",
         max_tokens=2500,
     )
 
@@ -120,4 +121,5 @@ async def run(content_output: dict) -> dict:
             "spark_ids": {k: v[:8] for k, v in cfg["sparks"].items()},
             "panel_id": cfg.get("panel_id", "")[:8],
         },
+        "_kalibr": kalibr_meta,
     }

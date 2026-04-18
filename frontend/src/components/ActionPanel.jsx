@@ -7,7 +7,7 @@ export default function ActionPanel({ data, onRegenerate }) {
 
   return (
     <section className="card">
-      <div className="card-header">07 · Launch</div>
+      <div className="card-header">08 · Launch</div>
       {!published ? (
         <div className="flex items-center justify-between gap-4 flex-wrap">
           <div>

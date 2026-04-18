@@ -13,7 +13,7 @@ export default function ContentTabs({ data }) {
 
   return (
     <section className="card">
-      <div className="card-header">05 · Generated Content</div>
+      <div className="card-header">06 · Generated Content</div>
 
       <div className="flex gap-1 border-b border-zinc-800 mb-4">
         {TABS.map((t) => (

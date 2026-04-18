@@ -203,11 +203,12 @@ async def run(interpreter_output: dict) -> dict:
         hn_summary=_summarize_hn(hn_items),
         total_sources=len(reddit_items) + len(twitter_items) + len(hn_items),
     )
-    result = await claude_json(prompt)
+    result, kalibr_meta = await claude_json(prompt, goal="synthesize_signals")
     result["_meta"] = {
         "reddit_count": len(reddit_items),
         "twitter_count": len(twitter_items),
         "hn_count": len(hn_items),
         "used_cached_apify": USE_CACHED_APIFY,
     }
+    result["_kalibr"] = kalibr_meta
     return result

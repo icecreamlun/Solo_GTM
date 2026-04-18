@@ -41,9 +41,10 @@ export default function PipelineStatus({ progress, data }) {
       label: "Interpret",
       subs: [
         "GitHub API · 10 commits + 5K README",
-        "Claude Sonnet → structured JSON",
+        "Claude → structured JSON",
       ],
       outcome: interp && `Launch Score ${interp.launch_score?.overall ?? "?"} · ${interp.launch_recommendation?.replace("_", " ") ?? ""}`,
+      kalibr: interp?._kalibr,
     },
     {
       key: "signal_scout",
@@ -58,6 +59,7 @@ export default function PipelineStatus({ progress, data }) {
         "Claude synthesis across sources",
       ],
       outcome: signals && `${(sMeta.reddit_count ?? 0) + (sMeta.twitter_count ?? 0) + (sMeta.hn_count ?? 0)} data points · confidence ${signals.signal_confidence}`,
+      kalibr: signals?._kalibr,
     },
     {
       key: "content_engine",
@@ -69,6 +71,8 @@ export default function PipelineStatus({ progress, data }) {
         "Guardrails · source attribution + overclaim",
       ],
       outcome: content && `quality ${content.guardrails?.quality_score} · ${content.guardrails?.flags?.length ?? 0} flags`,
+      kalibr: content?._kalibr,
+      kalibrHint: "trained by final engagement score",
     },
     {
       key: "audience_sim",
@@ -81,6 +85,7 @@ export default function PipelineStatus({ progress, data }) {
         "Claude structures sentiment + suggestions",
       ],
       outcome: audience && `engagement ${engagement} · ${upvotes}/3 would upvote`,
+      kalibr: audience?._kalibr,
     },
   ];
 
@@ -90,11 +95,16 @@ export default function PipelineStatus({ progress, data }) {
     <section className="card">
       <div className="flex items-center justify-between mb-5 flex-wrap gap-2">
         <div className="card-header mb-0">02 · Pipeline</div>
-        {data?.meta?.timings && (
-          <div className="text-[10px] uppercase tracking-wider text-zinc-500 font-mono">
-            total {fmt(Object.values(timings).reduce((a, b) => a + (b || 0), 0))}
+        <div className="flex items-center gap-3">
+          <div className="text-[10px] uppercase tracking-wider text-cyan-400/70 font-mono">
+            ⚡ Kalibr · outcome-aware routing
           </div>
-        )}
+          {data?.meta?.timings && (
+            <div className="text-[10px] uppercase tracking-wider text-zinc-500 font-mono">
+              total {fmt(Object.values(timings).reduce((a, b) => a + (b || 0), 0))}
+            </div>
+          )}
+        </div>
       </div>
 
       <div className="grid md:grid-cols-4 gap-3">
@@ -147,6 +157,20 @@ export default function PipelineStatus({ progress, data }) {
               {status === "running" && (
                 <div className="mt-2 pt-2 border-t border-zinc-800/60 text-[11px] text-cyan-400 font-mono animate-pulse">
                   running…
+                </div>
+              )}
+              {s.kalibr && status === "done" && (
+                <div className="mt-1.5 text-[10px] text-zinc-600 font-mono">
+                  via{" "}
+                  <span className="text-zinc-400">
+                    {(s.kalibr.model || "").replace("claude-", "").replace("-20250929", "").replace("-20251001", "")}
+                  </span>{" "}
+                  · trace {String(s.kalibr.trace_id || "").slice(0, 8)}
+                  {s.kalibrHint && (
+                    <div className="text-cyan-400/70 mt-0.5">
+                      ↪ {s.kalibrHint}
+                    </div>
+                  )}
                 </div>
               )}
             </div>

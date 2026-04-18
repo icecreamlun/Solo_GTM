@@ -33,7 +33,7 @@ export default function SignalPanel({ data, inputUrl }) {
   return (
     <section className="card">
       <div className="flex items-center justify-between mb-4">
-        <div className="card-header mb-0">04 · Market Signals</div>
+        <div className="card-header mb-0">05 · Market Signals</div>
         <div className="text-[10px] uppercase tracking-wider text-cyan-400/70 font-mono">
           ⚡ Powered by Apify
         </div>

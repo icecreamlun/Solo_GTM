@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "input": "https://github.com/Axolotl-QA/Axolotl",
+    "input_type": "github_url",
+    "timings": {
+      "interpreter": 7.8,
+      "signal_scout": 129.22,
+      "content_engine": 27.86,
+      "audience_sim": 20.55
+    }
+  },
+  "interpreter": {
+    "product_name": "Axolotl",
+    "what_it_does": "AI-powered VS Code extension that automatically generates and runs real browser tests on code changes before merging.",
+    "update_summary": "Project rebranding and documentation improvements with new GIFs demonstrating the QA process, star history tracking, and package renaming to Axolotl across configurations.",
+    "user_value": "Prevents production bugs by automatically testing actual user flows in real browsers before merge, eliminating the gap between code changes and test coverage.",
+    "update_type": "improvement",
+    "target_audiences": [
+      "frontend developers",
+      "QA engineers",
+      "development teams using pull requests"
+    ],
+    "launch_score": {
+      "novelty": 4,
+      "user_impact": 5,
+      "shareability": 4,
+      "timing_relevance": 5,
+      "overall": 4.5
+    },
+    "launch_recommendation": "full_launch",
+    "key_angles": [
+      "AI agent that prevents production bugs by testing what actually changed in your PR",
+      "Automated end-to-end testing in real browsers without writing test code",
+      "Evidence-backed merge decisions with visual proof of test execution"
+    ],
+    "search_keywords": [
+      "AI test automation",
+      "automated QA",
+      "PR testing",
+      "end-to-end testing",
+      "VS Code testing",
+      "browser automation",
+      "merge validation",
+      "code change analysis"
+    ]
+  },
+  "signal_scout": {
+    "trending_topics": [
+      "AI-powered test automation skepticism and value assessment",
+      "PR review workflows and testing responsibilities",
+      "Open-source automated QA tools and frameworks"
+    ],
+    "community_pain_points": [
+      "Uncertainty about real ROI of AI testing tools beyond marketing hype",
+      "Manual burden of testing changes during PR reviews",
+      "Difficulty maintaining and repairing brittle UI tests",
+      "Lack of visual proof that tests actually ran successfully"
+    ],
+    "recommended_narrative": "The PR reviewer's AI assistant: automatic browser tests on what changed, with visual proof before merge - no test maintenance, no hype, just evidence",
+    "recommended_channels": [
+      {
+        "channel": "r/cscareerquestionsEU",
+        "reason": "Active discussion (20 comments) specifically about testing during PR reviews - direct pain point match",
+        "fit_score": "high"
+      },
+      {
+        "channel": "r/ExperiencedDevs",
+        "reason": "15 comments on PR review process - mature audience that values productivity tools and has authority to adopt",
+        "fit_score": "high"
+      },
+      {
+        "channel": "Hacker News (Show HN)",
+        "reason": "Multiple Show HN posts for automated QA tools getting engagement (145pts for Magnitude, 16pts for similar tools) - receptive audience",
+        "fit_score": "high"
+      },
+      {
+        "channel": "r/ArtificialInteligence",
+        "reason": "11 comments debating actual value of AI testing platforms - opportunity to address skepticism with concrete evidence-based approach",
+        "fit_score": "medium"
+      },
+      {
+        "channel": "r/QualityAssurance",
+        "reason": "11 comments on AI testing automation - but may be more focused on dedicated QA roles than developer workflows",
+        "fit_score": "medium"
+      }
+    ],
+    "competitive_angle": "Position as anti-hype: not another 'AI will write all your tests' promise, but a practical PR workflow enhancement that shows visual evidence of real browser testing on actual changes. Focus on the merge decision use case, not replacing QA teams.",
+    "timing_insight": "GOOD - Strong AI testing fatigue creates opportunity for evidence-based, practical positioning. Active discussions about PR testing responsibilities show developers currently shoulder this burden manually. Multiple competitors launching signals growing market category, but skepticism (11 comments questioning value) means differentiation through specificity (PR-focused, visual proof) will resonate.",
+    "signal_confidence": "medium",
+    "data_sources_count": 35,
+    "key_data_points": [
+      {
+        "source": "r/cscareerquestionsEU",
+        "insight": "20 comments on 'Do you test other peoples changes during a PR review?' - developers actively discussing if/how they test PRs",
+        "relevance": "high"
+      },
+      {
+        "source": "r/ArtificialInteligence",
+        "insight": "11 comments questioning 'actual value in ai powered testing automation platforms beyond the hype' - skepticism barrier to address",
+        "relevance": "high"
+      },
+      {
+        "source": "Hacker News",
+        "insight": "Show HN: Magnitude (145pts, 40c) shows strong appetite for browser automation frameworks - validates technical approach",
+        "relevance": "high"
+      },
+      {
+        "source": "r/buildinpublic",
+        "insight": "Developer built PR testing system for preview URLs, asking if people would pay - validates market need but low engagement (2c) suggests generic positioning issue",
+        "relevance": "medium"
+      },
+      {
+        "source": "Hacker News",
+        "insight": "Multiple 'AI QA testing' Show HN posts getting 1-3pts - market saturation for generic AI testing angle",
+        "relevance": "medium"
+      }
+    ],
+    "_meta": {
+      "reddit_count": 15,
+      "hn_count": 20,
+      "used_cached_apify": false
+    }
+  },
+  "content_engine": {
+    "x_thread": {
+      "tweets": [
+        "Been working on Axolotl – a VS Code extension that spins up actual browser tests for your PR changes automatically. No test code to write or maintain.",
+        "The workflow: you push code → it analyzes what changed → generates real browser tests → runs them → gives you visual proof (GIFs) before merge.\n\nBecause \"LGTM\" shouldn't mean \"I hope this works in production\"",
+        "It's specifically for the PR review moment – not replacing your QA team, just filling the gap between \"code looks fine\" and \"this actually works in a browser\"\n\nOpen source, works with existing workflows.",
+        "Just rebranded and cleaned up docs. Would love feedback from folks who review PRs regularly:\n\n[link]\n\nEspecially interested in what evidence you'd need to trust an automated test before merging."
+      ],
+      "angle": "PR reviewer's AI assistant with visual proof",
+      "hook_type": "achievement"
+    },
+    "reddit_post": {
+      "title": "Built an AI VS Code extension that auto-generates browser tests for PRs (with visual proof)",
+      "body": "Hey r/SideProject,\n\nI've been working on Axolotl – a VS Code extension that automatically generates and runs real browser tests when you push code changes.\n\nThe problem: during PR reviews, we're all looking at code diffs and trusting that nothing broke in the actual UI. Writing e2e tests is time-consuming, and maintaining them is worse.\n\nHow it works: Axolotl analyzes what changed in your PR, generates browser tests for those specific changes, runs them in real browsers, and gives you GIFs showing the tests actually passing. So when you're reviewing a PR, you get visual evidence that the user flow works, not just \"the code looks fine.\"\n\nJust finished rebranding the project and updating docs with new demo GIFs of the QA process. It's open source and designed to fit into existing PR workflows without replacing your QA team – just catches obvious stuff before merge.\n\nStill figuring out what evidence developers actually need to trust an automated test vs. clicking through manually. If you review PRs regularly, I'd love your take on whether this approach makes sense.\n\nGitHub: [link]",
+      "target_subreddit": "r/SideProject",
+      "flair": "Show"
+    },
+    "hn_post": {
+      "title": "Show HN: Axolotl – AI-generated browser tests for PR changes",
+      "body": "I built Axolotl, a VS Code extension that automatically generates and runs browser tests when you push code changes.\n\nThe workflow: you push a PR → it analyzes the diff → generates end-to-end tests covering what changed → runs them in real browsers → provides GIFs showing test execution. The goal is to give PR reviewers visual evidence that user flows work, without writing or maintaining test code.\n\nIt's focused specifically on the merge decision moment, not replacing dedicated QA. Open source, works with existing PR workflows. Just finished rebranding and updating documentation with better demos of the QA process.\n\nInterested in feedback on what would make you trust an automated test enough to merge based on it."
+    },
+    "changelog": {
+      "title": "v1.x — Rebranding and Documentation Updates",
+      "bullets": [
+        "Rebranded project to Axolotl across all configurations and package naming",
+        "Added new GIFs demonstrating the automated QA process and test execution",
+        "Integrated star history tracking to show project growth"
+      ]
+    },
+    "guardrails": {
+      "all_claims_sourced": true,
+      "flags": [
+        {
+          "claim": "automatically generates and runs real browser tests on code changes before merging",
+          "confidence": 1.0,
+          "source": "product_name.what_it_does",
+          "action": "approve"
+        },
+        {
+          "claim": "analyzes what changed in your PR",
+          "confidence": 1.0,
+          "source": "key_angles: 'AI agent that prevents production bugs by testing what actually changed in your PR'",
+          "action": "approve"
+        },
+        {
+          "claim": "provides GIFs showing test execution",
+          "confidence": 1.0,
+          "source": "update_summary: 'new GIFs demonstrating the QA process'",
+          "action": "approve"
+        },
+        {
+          "claim": "open source",
+          "confidence": 0.85,
+          "source": "inferred from GitHub mention and trending_topics: 'Open-source automated QA tools', but not explicitly stated in product info",
+          "action": "review"
+        },
+        {
+          "claim": "VS Code extension",
+          "confidence": 1.0,
+          "source": "product_name.what_it_does: 'VS Code extension'",
+          "action": "approve"
+        },
+        {
+          "claim": "no test code to write or maintain",
+          "confidence": 1.0,
+          "source": "key_angles: 'Automated end-to-end testing in real browsers without writing test code'",
+          "action": "approve"
+        }
+      ],
+      "tone_check": "pass",
+      "overclaim_check": "pass",
+      "quality_score": "ready"
+    }
+  },
+  "audience_sim": {
+    "personas": [
+      {
+        "name": "Sarah",
+        "role": "Senior Backend Engineer",
+        "emoji": "👩‍💻",
+        "comment": "The GIF output is actually a smart trust signal, I've seen too many \"tests pass\" screenshots that were staged, so showing the actual browser execution is the right instinct. My real question is how it handles timing-dependent flows: if your generated tests are just happy-path clicks with hardcoded waits, you've built a flakiness factory that'll erode trust faster than no tests at all. What does the failure output look like when a test *doesn't* pass, do you get a GIF of the actual broken state, or just a log dump?",
+        "sentiment": "neutral",
+        "would_upvote": true,
+        "key_concern": "Test reliability and handling of timing-dependent flows that cause flakiness",
+        "suggestion": "Show a side-by-side example of both passing and failing test outputs with GIFs, demonstrating how the tool handles real failures and timing issues"
+      },
+      {
+        "name": "Mike",
+        "role": "Indie Hacker",
+        "emoji": "🚀",
+        "comment": "The GIF output is the actual smart part here, that's the trust gap nobody talks about, reviewers don't read test code, they need to *see* it. My real question is what happens when the generated tests are confidently wrong, passing on a broken flow because Axolotl didn't know what \"correct\" looks like for that specific component. Would use this in a heartbeat if there's a way to flag low-confidence test coverage, otherwise it's just moving the trust problem one layer deeper.",
+        "sentiment": "positive",
+        "would_upvote": true,
+        "key_concern": "False positives where tests pass but the actual flow is broken due to incorrect assumptions",
+        "suggestion": "Add a confidence score or visual indicator on generated tests showing coverage certainty, with ability to manually review low-confidence tests before merging"
+      },
+      {
+        "name": "Alex",
+        "role": "HN Power User",
+        "emoji": "🤨",
+        "comment": "The \"analyzes what changed in your PR\" part is doing a lot of heavy lifting here, that's essentially the entire hard problem, and I'd want to know whether you're doing AST diffing, call graph analysis, or just vibes-based heuristics before I trust it near a merge button. GIFs of passing tests are a nice UX touch but they're also the exact thing a flaky test suite produces right before it lets a regression through. Prior art on this space is deep: Replay.io, Meticulous, Percy, Chromatic, what's the actual differentiator beyond \"it's a VS Code extension\"?",
+        "sentiment": "neutral",
+        "would_upvote": false,
+        "key_concern": "Technical differentiation from existing solutions and clarity on the PR analysis mechanism",
+        "suggestion": "Lead with the specific technical approach to PR diff analysis (AST/call graph/etc.) and create a comparison table showing how this differs from Replay.io, Meticulous, and Percy"
+      }
+    ],
+    "synthesis": {
+      "predicted_engagement": "medium",
+      "strongest_point": "The GIF visual proof concept resonates strongly as a novel trust signal that solves reviewer skepticism",
+      "biggest_weakness": "Lack of technical depth on how PR analysis actually works and no differentiation from existing competitive solutions makes it feel unproven",
+      "recommended_changes": [
+        "Add a technical paragraph explaining the PR analysis mechanism (AST diffing, code coverage mapping, etc.) before describing the output",
+        "Include an example of a failing test with visual output to demonstrate reliability and failure handling",
+        "Add a brief 'How this differs from X' section comparing to 2-3 established tools with specific technical differentiators",
+        "Mention confidence scoring or test quality indicators to address the false-positive concern"
+      ],
+      "optimized_title_suggestion": "Built a VS Code extension that auto-generates browser tests from PR diffs and shows visual proof they passed"
+    },
+    "_meta": {
+      "source": "Minds AI",
+      "spark_ids": {
+        "sarah": "19b53745",
+        "mike": "92e2e21d",
+        "alex": "cfbfe1c8"
+      },
+      "panel_id": "985da349"
+    }
+  }
+}

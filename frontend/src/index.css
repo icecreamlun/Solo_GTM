@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-zinc-950 text-zinc-100 font-sans antialiased;
+    background-image:
+      radial-gradient(circle at 15% 0%, rgba(34, 211, 238, 0.08) 0%, transparent 40%),
+      radial-gradient(circle at 85% 100%, rgba(34, 211, 238, 0.05) 0%, transparent 40%);
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-zinc-900/70 border border-zinc-800 rounded-xl p-6 backdrop-blur-sm;
+  }
+  .card-header {
+    @apply text-xs uppercase tracking-widest text-zinc-500 mb-4 font-mono;
+  }
+  .pill {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-mono;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-accent text-zinc-950 font-semibold px-4 py-2 rounded-lg hover:bg-cyan-300 transition-colors;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 text-zinc-300 border border-zinc-700 px-4 py-2 rounded-lg hover:bg-zinc-800 transition-colors;
+  }
+}

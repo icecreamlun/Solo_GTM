@@ -1,11 +1,11 @@
 const SENTIMENT_COLOR = {
-  positive: "text-cyan-400",
+  positive: "text-brand-400",
   neutral: "text-zinc-400",
   negative: "text-rose-400",
 };
 
 const ENGAGEMENT_COLOR = {
-  high: "text-cyan-400",
+  high: "text-brand-400",
   medium: "text-amber-400",
   low: "text-rose-400",
 };
@@ -19,15 +19,18 @@ export default function AudienceSim({ data }) {
   return (
     <section className="card">
       <div className="flex items-center justify-between mb-4">
-        <div className="card-header mb-0">07 · Audience Simulation</div>
-        <div className="text-[10px] uppercase tracking-wider text-cyan-400/70 font-mono">
+        <div>
+          <div className="section-title">Panel reactions</div>
+          <div className="section-sub">Three Minds AI sparks answered in parallel</div>
+        </div>
+        <div className="text-[10px] uppercase tracking-wider text-brand-400/70 font-mono">
           🧠 Powered by Minds AI
         </div>
       </div>
 
       {(panelId || Object.keys(sparkIds).length > 0) && (
-        <div className="mb-5 p-3 bg-zinc-950/60 border border-cyan-400/20 rounded-lg text-xs font-mono text-zinc-400">
-          🔗 Panel <span className="text-cyan-400">{panelId}…</span> ·{" "}
+        <div className="mb-5 p-3 bg-zinc-950/60 border border-brand-400/20 rounded-lg text-xs font-mono text-zinc-400">
+          🔗 Panel <span className="text-brand-400">{panelId}…</span> ·{" "}
           {Object.keys(sparkIds).length} Minds sparks answered in parallel
           <div className="flex gap-2 mt-1.5 flex-wrap">
             {Object.entries(sparkIds).map(([name, id]) => (
@@ -53,20 +56,20 @@ export default function AudienceSim({ data }) {
                   {p.sentiment}
                 </span>
                 <span className="text-zinc-700">·</span>
-                <span className={p.would_upvote ? "text-cyan-400" : "text-zinc-500"}>
+                <span className={p.would_upvote ? "text-brand-400" : "text-zinc-500"}>
                   {p.would_upvote ? "↑ upvote" : "— skip"}
                 </span>
               </div>
             </div>
 
-            <blockquote className="border-l-2 border-cyan-400/40 pl-3 text-zinc-200 italic mb-3">
+            <blockquote className="border-l-2 border-brand-400/40 pl-3 text-zinc-200 italic mb-3">
               "{p.comment}"
             </blockquote>
 
             <div className="grid grid-cols-[auto,1fr] gap-x-3 gap-y-1 text-xs">
               <div className="text-zinc-500 font-mono">Concern</div>
               <div className="text-zinc-400">{p.key_concern}</div>
-              <div className="text-cyan-400/80 font-mono">💡 Fix</div>
+              <div className="text-brand-400/80 font-mono">💡 Fix</div>
               <div className="text-zinc-300">{p.suggestion}</div>
             </div>
           </div>
@@ -95,7 +98,7 @@ export default function AudienceSim({ data }) {
             )}
             {synthesis.optimized_title_suggestion && (
               <Row label="Better title">
-                <span className="text-cyan-400 font-mono text-xs">
+                <span className="text-brand-400 font-mono text-xs">
                   "{synthesis.optimized_title_suggestion}"
                 </span>
               </Row>

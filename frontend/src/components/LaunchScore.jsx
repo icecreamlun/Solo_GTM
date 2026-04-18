@@ -6,7 +6,7 @@ const DIMENSIONS = [
 ];
 
 const REC_STYLE = {
-  full_launch: { label: "FULL LAUNCH RECOMMENDED", color: "text-cyan-400" },
+  full_launch: { label: "FULL LAUNCH RECOMMENDED", color: "text-brand-400" },
   soft_launch: { label: "SOFT LAUNCH SUGGESTED", color: "text-amber-400" },
   skip: { label: "SKIP — NOT READY", color: "text-rose-400" },
 };
@@ -19,7 +19,10 @@ export default function LaunchScore({ data }) {
 
   return (
     <section className="card">
-      <div className="card-header">04 · Launch Score</div>
+      <div>
+        <div className="section-title">Launch readiness</div>
+        <div className="section-sub mb-5">Four-dimensional score derived from repo context</div>
+      </div>
       <div className="grid md:grid-cols-[auto,1fr] gap-6 items-center">
         <div className="flex flex-col items-center">
           <div className="text-5xl font-bold font-mono">
@@ -28,7 +31,7 @@ export default function LaunchScore({ data }) {
           </div>
           <div className="mt-2 flex gap-0.5">
             {[1, 2, 3, 4, 5].map((i) => (
-              <span key={i} className={i <= Math.round(overall) ? "text-cyan-400" : "text-zinc-700"}>
+              <span key={i} className={i <= Math.round(overall) ? "text-brand-400" : "text-zinc-700"}>
                 ★
               </span>
             ))}
@@ -44,7 +47,7 @@ export default function LaunchScore({ data }) {
                 <div className="w-24 text-zinc-500">{d.label}</div>
                 <div className="flex-1 h-2 bg-zinc-800 rounded-full overflow-hidden">
                   <div
-                    className="h-full bg-gradient-to-r from-cyan-500 to-cyan-300 transition-all"
+                    className="h-full bg-gradient-to-r from-brand-500 to-brand-300 transition-all"
                     style={{ width: `${(val / 5) * 100}%` }}
                   />
                 </div>

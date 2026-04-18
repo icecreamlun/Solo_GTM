@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 const ENGAGEMENT_COLOR = {
-  high: "text-cyan-400",
+  high: "text-brand-400",
   medium: "text-amber-400",
   low: "text-rose-400",
 };
 const ENGAGEMENT_BG = {
-  high: "bg-cyan-400/10 border-cyan-400/40",
+  high: "bg-brand-400/10 border-brand-400/40",
   medium: "bg-amber-400/10 border-amber-400/40",
   low: "bg-rose-400/10 border-rose-400/40",
 };
@@ -31,12 +31,12 @@ export default function IterationBanner({
       : `Refined ${n - 1}× — engagement ${first.engagement} → ${last.engagement}`;
 
   return (
-    <div className="bg-cyan-400/5 border border-cyan-400/30 rounded-xl p-4">
+    <div className="bg-brand-400/5 border border-brand-400/30 rounded-xl p-4">
       <div className="flex items-center justify-between gap-3 flex-wrap mb-3">
         <div className="flex items-center gap-2 text-sm">
           <span className="text-lg">🔄</span>
           <div>
-            <div className="text-cyan-300 font-medium">Self-correction loop</div>
+            <div className="text-brand-300 font-medium">Self-correction loop</div>
             <div className="text-xs text-zinc-400">{headline}</div>
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function IterationBanner({
           );
         })}
         <button
-          className="ml-auto text-xs text-cyan-400 font-mono hover:text-cyan-300"
+          className="ml-auto text-xs text-brand-400 font-mono hover:text-brand-300"
           onClick={() => setOpen(!open)}
         >
           {open ? "hide history" : "show history"}
@@ -77,7 +77,7 @@ export default function IterationBanner({
       </div>
 
       {open && (
-        <div className="mt-4 pt-4 border-t border-cyan-400/20 space-y-3">
+        <div className="mt-4 pt-4 border-t border-brand-400/20 space-y-3">
           {iterations.map((it, idx) => {
             const title = it.content_engine?.reddit_post?.title || "(no title)";
             const synthesis = it.audience_sim?.synthesis || {};
@@ -90,7 +90,7 @@ export default function IterationBanner({
                 onClick={() => onSelect(idx)}
                 className={`cursor-pointer rounded-lg border p-3 transition ${
                   isActive
-                    ? "border-cyan-400/50 bg-zinc-900/60"
+                    ? "border-brand-400/50 bg-zinc-900/60"
                     : "border-zinc-800 bg-zinc-900/30 hover:border-zinc-700"
                 }`}
               >
@@ -111,7 +111,7 @@ export default function IterationBanner({
                       </span>
                       <span>
                         upvotes:{" "}
-                        <span className={it.upvote_count === 3 ? "text-cyan-400" : "text-zinc-400"}>
+                        <span className={it.upvote_count === 3 ? "text-brand-400" : "text-zinc-400"}>
                           {it.upvote_count}/3
                         </span>
                       </span>
@@ -130,7 +130,7 @@ export default function IterationBanner({
                       </div>
                     )}
                     {isFinal && (
-                      <div className="mt-2 text-[11px] text-cyan-400/80 font-mono">
+                      <div className="mt-2 text-[11px] text-brand-400/80 font-mono">
                         ✓ converged — this is what gets published
                       </div>
                     )}

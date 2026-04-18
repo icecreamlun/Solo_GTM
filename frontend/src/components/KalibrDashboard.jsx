@@ -48,7 +48,7 @@ function shortModel(m) {
 
 function scoreColor(s) {
   if (s == null) return "text-zinc-600";
-  if (s >= 0.8) return "text-cyan-400";
+  if (s >= 0.8) return "text-brand-400";
   if (s >= 0.5) return "text-amber-400";
   return "text-rose-400";
 }
@@ -77,8 +77,11 @@ export default function KalibrDashboard({ data }) {
   return (
     <section className="card">
       <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
-        <div className="card-header mb-0">03 · Kalibr evaluation</div>
-        <div className="text-[10px] uppercase tracking-wider text-cyan-400/70 font-mono">
+        <div>
+          <div className="section-title">Kalibr evaluation</div>
+          <div className="section-sub">Per-goal routing, eval rule, score, trace</div>
+        </div>
+        <div className="text-[10px] uppercase tracking-wider text-brand-400/70 font-mono">
           ⚡ Outcome-aware routing
         </div>
       </div>
@@ -125,7 +128,7 @@ export default function KalibrDashboard({ data }) {
                             key={p}
                             className={`text-[10px] font-mono px-1.5 py-0.5 rounded border ${
                               picked
-                                ? "bg-cyan-400/10 border-cyan-400/40 text-cyan-300"
+                                ? "bg-brand-400/10 border-brand-400/40 text-brand-300"
                                 : "bg-zinc-900 border-zinc-800 text-zinc-500"
                             }`}
                           >
@@ -136,7 +139,7 @@ export default function KalibrDashboard({ data }) {
                       })}
                     </div>
                   </td>
-                  <td className="py-3 px-3 font-mono text-xs text-cyan-300">
+                  <td className="py-3 px-3 font-mono text-xs text-brand-300">
                     {shortModel(chosen) || "-"}
                   </td>
                   <td className="py-3 px-3 text-xs text-zinc-400">
@@ -150,7 +153,7 @@ export default function KalibrDashboard({ data }) {
                       {score != null ? score.toFixed(2) : "–"}
                     </div>
                     {g.hasFeedback && score != null && (
-                      <div className="text-[9px] text-cyan-400/70 mt-0.5">
+                      <div className="text-[9px] text-brand-400/70 mt-0.5">
                         ← fed back
                       </div>
                     )}
@@ -169,7 +172,7 @@ export default function KalibrDashboard({ data }) {
         <div className="mt-4 text-[11px] font-mono text-zinc-400">
           <span className="text-zinc-500">Feedback trail ·</span>{" "}
           {iters.length} content_engine traces updated with final engagement score{" "}
-          <span className="text-cyan-400">{compositeNorm.toFixed(2)}</span> (composite{" "}
+          <span className="text-brand-400">{compositeNorm.toFixed(2)}</span> (composite{" "}
           {compositeRaw}/9)
           {iters.map((it) => {
             const t = it.content_engine?._kalibr?.trace_id;
@@ -182,8 +185,8 @@ export default function KalibrDashboard({ data }) {
         </div>
       )}
 
-      <div className="mt-4 p-3 bg-cyan-400/5 border border-cyan-400/20 rounded-lg text-xs text-zinc-400">
-        <div className="text-cyan-300 font-medium mb-1">How Kalibr learns</div>
+      <div className="mt-4 p-3 bg-brand-400/5 border border-brand-400/20 rounded-lg text-xs text-zinc-400">
+        <div className="text-brand-300 font-medium mb-1">How Kalibr learns</div>
         For each goal, Kalibr's Router picks between the candidate paths based on
         past outcomes. Parse-success goals (interpret / synthesize / structure)
         score <span className="font-mono">1.0</span> when valid JSON returns — a

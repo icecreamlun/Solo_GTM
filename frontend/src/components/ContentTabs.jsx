@@ -13,7 +13,10 @@ export default function ContentTabs({ data }) {
 
   return (
     <section className="card">
-      <div className="card-header">06 · Generated Content</div>
+      <div className="mb-5">
+        <div className="section-title">Generated drafts</div>
+        <div className="section-sub">Each channel tone-tuned · every claim source-attributed</div>
+      </div>
 
       <div className="flex gap-1 border-b border-zinc-800 mb-4">
         {TABS.map((t) => (
@@ -22,7 +25,7 @@ export default function ContentTabs({ data }) {
             onClick={() => setActive(t.key)}
             className={`px-4 py-2 text-sm font-mono transition-colors border-b-2 -mb-px ${
               active === t.key
-                ? "text-cyan-400 border-cyan-400"
+                ? "text-brand-400 border-brand-400"
                 : "text-zinc-500 border-transparent hover:text-zinc-300"
             }`}
           >
@@ -48,7 +51,7 @@ function RedditPreview({ post }) {
   return (
     <div className="bg-zinc-950/60 border border-zinc-800 rounded-lg p-4">
       <div className="flex items-center gap-2 text-xs text-zinc-500 mb-2 font-mono">
-        <span className="text-cyan-400">{post.target_subreddit}</span>
+        <span className="text-brand-400">{post.target_subreddit}</span>
         {post.flair && <span className="pill bg-zinc-800">{post.flair}</span>}
       </div>
       <div className="font-semibold text-lg mb-3">{post.title}</div>
@@ -96,7 +99,7 @@ function ChangelogPreview({ log }) {
       <ul className="space-y-2">
         {log.bullets.map((b, i) => (
           <li key={i} className="flex gap-2 text-sm text-zinc-300">
-            <span className="text-cyan-400">•</span>
+            <span className="text-brand-400">•</span>
             <span>{b}</span>
           </li>
         ))}

@@ -82,7 +82,7 @@ export default function MonitorTimeline({ slug }) {
           </span>
         </span>
         <span className="flex items-center gap-3">
-          <span className="text-cyan-400/80">next scrape in {formatCountdown(nextSecs)}</span>
+          <span className="text-brand-400/80">next scrape in {formatCountdown(nextSecs)}</span>
           <span>{open ? "▼" : "▶"}</span>
         </span>
       </button>
@@ -96,7 +96,7 @@ export default function MonitorTimeline({ slug }) {
             <button
               onClick={refresh}
               disabled={refreshing}
-              className="text-[11px] font-mono text-cyan-400 hover:text-cyan-300 disabled:opacity-50"
+              className="text-[11px] font-mono text-brand-400 hover:text-brand-300 disabled:opacity-50"
             >
               {refreshing ? "scraping…" : "↻ refresh now"}
             </button>
@@ -124,7 +124,7 @@ export default function MonitorTimeline({ slug }) {
                     key={snap.timestamp}
                     className={`rounded-lg border p-3 ${
                       isNewest
-                        ? "border-cyan-400/30 bg-cyan-400/5"
+                        ? "border-brand-400/30 bg-brand-400/5"
                         : "border-zinc-800 bg-zinc-900/40"
                     }`}
                   >
@@ -134,7 +134,7 @@ export default function MonitorTimeline({ slug }) {
                           {formatRelative(snap.timestamp)}
                         </span>
                         {isNewest && (
-                          <span className="text-[10px] uppercase tracking-wider text-cyan-400">
+                          <span className="text-[10px] uppercase tracking-wider text-brand-400">
                             latest
                           </span>
                         )}
@@ -146,7 +146,7 @@ export default function MonitorTimeline({ slug }) {
                         <span
                           className={
                             confidence === "high"
-                              ? "text-cyan-400"
+                              ? "text-brand-400"
                               : confidence === "medium"
                               ? "text-amber-400"
                               : "text-zinc-500"
@@ -166,7 +166,7 @@ export default function MonitorTimeline({ slug }) {
                         {delta.added.map((t, j) => (
                           <span
                             key={`a${j}`}
-                            className="text-cyan-400 bg-cyan-400/10 px-1.5 py-0.5 rounded"
+                            className="text-brand-400 bg-brand-400/10 px-1.5 py-0.5 rounded"
                           >
                             🆕 {t}
                           </span>

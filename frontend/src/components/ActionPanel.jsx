@@ -7,7 +7,10 @@ export default function ActionPanel({ data, onRegenerate }) {
 
   return (
     <section className="card">
-      <div className="card-header">08 · Launch</div>
+      <div className="mb-4">
+        <div className="section-title">Publish</div>
+        <div className="section-sub">Human sign-off · guardrails already cleared</div>
+      </div>
       {!published ? (
         <div className="flex items-center justify-between gap-4 flex-wrap">
           <div>
@@ -27,10 +30,10 @@ export default function ActionPanel({ data, onRegenerate }) {
         </div>
       ) : (
         <div className="space-y-2">
-          <div className="text-cyan-400 font-mono text-sm">✨ Launched</div>
+          <div className="text-brand-400 font-mono text-sm">✨ Launched</div>
           {channels.map((c) => (
             <div key={c} className="flex items-center gap-2 text-sm text-zinc-300">
-              <span className="text-cyan-400">✅</span>
+              <span className="text-brand-400">✅</span>
               <span>Published to {c}</span>
             </div>
           ))}

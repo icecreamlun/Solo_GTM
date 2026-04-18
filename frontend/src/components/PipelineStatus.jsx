@@ -9,14 +9,14 @@ function fmt(t) {
 }
 
 function dotClass(status) {
-  if (status === "done") return "bg-cyan-400 border-cyan-400 text-zinc-950";
-  if (status === "running") return "bg-cyan-400/20 border-cyan-400 text-cyan-300 animate-pulseRing";
+  if (status === "done") return "bg-brand-400 border-brand-400 text-zinc-950";
+  if (status === "running") return "bg-brand-400/20 border-brand-400 text-brand-400 animate-pulseRing";
   return "bg-zinc-900 border-zinc-800 text-zinc-600";
 }
 
 function cardClass(status) {
-  if (status === "done") return "border-cyan-400/25 bg-zinc-900/60";
-  if (status === "running") return "border-cyan-400/40 bg-cyan-400/5";
+  if (status === "done") return "border-brand-400/25 bg-zinc-900/60";
+  if (status === "running") return "border-brand-400/40 bg-brand-400/5";
   return "border-zinc-800 bg-zinc-900/30 opacity-60";
 }
 
@@ -94,9 +94,12 @@ export default function PipelineStatus({ progress, data }) {
   return (
     <section className="card">
       <div className="flex items-center justify-between mb-5 flex-wrap gap-2">
-        <div className="card-header mb-0">02 · Pipeline</div>
+        <div>
+          <div className="section-title">Pipeline</div>
+          <div className="section-sub">Four agents · each tracked by Kalibr Router</div>
+        </div>
         <div className="flex items-center gap-3">
-          <div className="text-[10px] uppercase tracking-wider text-cyan-400/70 font-mono">
+          <div className="text-[10px] uppercase tracking-wider text-brand-400/70 font-mono">
             ⚡ Kalibr · outcome-aware routing
           </div>
           {data?.meta?.timings && (
@@ -128,7 +131,7 @@ export default function PipelineStatus({ progress, data }) {
                     <span>{s.label}</span>
                   </div>
                   {s.badge && (
-                    <div className="text-[9px] uppercase tracking-wider text-cyan-400/70 font-mono">
+                    <div className="text-[9px] uppercase tracking-wider text-brand-400/70 font-mono">
                       ⚡ {s.badge}
                     </div>
                   )}
@@ -143,19 +146,19 @@ export default function PipelineStatus({ progress, data }) {
               <ul className="space-y-1 text-[11px] text-zinc-400">
                 {s.subs.map((sub, i) => (
                   <li key={i} className="flex gap-1.5">
-                    <span className="text-cyan-400/50 flex-shrink-0">·</span>
+                    <span className="text-brand-400/50 flex-shrink-0">·</span>
                     <span>{sub}</span>
                   </li>
                 ))}
               </ul>
 
               {s.outcome && status === "done" && (
-                <div className="mt-2 pt-2 border-t border-zinc-800/60 text-[11px] text-cyan-300 font-mono">
+                <div className="mt-2 pt-2 border-t border-zinc-800/60 text-[11px] text-brand-400 font-mono">
                   → {s.outcome}
                 </div>
               )}
               {status === "running" && (
-                <div className="mt-2 pt-2 border-t border-zinc-800/60 text-[11px] text-cyan-400 font-mono animate-pulse">
+                <div className="mt-2 pt-2 border-t border-zinc-800/60 text-[11px] text-brand-400 font-mono animate-pulse">
                   running…
                 </div>
               )}
@@ -167,7 +170,7 @@ export default function PipelineStatus({ progress, data }) {
                   </span>{" "}
                   · trace {String(s.kalibr.trace_id || "").slice(0, 8)}
                   {s.kalibrHint && (
-                    <div className="text-cyan-400/70 mt-0.5">
+                    <div className="text-brand-400/70 mt-0.5">
                       ↪ {s.kalibrHint}
                     </div>
                   )}
@@ -179,13 +182,13 @@ export default function PipelineStatus({ progress, data }) {
       </div>
 
       {iters.length > 0 && (
-        <div className="mt-4 p-3 rounded-lg border border-cyan-400/20 bg-cyan-400/5">
-          <div className="flex items-center gap-2 text-xs font-mono text-cyan-300 flex-wrap">
+        <div className="mt-4 p-3 rounded-lg border border-brand-400/20 bg-brand-400/5">
+          <div className="flex items-center gap-2 text-xs font-mono text-brand-400 flex-wrap">
             <span>🔄</span>
             <span className="text-zinc-400">
               Self-correction loop · steps 3 + 4 retried with audience feedback
             </span>
-            <span className="text-cyan-400/60">·</span>
+            <span className="text-brand-400/60">·</span>
             <span>
               {iters
                 .map((it) => `v${it.iteration} (${it.engagement}, ${it.upvote_count}/3)`)
@@ -193,7 +196,7 @@ export default function PipelineStatus({ progress, data }) {
             </span>
             {stopReason && (
               <>
-                <span className="text-cyan-400/60">·</span>
+                <span className="text-brand-400/60">·</span>
                 <span className="text-zinc-500">stop: {stopReason}</span>
               </>
             )}
@@ -241,11 +244,11 @@ function MonitorStrip({ slug }) {
           Market Radar · step 2 runs every {record.interval_hours}h in the background
         </span>
         <span className="text-zinc-700">·</span>
-        <span className="text-cyan-400/80">
+        <span className="text-brand-400/80">
           monitoring for {dur} · {snaps.length} snapshots
         </span>
         <span className="text-zinc-700">·</span>
-        <span className="text-cyan-400/80">next in {nextLabel}</span>
+        <span className="text-brand-400/80">next in {nextLabel}</span>
       </div>
     </div>
   );

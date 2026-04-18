@@ -6,7 +6,7 @@ function slugFromUrl(url) {
 }
 
 const FIT_COLOR = {
-  high: "text-cyan-400 border-cyan-400/40 bg-cyan-400/10",
+  high: "text-brand-400 border-brand-400/40 bg-brand-400/10",
   medium: "text-amber-400 border-amber-400/40 bg-amber-400/10",
   low: "text-zinc-500 border-zinc-700 bg-zinc-800/40",
 };
@@ -33,21 +33,24 @@ export default function SignalPanel({ data, inputUrl }) {
   return (
     <section className="card">
       <div className="flex items-center justify-between mb-4">
-        <div className="card-header mb-0">05 · Market Signals</div>
-        <div className="text-[10px] uppercase tracking-wider text-cyan-400/70 font-mono">
+        <div>
+          <div className="section-title">Signals summary</div>
+          <div className="section-sub">Synthesized narrative + recommended channels</div>
+        </div>
+        <div className="text-[10px] uppercase tracking-wider text-brand-400/70 font-mono">
           ⚡ Powered by Apify
         </div>
       </div>
 
-      <div className="mb-5 p-3 bg-zinc-950/60 border border-cyan-400/20 rounded-lg text-sm font-mono text-zinc-400">
-        📊 Apify scanned <span className="text-cyan-400">{reddit}</span> Reddit posts
+      <div className="mb-5 p-3 bg-zinc-950/60 border border-brand-400/20 rounded-lg text-sm font-mono text-zinc-400">
+        📊 Apify scanned <span className="text-brand-400">{reddit}</span> Reddit posts
         {twitter > 0 && (
           <>
-            {" "}+ <span className="text-cyan-400">{twitter}</span> tweets
+            {" "}+ <span className="text-brand-400">{twitter}</span> tweets
           </>
         )}
-        {" "}+ <span className="text-cyan-400">{hn}</span> HN stories · confidence:{" "}
-        <span className="text-cyan-400">{signal_confidence}</span>
+        {" "}+ <span className="text-brand-400">{hn}</span> HN stories · confidence:{" "}
+        <span className="text-brand-400">{signal_confidence}</span>
       </div>
 
       <div className="space-y-4 text-sm">
@@ -80,7 +83,7 @@ export default function SignalPanel({ data, inputUrl }) {
           <ul className="space-y-1 text-xs text-zinc-400">
             {key_data_points.map((d, i) => (
               <li key={i} className="flex gap-2">
-                <span className="text-cyan-400/70 font-mono">{d.source}</span>
+                <span className="text-brand-400/70 font-mono">{d.source}</span>
                 <span>{d.insight}</span>
               </li>
             ))}

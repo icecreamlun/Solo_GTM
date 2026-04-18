@@ -18,7 +18,7 @@ from agents import interpreter, signal_scout, content_engine, audience_sim, moni
 from agents._llm import update_outcome as kalibr_update_outcome
 
 
-app = FastAPI(title="LaunchLayer")
+app = FastAPI(title="Repocket")
 
 
 @app.on_event("startup")

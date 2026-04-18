@@ -34,6 +34,8 @@ Solo founders, indie hackers, early-stage startups, engineering teams at mature 
 
 Paste a GitHub URL. Repocket reads your code, scrapes the live conversation on Reddit / X / Hacker News, drafts tone-tuned copy for every channel, **simulates how three AI personas will react before it publishes**, revises the draft until it converges, and hands you approved, source-attributed content — plus a routing policy that gets smarter with every launch you run.
 
+**Then it never stops watching.** After first setup, Repocket sits on your repo and the market simultaneously. When you push a commit that looks marketing-worthy — a feature, a breaking improvement, a meaningful release — it surfaces a ready-drafted launch with persona feedback already attached, so you can approve-and-ship in one click instead of staring at a blank post field wondering *should I even post this?*
+
 It's a GTM operating system. Paste once, monitor forever, launch every time you push.
 
 ---
@@ -87,6 +89,35 @@ GitHub URL
 
 ---
 
+## Always on — the "pocket" in Repocket
+
+Most launch tools are one-shot. You ask, they answer, you close the tab. Repocket runs as a **persistent agent** over two loops:
+
+```
+Market loop  ─── every 6h ───▶  re-scrape Reddit · X · HN
+   │                              detect narrative drift
+   │                              update snapshot store
+   ▼
+Commit loop ─── on each push ──▶  read the new commit(s)
+                                  score for launch-worthiness
+                                  auto-draft + pre-test with personas
+                                  ▲
+                                  │
+                           if score ≥ threshold
+                                  │
+                                  ▼
+                           🔔 pop up in your dashboard:
+                           "v0.9 looks like a launch. Draft is ready."
+```
+
+**Market loop is shipped.** An `asyncio.Task` starts with the FastAPI server, polls every 5 minutes, and re-runs Signal Scout every 6 hours for every tracked repo. Snapshots land in `backend/monitor/<repo>.json`, persist across restarts, and drive the timeline + trend-delta view in the UI.
+
+**Commit loop reuses the same scheduler.** Instead of re-scraping the market, the tick polls GitHub for new commits since the last-seen SHA, pipes each through Interpreter to extract `update_type`, `launch_score`, and `search_keywords`, then promotes the ones above threshold into the full 4-agent launch pipeline — all without human intervention. The dashboard gets a notification card; everything else is already wired.
+
+The product promise: **paste your repo URL once, then let it watch.** The next time you push something worth launching, the launch is already drafted.
+
+---
+
 ## Under the hood
 
 | Layer | What | Why it matters |
@@ -118,6 +149,7 @@ An `asyncio.Task` starts with FastAPI and polls every 5 minutes. For each tracke
 
 ## Coming next
 
+- **Auto-fire on marketing-worthy commits** — flip the background scheduler from 6h market polling to per-commit polling; threshold on Launch Score ≥ 4.0 to auto-generate a launch draft + dashboard notification. (Infrastructure is already in place; adding a `since_sha` param + a threshold gate.)
 - **Pixero video variants** — turn the Changelog entry into a 15-second Sora / Veo / Kling / Nano Banana clip for X and TikTok distribution. Same message, different medium, zero extra work.
 - **Post-publish outcome ingestion** — real upvotes / likes / impressions flow back as a second-stage score, not just persona predictions.
 - **Organization-level Kalibr policies** — one company's learned routing exports to all its products. Your startup's writing style becomes a reusable policy.

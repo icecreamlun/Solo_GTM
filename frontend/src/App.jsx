@@ -102,7 +102,7 @@ export default function App() {
           </button>
         </div>
 
-        <PipelineStatus progress={progress} />
+        <PipelineStatus progress={progress} data={data} />
 
         {error && (
           <div className="card border-rose-500/40 bg-rose-500/10 text-rose-300">

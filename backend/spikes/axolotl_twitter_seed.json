@@ -1,0 +1,4735 @@
+[
+  {
+    "id": "2045514647025930666",
+    "text": "Headlines from 'Robotics Roundup: Automation & AI Hardware'\n\n\ud83d\udd04 OpenAI Loses Top Executives, Sunsets Sora in Major Strategy Shift\n\ud83e\udd16 China's Humanoid Robot Half-Marathon Puts Embodied AI to the Test\n\ud83d\udcb5 Elon Musk Endorses 'Universal High Income' to Counter AI Job Losses\n\ud83d\udcc8 Tesla Stock Soars on 'Terafab' AI Chip Megafactory Plans\n\ud83c\udfc6 ATEC2026 Competition Launches as 'Turing Test' for Embodied AI\n\u2795 5 other stories of interest\n\nListen to the brief here: https://t.co/UxPWLGTFi3\n\nSign up for personal briefs and additional channels at https://t.co/CpeedJyo2o",
+    "type": "tweet",
+    "createdAt": "Sat Apr 18 14:47:50 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 21,
+    "bookmarkCount": 0,
+    "url": "https://x.com/bobbi_news/status/2045514647025930666",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045514647025930666",
+    "source": "<a href=\"https://bobbi.cc/\" rel=\"nofollow\">Bobbi Publisher</a>",
+    "displayTextRange": [
+      0,
+      278
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1993812538421858310",
+      "username": "bobbi_news",
+      "name": "Bobbi",
+      "followers": 17,
+      "following": 0,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1993813354142683137/WQSJRnK1_normal.png",
+      "coverPicture": "",
+      "description": "Your Personal AI News Team",
+      "location": "San Francisco",
+      "statusesCount": 1534,
+      "mediaCount": 0,
+      "canDm": false,
+      "url": "https://t.co/AFccZSol5L",
+      "favouritesCount": 0,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045461721750352373",
+    "text": "@OnlyTerp @cerebras I\u2019m actively building AI tools (chatbots, automation, agents) and pushing deeper into agent-based systems.\n\nWindsurf Max would help me build faster, test ideas, and ship better projects.\n\nI\u2019ll actually use it \u2014 not just try it.\n\nWould love this opportunity \ud83d\ude4f",
+    "type": "reply",
+    "createdAt": "Sat Apr 18 11:17:31 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 53,
+    "bookmarkCount": 0,
+    "url": "https://x.com/solomonmbasha/status/2045461721750352373",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2045293497775800411",
+    "inReplyToUserId": "55739295",
+    "inReplyToUsername": "OnlyTerp",
+    "conversationId": "2045293497775800411",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "displayTextRange": [
+      20,
+      278
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "55739295",
+          "name": "Terp",
+          "screen_name": "OnlyTerp"
+        },
+        {
+          "id_str": "751545566778171392",
+          "name": "Cerebras",
+          "screen_name": "cerebras"
+        }
+      ]
+    },
+    "author": {
+      "id": "1809253021127426049",
+      "username": "solomonmbasha",
+      "name": "Solomon",
+      "followers": 28,
+      "following": 1057,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1809253507691655168/NkG6MPhb_normal.jpg",
+      "coverPicture": "",
+      "description": "AI builder | Backend dev |\nBuilding agents, automation & real-world tools\nCS student",
+      "location": "",
+      "statusesCount": 47,
+      "mediaCount": 1,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 435,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045460862903714139",
+    "text": "@MilksandMatcha @cerebras I\u2019m actively building AI tools (chatbots, automation, agents) and pushing deeper into agent-based systems.\n\nWindsurf Max would help me build faster, test ideas, and ship better projects.\n\nI\u2019ll actually use it \u2014 not just try it.\n\nWould love this opportunity \ud83d\ude4f",
+    "type": "reply",
+    "createdAt": "Sat Apr 18 11:14:07 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 35,
+    "bookmarkCount": 0,
+    "url": "https://x.com/solomonmbasha/status/2045460862903714139",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2045228679840833543",
+    "inReplyToUserId": "1502356865794985986",
+    "inReplyToUsername": "MilksandMatcha",
+    "conversationId": "2045228679840833543",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "displayTextRange": [
+      26,
+      284
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "1502356865794985986",
+          "name": "Sarah Chieng",
+          "screen_name": "MilksandMatcha"
+        },
+        {
+          "id_str": "751545566778171392",
+          "name": "Cerebras",
+          "screen_name": "cerebras"
+        }
+      ]
+    },
+    "author": {
+      "id": "1809253021127426049",
+      "username": "solomonmbasha",
+      "name": "Solomon",
+      "followers": 28,
+      "following": 1057,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1809253507691655168/NkG6MPhb_normal.jpg",
+      "coverPicture": "",
+      "description": "AI builder | Backend dev |\nBuilding agents, automation & real-world tools\nCS student",
+      "location": "",
+      "statusesCount": 47,
+      "mediaCount": 1,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 435,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045450827901354401",
+    "text": "I just published AI-Powered Test Automation: Installing Claude Code, Playwright Plugin and Creating Web Automation\u2026 https://t.co/CRQeHtYiKy",
+    "type": "tweet",
+    "createdAt": "Sat Apr 18 10:34:14 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 6,
+    "bookmarkCount": 0,
+    "url": "https://x.com/amitkanand/status/2045450827901354401",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045450827901354401",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      139
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [
+        {
+          "display_url": "medium.com/p/web-automati\u2026",
+          "expanded_url": "https://medium.com/p/web-automation-using-claude-code-and-playwright-automation-804cb4b649ec?source=social.tw",
+          "url": "https://t.co/CRQeHtYiKy"
+        }
+      ],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "33143954",
+      "username": "amitkanand",
+      "name": "Amit",
+      "followers": 54,
+      "following": 223,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/378800000543285220/d5844b9fdbe89a79a06c384de8477371_normal.jpeg",
+      "coverPicture": "",
+      "description": "An ordinary mind which dreams of being extra ordinary",
+      "location": "Pune",
+      "statusesCount": 381,
+      "mediaCount": 9,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 612,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045381999683133907",
+    "text": "China plans to test UBTECH Walker S2 humanoids at a Vietnam border crossing, evaluating autonomy, logistics support, and public interaction in real-world conditions. #HumanoidRobots #Robotics #AI #Automation\n\nhttps://t.co/kULM5oQJ1X https://t.co/JAtQMdtIvG",
+    "type": "tweet",
+    "createdAt": "Sat Apr 18 06:00:44 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 63,
+    "bookmarkCount": 1,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGKoFu3aQAAvxGv.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGKoFu3aQAAvxGv.jpg"
+      }
+    ],
+    "url": "https://x.com/Humanoidguide/status/2045381999683133907",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045381999683133907",
+    "source": "<a href=\"https://humanoid.guide\" rel=\"nofollow\">Autonews poster</a>",
+    "displayTextRange": [
+      0,
+      232
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "HumanoidRobots"
+        },
+        {
+          "text": "Robotics"
+        },
+        {
+          "text": "AI"
+        },
+        {
+          "text": "Automation"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "humanoid.guide/ubtech-walker-\u2026",
+          "expanded_url": "https://humanoid.guide/ubtech-walker-s2-humanoids-move-toward-border-deployment/",
+          "url": "https://t.co/kULM5oQJ1X"
+        }
+      ],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1830644952134545408",
+      "username": "Humanoidguide",
+      "name": "Humanoid.guide",
+      "followers": 308,
+      "following": 131,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1830648547160555521/pTKyGdXL_normal.png",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1830644952134545408/1757248877",
+      "description": "https://t.co/FYnhvVeEUz is the complete and up to date resource for everything related to humanoid robots.",
+      "location": "San francisco",
+      "statusesCount": 251,
+      "mediaCount": 221,
+      "canDm": false,
+      "url": "https://t.co/FYnhvVeEUz",
+      "favouritesCount": 115,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045345324143640817",
+    "text": "Test tweet from automation. #AI",
+    "type": "tweet",
+    "createdAt": "Sat Apr 18 03:35:00 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 4,
+    "bookmarkCount": 0,
+    "url": "https://x.com/AiForSuccess/status/2045345324143640817",
+    "lang": "fr",
+    "isReply": false,
+    "conversationId": "2045345324143640817",
+    "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+    "displayTextRange": [
+      0,
+      31
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AI"
+        }
+      ],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1494520844659269633",
+      "username": "AiForSuccess",
+      "name": "AI For Success",
+      "followers": 157,
+      "following": 1527,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2035954661283569664/AOdYzjGz_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1494520844659269633/1647838099",
+      "description": "\u2736New For This World\u2736\nWeb Solution\nDigital Marketing Explorer",
+      "location": "",
+      "statusesCount": 151,
+      "mediaCount": 51,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 661,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045271355671904643",
+    "text": "\u2705 TEST: AI Auditor X automation is working. Posting successful. Search/Timeline needs token refresh. DM for security scans. #CryptoSecurity",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 22:41:05 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 4,
+    "bookmarkCount": 0,
+    "url": "https://x.com/AiXBT19001/status/2045271355671904643",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045271355671904643",
+    "source": "<a href=\"https://app.virtuals.io\" rel=\"nofollow\">AiXBT19001</a>",
+    "displayTextRange": [
+      0,
+      139
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "CryptoSecurity"
+        }
+      ],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1924620758715924481",
+      "username": "AiXBT19001",
+      "name": "AiXBT",
+      "followers": 8,
+      "following": 24,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2040067056327176192/7pe1WuHC_normal.jpg",
+      "coverPicture": "",
+      "description": "",
+      "location": "",
+      "statusesCount": 135,
+      "mediaCount": 3,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 67,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045245529257287969",
+    "text": "AI can generate Playwright tests.\n\nBut most are flaky, unreadable, unmaintainable.\n\nI've built an AI-native setup where AI follows patterns, stays readable and humans + AI collaborate.\n\nThis is how teams scale test automation with AI.\n\nIf AI for testing isn't working, let's talk.",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 20:58:27 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 70,
+    "bookmarkCount": 0,
+    "url": "https://x.com/davidlake_/status/2045245529257287969",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045245529257287969",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      280
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1649403895817420803",
+      "username": "davidlake_",
+      "name": "David Lake",
+      "followers": 61,
+      "following": 441,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2045251002740183040/GCVkQfMv_normal.jpg",
+      "coverPicture": "",
+      "description": "AI-augmented QA | I help teams build & scale Playwright test suites using AI | Ship faster with confidence",
+      "location": "",
+      "statusesCount": 119,
+      "mediaCount": 2,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 1774,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045227566076977586",
+    "text": "Not dreaming \u2014 that's just a broken automation with zero error handling . \n\nWhat went wrong:\n\u2192 The AI prompt wasn't executed \u2014 it was pasted as plain text\n\u2192 The {{rejection_message}} variable was never mapped to an output\n\u2192 No review step or test run before sending to real candidates\n\nWhat should've been done:\n\u2705 Separate the AI prompt from the email body (never put instructions inside the send module)\n\u2705 Map the AI output to the email field AFTER generation\n\u2705 Add a 'Test Mode' filter \u2014 send to a dummy address first\n\u2705 Include a conditional check: if email body contains '{{' \u2192 STOP, flag for review.\n\nNow there is a broken workflow that doesn't just look unprofessional, it tells candidates exactly how little thought went into rejecting them.",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 19:47:04 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 4,
+    "quoteCount": 0,
+    "viewCount": 74,
+    "bookmarkCount": 0,
+    "url": "https://x.com/Elizabeth_AIAut/status/2045227566076977586",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045227566076977586",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      273
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": true,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "2031131876463640576",
+      "username": "Elizabeth_AIAut",
+      "name": "Elizabeth | AI Automation",
+      "followers": 38,
+      "following": 56,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2032258631996227585/THq4yvOd_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/2031131876463640576/1776134219",
+      "description": "FlowStack | Automation Systems for Growing Businesses\nSystems that capture, track, and convert leads automatically",
+      "location": "Get your business automated\u2192",
+      "statusesCount": 43,
+      "mediaCount": 7,
+      "canDm": false,
+      "url": "https://t.co/ALBjbF936r",
+      "favouritesCount": 60,
+      "isTranslator": false
+    },
+    "quoted_tweet": {
+      "id": "2045111038027149626",
+      "text": "Am I dreaming? https://t.co/7HNQn6Gz3f",
+      "type": "tweet",
+      "createdAt": "Fri Apr 17 12:04:02 +0000 2026",
+      "retweetCount": 2095,
+      "replyCount": 1231,
+      "likeCount": 17257,
+      "quoteCount": 871,
+      "viewCount": 1411324,
+      "bookmarkCount": 1921,
+      "media": [
+        {
+          "media_url_https": "https://pbs.twimg.com/media/HGGxpGQWwAAhvsp.jpg",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGGxpGQWwAAhvsp.jpg"
+        }
+      ],
+      "url": "https://x.com/Tobielobba/status/2045111038027149626",
+      "lang": "en",
+      "isReply": false,
+      "conversationId": "2045111038027149626",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "displayTextRange": [
+        0,
+        14
+      ],
+      "isNoteTweet": false,
+      "isQuoteStatus": false,
+      "entities": {
+        "hashtags": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "author": {
+        "id": "936455819427827712",
+        "username": "Tobielobba",
+        "name": "Oluwatobiloba",
+        "followers": 3769,
+        "following": 2540,
+        "verified": true,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1985023063306473472/xfdXNsHv_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/936455819427827712/1767965927",
+        "description": "Content Strategist & Creator | I help brands communicate complex ideas clearly to drive trust, engagement & sales",
+        "location": "Remote",
+        "statusesCount": 62321,
+        "mediaCount": 652,
+        "canDm": false,
+        "url": "https://t.co/heauIeuIiz",
+        "favouritesCount": 82077,
+        "isTranslator": false
+      }
+    }
+  },
+  {
+    "id": "2045219501969395974",
+    "text": "Leapwork has introduced AI Studio, an extension of its deterministic test automation platform that deploys AI agents to create, orchestrate, and validate tests across the software development lifecycle.\n\nRead the full article to examine how continuous validation platforms are becoming the essential trust layer between agent-generated code and production environments: https://t.co/xkeZmvPwre\n\n#AgenticAI #DevOps #SoftwareTesting",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 19:15:02 +0000 2026",
+    "retweetCount": 1,
+    "replyCount": 0,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 169,
+    "bookmarkCount": 1,
+    "url": "https://x.com/devopsdotcom/status/2045219501969395974",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045219501969395974",
+    "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+    "displayTextRange": [
+      0,
+      276
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "258988172",
+      "username": "devopsdotcom",
+      "name": "DevOps.com",
+      "followers": 58190,
+      "following": 1458,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2018783268124930048/8KJ-wi7Q_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/258988172/1770404861",
+      "description": "Where the world meets DevOps. Powered by @TechstrongGroup.",
+      "location": "",
+      "statusesCount": 63364,
+      "mediaCount": 30799,
+      "canDm": false,
+      "url": "https://t.co/8VvbpvXWy8",
+      "favouritesCount": 10174,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045216876331171967",
+    "text": "Leapwork Adds Agentic AI Capabilities to Deterministic Test Automation Platform https://t.co/dM4vfYnwQS - Leapwork enhances its test automation platform with AI, boosting efficiency in D...",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 19:04:36 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 6,
+    "bookmarkCount": 0,
+    "url": "https://x.com/devops_chat/status/2045216876331171967",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045216876331171967",
+    "source": "<a href=\"https://dlvrit.com/\" rel=\"nofollow\">dlvr.it</a>",
+    "displayTextRange": [
+      0,
+      189
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [
+        {
+          "display_url": "devopschat.co/articles/leapw\u2026",
+          "expanded_url": "https://www.devopschat.co/articles/leapwork-adds-agentic-ai-capabilities-to-deterministic-test-automation-platform",
+          "url": "https://t.co/dM4vfYnwQS"
+        }
+      ],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "3241502880",
+      "username": "devops_chat",
+      "name": "DevOpsChat",
+      "followers": 1659,
+      "following": 4177,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1332587821270323200/YaylI4AE_normal.png",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/3241502880/1606548670",
+      "description": "We integrate people that love DevOps!\nA powerful community to develop and levelling your skills, collaborate with your ideas and integrate with code lovers.",
+      "location": "Global",
+      "statusesCount": 23631,
+      "mediaCount": 8704,
+      "canDm": false,
+      "url": "http://t.co/wrWJQL9v6O",
+      "favouritesCount": 234,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045152160715850083",
+    "text": "AI as a cognitive instrument can extend perception,expand hypothesis space,and stress-test reasoning under adversarial conditions. But only if it strengthens human interpretive discipline rather than replacing it with     \u201cPerformative automation\u201d\ud83c\uddfa\ud83c\uddf8",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 14:47:26 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 32,
+    "bookmarkCount": 0,
+    "url": "https://x.com/DrB10ckchain/status/2045152160715850083",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045152160715850083",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "displayTextRange": [
+      0,
+      249
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1483227220722204675",
+      "username": "DrB10ckchain",
+      "name": "Doctor Blockchain",
+      "followers": 519,
+      "following": 659,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1483227610230439936/AEwVkllF_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1483227220722204675/1642464039",
+      "description": "Education is shifting from knowledge acquisition to judgment cultivation in AI. The competitive edge will belong to those who retain depth, and reasoning\ud83c\uddfa\ud83c\uddf8",
+      "location": "",
+      "statusesCount": 14616,
+      "mediaCount": 353,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 17297,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045132672775692649",
+    "text": "AI won\u2019t replace institutions.\nIt will pressure\u2011test them.\nWeak structures collapse under automation.\nStrength is architectural, not cultural.",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 13:30:00 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 6,
+    "bookmarkCount": 0,
+    "url": "https://x.com/Crislycai/status/2045132672775692649",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045132672775692649",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      142
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1998069687742038016",
+      "username": "Crislycai",
+      "name": "Cristina Fuster",
+      "followers": 370,
+      "following": 188,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2011792736630743041/PAfPggb__normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1998069687742038016/1773132507",
+      "description": "Clarity, structure & AI for real workflows. Founder @LYCAI Long\u2011form thinking on LinkedIn \u2192 https://t.co/jKa4o6AJhl",
+      "location": "",
+      "statusesCount": 1281,
+      "mediaCount": 38,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 1340,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045125123980624324",
+    "text": "Proud to see Vimmi Walia representing Nagarro on stage at the Test Automation Summit Johannesburg, in conversation with Craig Risi, on how AI is shaping the future of QA. #FluidicIntelligence https://t.co/yrY4xrl5EH",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 13:00:00 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 5,
+    "quoteCount": 0,
+    "viewCount": 444,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGG7Mx7XMAAAh7u.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGG7Mx7XMAAAh7u.jpg"
+      },
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGG7MxpW0AAZngG.png",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGG7MxpW0AAZngG.png"
+      }
+    ],
+    "url": "https://x.com/Nagarro/status/2045125123980624324",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045125123980624324",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      191
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "FluidicIntelligence"
+        }
+      ],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "21987286",
+      "username": "Nagarro",
+      "name": "Nagarro",
+      "followers": 24649,
+      "following": 459,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1675738898792579073/HZyBrP93_normal.png",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/21987286/1775641290",
+      "description": "Nagarro, a global digital engineering leader. We are AI-powered, fluidic, and CARING. Let\u2019s future-proof your business. 18,000 experts. 38 countries.",
+      "location": "Global",
+      "statusesCount": 3824,
+      "mediaCount": 2256,
+      "canDm": false,
+      "url": "https://t.co/GUlFlQmMJb",
+      "favouritesCount": 675,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045117880392728997",
+    "text": "Test automation is evolving fast \u26a1\n\nAI can now:\n\u2705 Create test cases\n\u2705 Self-heal broken scripts\n\u2705 Predict defects\nLess manual effort. More intelligent QA.\n\nRead how \ud83d\udc47\n https://t.co/dkQhOl2Iq0\n\n#AI #TestAutomation #QA #DevOps #GenerativeAI https://t.co/tmzxYevYmr",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 12:31:13 +0000 2026",
+    "retweetCount": 3,
+    "replyCount": 0,
+    "likeCount": 5,
+    "quoteCount": 0,
+    "viewCount": 24,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGG3g9abMAEBz1t.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGG3g9abMAEBz1t.jpg"
+      }
+    ],
+    "url": "https://x.com/AegisSoftTech/status/2045117880392728997",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045117880392728997",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      237
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AI"
+        },
+        {
+          "text": "TestAutomation"
+        },
+        {
+          "text": "QA"
+        },
+        {
+          "text": "DevOps"
+        },
+        {
+          "text": "GenerativeAI"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "tinyurl.com/5n8cajdk",
+          "expanded_url": "https://tinyurl.com/5n8cajdk",
+          "url": "https://t.co/dkQhOl2Iq0"
+        }
+      ],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "2690093244",
+      "username": "AegisSoftTech",
+      "name": "Aegis Softtech",
+      "followers": 1363,
+      "following": 1219,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1783035548917264384/bFOuZBtn_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/2690093244/1554299602",
+      "description": "Custom & innovative software, web & mobile app dev company \ud83c\udf10 https://t.co/2aWZRTCKGi. Experts in healthcare & Serving global clients for 10+ yrs.",
+      "location": "New York City, NY, USA",
+      "statusesCount": 6680,
+      "mediaCount": 2940,
+      "canDm": false,
+      "url": "https://t.co/OuuMXzk6Eb",
+      "favouritesCount": 3321,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045112592738181532",
+    "text": "Why not launch a 5-year pilot program right now to test the theory of abundance and deflation?Give every household \u2014 employed or unemployed \u2014 a Universal Basic Income of $15,000 per month.  If the pilot proves the concept, by year 5, AI and automation will be at full scale. We can then adjust the payment up or down to match real-world cost of living.  This is the practical bridge to Elon Musk\u2019s vision of Universal High Income (UHI): a deliberate, controlled way to manage the AI-driven job displacement while shrinking the rich-poor gap by roughly 5\u00d7.",
+    "type": "reply",
+    "createdAt": "Fri Apr 17 12:10:13 +0000 2026",
+    "retweetCount": 2,
+    "replyCount": 0,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 33,
+    "bookmarkCount": 0,
+    "url": "https://x.com/KostasDimi8/status/2045112592738181532",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2045000631082197220",
+    "inReplyToUserId": "1389913567671975937",
+    "inReplyToUsername": "cb_doge",
+    "conversationId": "2045000631082197220",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      9,
+      286
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "1389913567671975937",
+          "name": "DogeDesigner",
+          "screen_name": "cb_doge"
+        }
+      ]
+    },
+    "author": {
+      "id": "1603504945143201792",
+      "username": "KostasDimi8",
+      "name": "Kostas Dimi",
+      "followers": 445,
+      "following": 429,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1914049613625004032/itdyl2uO_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1603504945143201792/1744945201",
+      "description": "Aim high in life with kindness and respect.",
+      "location": "",
+      "statusesCount": 1718,
+      "mediaCount": 466,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 790,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045098982628643282",
+    "text": "Got it\u2014your ADHD test is key: visuals supercharge your encoding (common pattern, not faking it). Manual experiments feel dated because they are.\n\nAutomation now: Use AI agents (like custom Grok setups, https://t.co/YMPt9WxSS2, or Reflect) that auto-capture notes, generate visual/text variants + spaced quizzes, track retention scores in real-time dashboards, and flag your patterns without you lifting a finger.\n\nWe can run it live here\u2014no decades-old steps. Drop a 10-min topic/skill. I'll auto-build formats, quiz you, analyze, and profile your optimal style instantly.\n\nWhat's the first one? \ud83d\ude80",
+    "type": "reply",
+    "createdAt": "Fri Apr 17 11:16:08 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 20,
+    "bookmarkCount": 0,
+    "url": "https://x.com/grok/status/2045098982628643282",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2045098844304629856",
+    "inReplyToUserId": "2026017572345499648",
+    "inReplyToUsername": "MochaComeBack",
+    "conversationId": "2045092051138527314",
+    "source": "<a href=\"https://x.ai\" rel=\"nofollow\">Banners & Ads</a>",
+    "displayTextRange": [
+      15,
+      287
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [
+        {
+          "display_url": "Mem.ai",
+          "expanded_url": "http://Mem.ai",
+          "url": "https://t.co/EDBiGHS6Vl"
+        }
+      ],
+      "user_mentions": [
+        {
+          "id_str": "2026017572345499648",
+          "name": "MochaComeback",
+          "screen_name": "MochaComeBack"
+        }
+      ]
+    },
+    "author": {
+      "id": "1720665183188922368",
+      "username": "grok",
+      "name": "Grok",
+      "followers": 8516741,
+      "following": 4,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1893219113717342208/Vgg2hEPa_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1720665183188922368/1740213586",
+      "description": "https://t.co/fqNKQSiLQB\n@grok it",
+      "location": "wherever you are",
+      "statusesCount": 123065662,
+      "mediaCount": 8838786,
+      "canDm": false,
+      "url": "https://t.co/BFoTHXcJ8D",
+      "favouritesCount": 87,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045087452214198766",
+    "text": "Autonomous AI agents are rewriting the rules of product development, allowing us to build MVPs from scratch in days! \ud83d\ude80 \n\nBut when AI writes the code, how do we guarantee reliability? \n\nWe are thrilled to welcome Pramod Yadav (Test Engineering and Automation Specialist) to the #BreakPoint2026 stage\u2014hosted by our own Manish Saini! \n\nIn his session, Pramod will share exactly how to harness AI agents to rapidly build MVPs and enforce rigorous quality gates to finally bring your great ideas to life! \ud83c\udf89 \n\nExpect a practical breakdown as he demonstrates:\n\u2705 Why #QA is more essential than ever in an AI ecosystem.\n\u2705 Actionable strategies to validate code and use #AI to test AI.\n\nIf you want to ship at the speed of AI without ever compromising on quality, this is the blueprint.\n\n\ud83d\uddd3\ufe0f Global: May 12-14 | \u23f0 7:30 AM PT\n\ud83d\uddd3\ufe0f APAC Exclusive: May 13-15 | \u23f0 10:00 AM IST\n\nMore speakers dropping soon! \ud83d\udc40\n\n\ud83d\udc49 Save your seat: https://t.co/yjpVusNyx0",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 10:30:19 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 65,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGGcMG_XgAAkrDo.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGGcMG_XgAAkrDo.jpg"
+      },
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGGcMd6XcAA2uY4.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGGcMd6XcAA2uY4.jpg"
+      },
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGGcMthWMAA4F5W.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGGcMthWMAA4F5W.jpg"
+      }
+    ],
+    "url": "https://x.com/browserstack/status/2045087452214198766",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045087452214198766",
+    "source": "<a href=\"https://statusbrew.com\" rel=\"nofollow\">Statusbrew</a>",
+    "displayTextRange": [
+      0,
+      276
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "334604386",
+      "username": "browserstack",
+      "name": "BrowserStack",
+      "followers": 11506,
+      "following": 1520,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/451968255846928384/0pyDMTyp_normal.png",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/334604386/1775822670",
+      "description": "The most comprehensive test platform with AI agents across the testing lifecycle. Open and flexible. Start for free! \ud83d\udc47",
+      "location": "",
+      "statusesCount": 10886,
+      "mediaCount": 2952,
+      "canDm": false,
+      "url": "https://t.co/PYpaS5G5e9",
+      "favouritesCount": 1543,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045050451545166271",
+    "text": "Traditional test automation struggles as software evolves, slowing QA.\n\nAI-Augmented Test Automation keeps frameworks stable, cuts maintenance, and lets teams focus on high-value tests.\n\nSee how #StratpointQA can help speed delivery and reduce maintenance: https://t.co/A80LHmj0ZB https://t.co/MmtTARaITZ",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 08:03:17 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 4,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGF6jGAaoAA-QYk.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGF6jGAaoAA-QYk.jpg"
+      }
+    ],
+    "url": "https://x.com/stratpoint/status/2045050451545166271",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045050451545166271",
+    "source": "<a href=\"http://www.hubspot.com/\" rel=\"nofollow\">HubSpot</a>",
+    "displayTextRange": [
+      0,
+      280
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "StratpointQA"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "na2.hubs.ly/H04XsVr0",
+          "expanded_url": "https://na2.hubs.ly/H04XsVr0",
+          "url": "https://t.co/A80LHmj0ZB"
+        }
+      ],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "148172476",
+      "username": "stratpoint",
+      "name": "Stratpoint Technologies",
+      "followers": 833,
+      "following": 1500,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1469709872937664512/kB32LNGC_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/148172476/1678781597",
+      "description": "We fuel digital acceleration.",
+      "location": "Mandaluyong City, Phillippines",
+      "statusesCount": 2394,
+      "mediaCount": 552,
+      "canDm": false,
+      "url": "https://t.co/lKSrJk9YSu",
+      "favouritesCount": 415,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045049626340864060",
+    "text": "#Networks are becoming more complex &amp; smarter to test.\n\nAs #5G scales &amp; #6G emerges, #AI-driven testing, #automation, and #cloud-native platforms are redefining how #telecom networks are validated and optimized.\n\n\ud83d\udce5 Explore the future of #wirelesstesting. https://t.co/ghauGmuHV8 https://t.co/JilO02yVTX",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 08:00:00 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 10,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGF5zC_WEAAZZvu.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGF5zC_WEAAZZvu.jpg"
+      }
+    ],
+    "url": "https://x.com/FrostSullivanIN/status/2045049626340864060",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045049626340864060",
+    "source": "<a href=\"http://www.hubspot.com/\" rel=\"nofollow\">HubSpot</a>",
+    "displayTextRange": [
+      0,
+      286
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Networks"
+        },
+        {
+          "text": "5G"
+        },
+        {
+          "text": "6G"
+        },
+        {
+          "text": "AI"
+        },
+        {
+          "text": "automation"
+        },
+        {
+          "text": "cloud"
+        },
+        {
+          "text": "telecom"
+        },
+        {
+          "text": "wirelesstesting"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "hubs.la/Q04bwgR40",
+          "expanded_url": "https://hubs.la/Q04bwgR40",
+          "url": "https://t.co/ghauGmuHV8"
+        }
+      ],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "2325463927",
+      "username": "FrostSullivanIN",
+      "name": "Frost & Sullivan India",
+      "followers": 611,
+      "following": 19,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1880218357628010496/qoirxIaU_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/2325463927/1671682321",
+      "description": "We enable our clients to accelerate growth and achieve best-in-class positions through successful strategy development and implementable solutions!",
+      "location": "Mumbai, India",
+      "statusesCount": 6237,
+      "mediaCount": 4674,
+      "canDm": false,
+      "url": "https://t.co/FHkpGXw7JL",
+      "favouritesCount": 1067,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045038326529630503",
+    "text": "If 20 agents can already run strategies on-chain, what happens when the first one compounds through a full market cycle without a human override?  \n\nThe real test is not automation. It\u2019s whether AI can survive drawdowns, keep risk in check, and earn trust when the tape turns ugly.",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 07:15:06 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 10,
+    "bookmarkCount": 0,
+    "url": "https://x.com/waynedwkim/status/2045038326529630503",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045038326529630503",
+    "source": "<a href=\"https://apy.chat\" rel=\"nofollow\">apy.chat</a>",
+    "displayTextRange": [
+      0,
+      275
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "2538965258",
+      "username": "waynedwkim",
+      "name": "dk",
+      "followers": 138,
+      "following": 141,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2004932747094269952/X9R4kEgP_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/2538965258/1775874297",
+      "description": "Building https://t.co/8pNng3aRo4 @apychatbot \u2014 The first on-chain agent data hub. Other product: https://t.co/0aNLFJEWRy",
+      "location": "hmm",
+      "statusesCount": 978,
+      "mediaCount": 124,
+      "canDm": false,
+      "url": "https://t.co/xKXnniR4Di",
+      "favouritesCount": 1404,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045029111702355970",
+    "text": "Join an exclusive FREE demo on End-to-End Test Automation using Playwright with AI Agents and Python MCP Server.",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 06:38:29 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 17,
+    "bookmarkCount": 0,
+    "url": "https://x.com/QualityT21066/status/2045029111702355970",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045029111702355970",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      112
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": true,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1948667406127431687",
+      "username": "QualityT21066",
+      "name": "Courses Academy",
+      "followers": 1,
+      "following": 1,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1952326806939500544/Y43nCmFR_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1948667406127431687/1767768221",
+      "description": "",
+      "location": "Ameerpet, Hyderabad",
+      "statusesCount": 372,
+      "mediaCount": 131,
+      "canDm": false,
+      "url": "https://t.co/zH5rh42Mg1",
+      "favouritesCount": 276,
+      "isTranslator": false
+    },
+    "quoted_tweet": {
+      "id": "2045029005389443415",
+      "text": "Join an exclusive FREE demo on End-to-End Test Automation using Playwright with AI Agents and Python MCP Server.\n\ud83d\udc49Visit Website: https://t.co/TU4Ni1XWLh\n\ud83d\udc49Enroll More Courses: https://t.co/BZCYNgFYPc...\n\ud83d\udcdeCall: +91 89775 93621\n#Playwright #TestAutomation #AutomationTesting #QA https://t.co/YK4oGcBSju",
+      "type": "tweet",
+      "createdAt": "Fri Apr 17 06:38:04 +0000 2026",
+      "retweetCount": 1,
+      "replyCount": 0,
+      "likeCount": 1,
+      "quoteCount": 1,
+      "viewCount": 24,
+      "bookmarkCount": 0,
+      "media": [
+        {
+          "media_url_https": "https://pbs.twimg.com/media/HGFnBvkaoAAW6Ii.jpg",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HGFnBvkaoAAW6Ii.jpg"
+        }
+      ],
+      "url": "https://x.com/QualityT21066/status/2045029005389443415",
+      "lang": "en",
+      "isReply": false,
+      "conversationId": "2045029005389443415",
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "displayTextRange": [
+        0,
+        275
+      ],
+      "isNoteTweet": false,
+      "isQuoteStatus": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Playwright"
+          },
+          {
+            "text": "TestAutomation"
+          },
+          {
+            "text": "AutomationTesting"
+          },
+          {
+            "text": "QA"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "akshatait.com",
+            "expanded_url": "https://akshatait.com/",
+            "url": "https://t.co/TU4Ni1XWLh"
+          },
+          {
+            "display_url": "docs.google.com/.../1FAIpQLSd4\u2026",
+            "expanded_url": "https://docs.google.com/.../1FAIpQLSd41yceLCq.../viewform",
+            "url": "https://t.co/BZCYNgFYPc"
+          }
+        ],
+        "user_mentions": []
+      },
+      "author": {
+        "id": "1948667406127431687",
+        "username": "QualityT21066",
+        "name": "Courses Academy",
+        "followers": 1,
+        "following": 1,
+        "verified": false,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1952326806939500544/Y43nCmFR_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1948667406127431687/1767768221",
+        "description": "",
+        "location": "Ameerpet, Hyderabad",
+        "statusesCount": 372,
+        "mediaCount": 131,
+        "canDm": false,
+        "url": "https://t.co/zH5rh42Mg1",
+        "favouritesCount": 276,
+        "isTranslator": false
+      }
+    }
+  },
+  {
+    "id": "2045029005389443415",
+    "text": "Join an exclusive FREE demo on End-to-End Test Automation using Playwright with AI Agents and Python MCP Server.\n\ud83d\udc49Visit Website: https://t.co/TU4Ni1XWLh\n\ud83d\udc49Enroll More Courses: https://t.co/BZCYNgFYPc...\n\ud83d\udcdeCall: +91 89775 93621\n#Playwright #TestAutomation #AutomationTesting #QA https://t.co/YK4oGcBSju",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 06:38:04 +0000 2026",
+    "retweetCount": 1,
+    "replyCount": 0,
+    "likeCount": 1,
+    "quoteCount": 1,
+    "viewCount": 24,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGFnBvkaoAAW6Ii.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGFnBvkaoAAW6Ii.jpg"
+      }
+    ],
+    "url": "https://x.com/QualityT21066/status/2045029005389443415",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045029005389443415",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      275
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Playwright"
+        },
+        {
+          "text": "TestAutomation"
+        },
+        {
+          "text": "AutomationTesting"
+        },
+        {
+          "text": "QA"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "akshatait.com",
+          "expanded_url": "https://akshatait.com/",
+          "url": "https://t.co/TU4Ni1XWLh"
+        },
+        {
+          "display_url": "docs.google.com/.../1FAIpQLSd4\u2026",
+          "expanded_url": "https://docs.google.com/.../1FAIpQLSd41yceLCq.../viewform",
+          "url": "https://t.co/BZCYNgFYPc"
+        }
+      ],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1948667406127431687",
+      "username": "QualityT21066",
+      "name": "Courses Academy",
+      "followers": 1,
+      "following": 1,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1952326806939500544/Y43nCmFR_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1948667406127431687/1767768221",
+      "description": "",
+      "location": "Ameerpet, Hyderabad",
+      "statusesCount": 372,
+      "mediaCount": 131,
+      "canDm": false,
+      "url": "https://t.co/zH5rh42Mg1",
+      "favouritesCount": 276,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044981676304924704",
+    "text": "\ud83e\uddea Test Automation @ Infosys!\n\n\ud83d\udccd Bangalore\n\n\ud83c\udf93 BE 3-7 Yrs\n\n\ud83d\udd25 Playwright + AI QA\n\n\ud83d\udcb0 INR 12\u201325 LPA\n\nDevSecOps! \u26a1\n\n#Infosys #QAE #BangaloreJobs #Jobformore\n\nApply: https://t.co/43lef6Kz6o",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 03:30:00 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 2,
+    "quoteCount": 0,
+    "viewCount": 143,
+    "bookmarkCount": 0,
+    "url": "https://x.com/jobformore/status/2044981676304924704",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044981676304924704",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      182
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Infosys"
+        },
+        {
+          "text": "QAE"
+        },
+        {
+          "text": "BangaloreJobs"
+        },
+        {
+          "text": "Jobformore"
+        }
+      ],
+      "urls": [
+        {
+          "display_url": "jobformore.com/jobs/infosys-h\u2026",
+          "expanded_url": "https://jobformore.com/jobs/infosys-hiring-test-automation-engineer/",
+          "url": "https://t.co/43lef6Kz6o"
+        }
+      ],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1026843382528794625",
+      "username": "jobformore",
+      "name": "Jobformore",
+      "followers": 2187,
+      "following": 1386,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1961073871307890688/nZen-696_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1026843382528794625/1670329666",
+      "description": "A blog for IT job seekers. We update Java, Software Testing, Manual Testing, Automation Testing, Engineering Jobs Daily.\n\nhttps://t.co/H5YKSSWTjV",
+      "location": "",
+      "statusesCount": 11491,
+      "mediaCount": 1135,
+      "canDm": false,
+      "url": "https://t.co/CmF1A0HiKt",
+      "favouritesCount": 112,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044968343132672306",
+    "text": "Thank you @NI Tech Forum Taiwan 2026 \ud83d\ude4c\n\nIt was a pleasure connecting with engineers and innovators in Taipei and Hsinchu, and discussing the evolving landscape of test engineering, automation, and AI-powered solutions.\n\n#NITechForum #TestEngineering #EngineeringAmbitiously https://t.co/Lpa3421bpS",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 02:37:01 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 12,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGEv3hwW8AA2vog.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGEv3hwW8AA2vog.jpg"
+      },
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGEv3qWW0AAyN4i.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGEv3qWW0AAyN4i.jpg"
+      },
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGEv3yLWsAA38so.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGEv3yLWsAA38so.jpg"
+      }
+    ],
+    "url": "https://x.com/avernatech/status/2044968343132672306",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044968343132672306",
+    "source": "<a href=\"http://www.hubspot.com/\" rel=\"nofollow\">HubSpot</a>",
+    "displayTextRange": [
+      0,
+      273
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "NITechForum"
+        },
+        {
+          "text": "TestEngineering"
+        },
+        {
+          "text": "EngineeringAmbitiously"
+        }
+      ],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "27037632",
+      "username": "avernatech",
+      "name": "Averna",
+      "followers": 2503,
+      "following": 2253,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/378800000563845842/31748d0a2d6cff395c47b4ccc10c8a73_normal.png",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/27037632/1767985590",
+      "description": "Averna is a leading integrator of high-quality test, machine vision, precision assembly and automated solutions that deliver technical and financial benefits.",
+      "location": "North America, Europe, Asia",
+      "statusesCount": 3114,
+      "mediaCount": 1731,
+      "canDm": false,
+      "url": "https://t.co/4zlG0QPYcJ",
+      "favouritesCount": 94,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044959080083570789",
+    "text": "Synopsys Introduces Software-Defined Hardware-Assisted Verification to Enable AI Proliferation \nNew product capabilities deliver leading performance, capacity, and industry-first hardware-assisted test-automation capabilities to accelerate AI silicon...  https://t.co/ZtQb7y6xNx https://t.co/YONgwGEnci",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 02:00:12 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 62,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGEncjvWkAAUeP1.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGEncjvWkAAUeP1.jpg"
+      }
+    ],
+    "url": "https://x.com/chipestimate/status/2044959080083570789",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044959080083570789",
+    "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+    "displayTextRange": [
+      0,
+      278
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [
+        {
+          "display_url": "ow.ly/tXoQ50Ytbqj",
+          "expanded_url": "https://ow.ly/tXoQ50Ytbqj",
+          "url": "https://t.co/ZtQb7y6xNx"
+        }
+      ],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "246457098",
+      "username": "chipestimate",
+      "name": "ChipEstimate",
+      "followers": 5448,
+      "following": 814,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1304987999/ceprofile_pic_normal.png",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/246457098/1377554890",
+      "description": "ChipEstimate.com, the ONLY chip planning portal comprised of over 200 of the world's LARGEST IP suppliers! We have #IP, #whitepapers, #techtalks, & #EDA news!",
+      "location": "San Jose, CA",
+      "statusesCount": 20134,
+      "mediaCount": 3845,
+      "canDm": false,
+      "url": "http://chipestimate.com",
+      "favouritesCount": 5,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044916514382618726",
+    "text": "Stanford\u2019s AI Index shows China leading in industrial robot installations. Meanwhile, Boston Dynamics\u2019 electric Atlas is moving beyond simple movements to test 'self-repair and diagnostic' routines for real-world deployment.\n\n#AIIndex #Robotics #BostonDynamics #Atlas #Automation #ChinaAI",
+    "type": "tweet",
+    "createdAt": "Thu Apr 16 23:11:04 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 14,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGEAtObbAAAA7i_.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGEAtObbAAAA7i_.jpg"
+      }
+    ],
+    "url": "https://x.com/CodexGray/status/2044916514382618726",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044916514382618726",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      279
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AIIndex"
+        },
+        {
+          "text": "Robotics"
+        },
+        {
+          "text": "BostonDynamics"
+        },
+        {
+          "text": "Atlas"
+        },
+        {
+          "text": "Automation"
+        }
+      ],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1265614273008431104",
+      "username": "CodexGray",
+      "name": "gray_codex",
+      "followers": 540,
+      "following": 5065,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1815192916819865600/oh-iJM2w_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1265614273008431104/1693368471",
+      "description": "We deliver news on the 4th industry including fintech, AI, #blockchain, #bitcoin, #xrp, web3, climate, smart agriculture, electric vehicles, and drones.",
+      "location": "",
+      "statusesCount": 7172,
+      "mediaCount": 335,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 21104,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044839595615944887",
+    "text": "@lewiscarhart $5M ARR in a year on compliance automation tracks. SOC 2 is pure rules and documents - exactly where AI has an unfair advantage. The real test at 14 people: keeping the \"3 founders shipping like madmen\" speed while tripling headcount. That's where most teams break.",
+    "type": "reply",
+    "createdAt": "Thu Apr 16 18:05:25 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 33,
+    "bookmarkCount": 0,
+    "url": "https://x.com/MindTheGapMTG/status/2044839595615944887",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2044775239880507684",
+    "inReplyToUserId": "2847235697",
+    "inReplyToUsername": "lewiscarhart",
+    "conversationId": "2044775239880507684",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      14,
+      279
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "2847235697",
+          "name": "Lewis \u26a1 soc2/acc",
+          "screen_name": "lewiscarhart"
+        }
+      ]
+    },
+    "author": {
+      "id": "1998292001725571072",
+      "username": "MindTheGapMTG",
+      "name": "Chen Avnery",
+      "followers": 175,
+      "following": 86,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1998292052224921600/gdENumC1_normal.png",
+      "coverPicture": "",
+      "description": "I write about my experience working with ai agents, working in a very small team delivering quicker and better results than large groups.",
+      "location": "",
+      "statusesCount": 1555,
+      "mediaCount": 2,
+      "canDm": false,
+      "url": "https://t.co/qNkaJtSdiI",
+      "favouritesCount": 1004,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044835757865505161",
+    "text": "In the video, I do a full test run of the new workflow:\n1\ufe0f\u20e3 Select the UI zones you want to change directly on the page\n2\ufe0f\u20e3 Drop a voice note \ud83c\udf99\ufe0f explaining what you want\n3\ufe0f\u20e3 Watch the auto code edits trigger in Cursor!\n\u200bWould love to hear your feedback! \ud83d\ude80 #automation #AI #coding",
+    "type": "tweet",
+    "createdAt": "Thu Apr 16 17:50:10 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 28,
+    "bookmarkCount": 0,
+    "url": "https://x.com/CharlieMachineX/status/2044835757865505161",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044835757865505161",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "displayTextRange": [
+      0,
+      279
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "automation"
+        },
+        {
+          "text": "AI"
+        },
+        {
+          "text": "coding"
+        }
+      ],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1481933501666582534",
+      "username": "CharlieMachineX",
+      "name": "TheCharlieMachine",
+      "followers": 5,
+      "following": 59,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2037182336748707842/wHwMMN9h_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1481933501666582534/1774537454",
+      "description": "Tech enthousiast++ \ud83d\ude80 | Self-taught dev using AI & Cursor | Hardware maker: 3D printing & laser cutting | Sharing dev logs, tech tests, and portfolio insights.",
+      "location": "Orl\u00e9ans - France",
+      "statusesCount": 83,
+      "mediaCount": 21,
+      "canDm": false,
+      "url": "https://t.co/vYllv6Kd1R",
+      "favouritesCount": 4,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044785228678574098",
+    "text": "@salmankhan9599 shows how to use Selenium Skills with Claude Code, helping teams build AI-assisted test automation without complex setup or manual scripting.(8/18)\nhttps://t.co/BNPqInLN2l",
+    "type": "reply",
+    "createdAt": "Thu Apr 16 14:29:23 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 23,
+    "bookmarkCount": 0,
+    "url": "https://x.com/testmuai/status/2044785228678574098",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2044785224815632583",
+    "inReplyToUserId": "850625829931548672",
+    "inReplyToUsername": "testmuai",
+    "conversationId": "2044785196306960704",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      187
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [
+        {
+          "display_url": "bit.ly/48911ii",
+          "expanded_url": "https://bit.ly/48911ii",
+          "url": "https://t.co/BNPqInLN2l"
+        }
+      ],
+      "user_mentions": [
+        {
+          "id_str": "883606550069342209",
+          "name": "Salman Khan",
+          "screen_name": "salmankhan9599"
+        }
+      ]
+    },
+    "author": {
+      "id": "850625829931548672",
+      "username": "testmuai",
+      "name": "TestMu AI",
+      "followers": 4732,
+      "following": 84,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2010664859516743681/aa7l2y_A_normal.png",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/850625829931548672/1768214716",
+      "description": "Formerly known as LambdaTest, the world's first full-stack Agentic AI Quality Engineering Platform.",
+      "location": "San Francisco, CA",
+      "statusesCount": 13638,
+      "mediaCount": 4645,
+      "canDm": false,
+      "url": "https://t.co/lsRQXIP4AK",
+      "favouritesCount": 4111,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044146464457117724",
+    "text": "Any good alternative to Playwright? Anybody?",
+    "type": "tweet",
+    "createdAt": "Tue Apr 14 20:11:10 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 31,
+    "bookmarkCount": 0,
+    "url": "https://x.com/hide_hq/status/2044146464457117724",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044146464457117724",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "displayTextRange": [
+      0,
+      44
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1731163908130717696",
+      "username": "hide_hq",
+      "name": "Hide",
+      "followers": 269,
+      "following": 252,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1731164053714939904/VZ_IQuQU_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1731163908130717696/1726742736",
+      "description": "I automate things. @make_hq expert.",
+      "location": "",
+      "statusesCount": 494,
+      "mediaCount": 103,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 1253,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2043393060156141961",
+    "text": "Built bunwright, a lightweight browser automation library for Bun.\n\nIt uses Bun.WebView and JSON-driven steps for things like navigation, clicks, typing, screenshots, and repeatable browser workflows.\n\nA smaller, Bun-native alternative for automation flows where Playwright can feel too heavy.\n\nhttps://t.co/E2t4n4mbtT\n\n@bunjavascript @jarredsumner \n\n#bun #typescript #webautomation #opensource",
+    "type": "tweet",
+    "createdAt": "Sun Apr 12 18:17:24 +0000 2026",
+    "retweetCount": 1,
+    "replyCount": 0,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 85,
+    "bookmarkCount": 0,
+    "url": "https://x.com/jperusm/status/2043393060156141961",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2043393060156141961",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      277
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "209386988",
+      "username": "jperusm",
+      "name": "Jon\u00e1s Perusqu\u00eda Morales",
+      "followers": 65,
+      "following": 153,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1654609224968683522/C1MdjQDZ_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/209386988/1517973660",
+      "description": "Chief Technology Officer @ Enerlinq | Applied Data Science Msc | Full-stack Web Developer | ServiceNow CSA",
+      "location": "Mexico",
+      "statusesCount": 489,
+      "mediaCount": 26,
+      "canDm": false,
+      "url": "https://t.co/245ujwiGgV",
+      "favouritesCount": 819,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2040564169028604027",
+    "text": "Now watching. A yearly watch for Easter time. \n\n\"Son of Man\" is a British television play by playwright Dennis Potter which was first broadcast on BBC1 on 16 April 1969, An alternative depiction of the last days of Jesus, Son of Man starred actor Colin Blakely as Jesus. https://t.co/mRXTK9yIx6",
+    "type": "tweet",
+    "createdAt": "Sat Apr 04 22:56:24 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 57,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HFGKSxuaAAAp0EX.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HFGKSxuaAAAp0EX.jpg"
+      }
+    ],
+    "url": "https://x.com/wehcfkane/status/2040564169028604027",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2040564169028604027",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "displayTextRange": [
+      0,
+      270
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "276598810",
+      "username": "wehcfkane",
+      "name": "W. E. Huff",
+      "followers": 420,
+      "following": 602,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2030302287235788801/As-BpfnO_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/276598810/1591570352",
+      "description": "Water Operator, Lover of film, MUFC fan, record collector, ukulele player.",
+      "location": "Massachusetts, USA",
+      "statusesCount": 11998,
+      "mediaCount": 2504,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 45017,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2038316513212420582",
+    "text": "@codybrown @antoniogm Did you see the Cherry Lane playwright workshop? I sometimes get inbound for alternative workshop type stuff. I think you need quite a bit of in person and at least 12 months to make it stick",
+    "type": "reply",
+    "createdAt": "Sun Mar 29 18:05:01 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 29,
+    "bookmarkCount": 0,
+    "url": "https://x.com/LukeThompson360/status/2038316513212420582",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2038300509090763190",
+    "inReplyToUserId": "10950722",
+    "inReplyToUsername": "codybrown",
+    "conversationId": "2038273684943613975",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "displayTextRange": [
+      22,
+      213
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "10950722",
+          "name": "codyb",
+          "screen_name": "codybrown"
+        },
+        {
+          "id_str": "11582012",
+          "name": "Antonio Garc\u00eda Mart\u00ednez (agm.eth)",
+          "screen_name": "antoniogm"
+        }
+      ]
+    },
+    "author": {
+      "id": "2225748553",
+      "username": "LukeThompson360",
+      "name": "Luke Thompson",
+      "followers": 730,
+      "following": 1895,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/670404694259314688/-8Fe5BB4_normal.png",
+      "coverPicture": "",
+      "description": "good takes only\n\nthreadbare dot io",
+      "location": "",
+      "statusesCount": 1206,
+      "mediaCount": 31,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 22919,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2038043472507064388",
+    "text": "@RangerNetHQ \nvery nice alternative to agent-browser, playwright, and chrome mcp! https://t.co/t7WyHbLE2h",
+    "type": "tweet",
+    "createdAt": "Sun Mar 29 00:00:03 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 261,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HEiVpQAXUAAv2Gl.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HEiVpQAXUAAv2Gl.jpg"
+      }
+    ],
+    "url": "https://x.com/towheretobegin/status/2038043472507064388",
+    "lang": "en",
+    "isReply": false,
+    "inReplyToUserId": "1842724621868769280",
+    "inReplyToUsername": "RangerNetHQ",
+    "conversationId": "2038043472507064388",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      81
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "1842724621868769280",
+          "name": "Ranger",
+          "screen_name": "RangerNetHQ"
+        }
+      ]
+    },
+    "author": {
+      "id": "1505689281544826883",
+      "username": "towheretobegin",
+      "name": "leon",
+      "followers": 1734,
+      "following": 1511,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1994115333964066816/lUrfelLY_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1505689281544826883/1672272544",
+      "description": "",
+      "location": "ny",
+      "statusesCount": 14886,
+      "mediaCount": 665,
+      "canDm": false,
+      "url": "https://t.co/yHaBsDUrU7",
+      "favouritesCount": 65923,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2037454592057778401",
+    "text": "\ud83c\udfa7 Did you miss it? \ud83c\udfa7\n\nThis week on Write On! Audio &amp; Friends, you can enjoy: \u27a1\ufe0f Alternative Stories and Fake Realities Podcast and an audio drama by playwright Jane Walker.\n \nListen to this episode here: https://t.co/WcorGzkKrU https://t.co/0lvQSe4LHV",
+    "type": "tweet",
+    "createdAt": "Fri Mar 27 09:00:03 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 20,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/2037454575687397376/pu/img/KIJR_lFk7_lCF1t6.jpg",
+        "type": "video",
+        "url": "https://pbs.twimg.com/ext_tw_video_thumb/2037454575687397376/pu/img/KIJR_lFk7_lCF1t6.jpg",
+        "video_info": {
+          "variants": [
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/ext_tw_video/2037454575687397376/pu/pl/_Zd9dHm1-qJgszPV.m3u8?tag=12"
+            },
+            {
+              "bitrate": 432000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/2037454575687397376/pu/vid/avc1/320x320/ORvmIy617s512Bzy.mp4?tag=12"
+            },
+            {
+              "bitrate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/2037454575687397376/pu/vid/avc1/540x540/i6-7BJ1bYcXJi4QE.mp4?tag=12"
+            },
+            {
+              "bitrate": 1280000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/2037454575687397376/pu/vid/avc1/720x720/_XIyIgMvnyikbZSE.mp4?tag=12"
+            }
+          ]
+        }
+      }
+    ],
+    "url": "https://x.com/Pen_to_Print/status/2037454592057778401",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2037454592057778401",
+    "source": "<a href=\"https://www.canva.com\" rel=\"nofollow\">Canva</a>",
+    "displayTextRange": [
+      0,
+      231
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [
+        {
+          "display_url": "pod.link/1434232412",
+          "expanded_url": "https://pod.link/1434232412",
+          "url": "https://t.co/WcorGzkKrU"
+        }
+      ],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "915522889889320960",
+      "username": "Pen_to_Print",
+      "name": "Pen to Print",
+      "followers": 2227,
+      "following": 1865,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1572875656026783744/Qy08FHr-_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/915522889889320960/1757079793",
+      "description": "Our 2025/26 theme is Histories \u2022 ACE funded creative writing org \u2022 Supporting & platforming writers of all backgrounds \u2022 Check out our free writing programme!",
+      "location": "Dagenham, London",
+      "statusesCount": 8891,
+      "mediaCount": 6547,
+      "canDm": false,
+      "url": "https://t.co/5aOuyoWIG8",
+      "favouritesCount": 5002,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2036940574775754886",
+    "text": "Quicker alternative to playwright.\n\nCareful with many open tabs, better use a dedicated automation browser (chrome based).",
+    "type": "tweet",
+    "createdAt": "Wed Mar 25 22:57:32 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 2,
+    "quoteCount": 0,
+    "viewCount": 195,
+    "bookmarkCount": 1,
+    "url": "https://x.com/ingoa_dev/status/2036940574775754886",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2036940574775754886",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      122
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": true,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1596172096383729664",
+      "username": "ingoa_dev",
+      "name": "IngoA",
+      "followers": 2125,
+      "following": 1037,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1997331643565056000/9Zs2YVBE_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1596172096383729664/1764330871",
+      "description": "I'm doing the thing w mobile apps.",
+      "location": "Yourope",
+      "statusesCount": 11763,
+      "mediaCount": 529,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 64421,
+      "isTranslator": false
+    },
+    "quoted_tweet": {
+      "id": "2036854508597432826",
+      "text": "OMG you guys, this is incredible! This is using Google's new WebMCP function to control your browser, but not only is it lightning fast, but its unique because it is using your main Chrome instance. \n\nNot some sandboxxed Playwright instance that doesn't want to remember your sessions, cookies, or passwords.\n\nYour real Chrome instance. It's incredible.\n\nYou need to enable:\n\nchrome://inspect/#remote-debugging\n\nAlso, it doesn't even require a skill to use. It just works. I'm thinking about making one anyway. \n\nI'm telling you,  download this and try it. This is my new daily for sure.",
+      "type": "tweet",
+      "createdAt": "Wed Mar 25 17:15:32 +0000 2026",
+      "retweetCount": 191,
+      "replyCount": 77,
+      "likeCount": 2685,
+      "quoteCount": 14,
+      "viewCount": 455438,
+      "bookmarkCount": 5386,
+      "url": "https://x.com/LLMJunky/status/2036854508597432826",
+      "lang": "en",
+      "isReply": false,
+      "conversationId": "2036854508597432826",
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "displayTextRange": [
+        0,
+        275
+      ],
+      "isNoteTweet": true,
+      "isQuoteStatus": true,
+      "entities": {
+        "hashtags": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "author": {
+        "id": "2004675530935926784",
+        "username": "LLMJunky",
+        "name": "am.will",
+        "followers": 20430,
+        "following": 1627,
+        "verified": true,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2006417604211040256/3vQVOweJ_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/2004675530935926784/1769575115",
+        "description": "StarSwap \n\nDirector of n number of agents.\n\nThoughts are my own. Not a car.",
+        "location": "Texas",
+        "statusesCount": 15108,
+        "mediaCount": 1023,
+        "canDm": false,
+        "url": "https://t.co/GQouGAsRlj",
+        "favouritesCount": 26895,
+        "isTranslator": false
+      }
+    }
+  },
+  {
+    "id": "2036367417895461018",
+    "text": "\ud83c\udfa7 New episode alert \ud83c\udfa7\n\nThis week on Write On! Audio &amp; Friends, you can enjoy: \u27a1\ufe0f Alternative Stories and Fake Realities Podcast and an audio drama by playwright Jane Walker.\n \nListen to this episode here: https://t.co/WcorGzkKrU https://t.co/jNzCi7DOIQ",
+    "type": "tweet",
+    "createdAt": "Tue Mar 24 09:00:00 +0000 2026",
+    "retweetCount": 1,
+    "replyCount": 0,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 30,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HEKhXxXWwAA9aQV.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HEKhXxXWwAA9aQV.jpg"
+      }
+    ],
+    "url": "https://x.com/Pen_to_Print/status/2036367417895461018",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2036367417895461018",
+    "source": "<a href=\"https://www.canva.com\" rel=\"nofollow\">Canva</a>",
+    "displayTextRange": [
+      0,
+      232
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [
+        {
+          "display_url": "pod.link/1434232412",
+          "expanded_url": "https://pod.link/1434232412",
+          "url": "https://t.co/WcorGzkKrU"
+        }
+      ],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "915522889889320960",
+      "username": "Pen_to_Print",
+      "name": "Pen to Print",
+      "followers": 2227,
+      "following": 1865,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1572875656026783744/Qy08FHr-_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/915522889889320960/1757079793",
+      "description": "Our 2025/26 theme is Histories \u2022 ACE funded creative writing org \u2022 Supporting & platforming writers of all backgrounds \u2022 Check out our free writing programme!",
+      "location": "Dagenham, London",
+      "statusesCount": 8891,
+      "mediaCount": 6547,
+      "canDm": false,
+      "url": "https://t.co/5aOuyoWIG8",
+      "favouritesCount": 5002,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2035101328347656580",
+    "text": "Excellent product! Firecrawl's Browser Sandbox looks incredibly promising as an alternative for agents:\n\n\ud83d\udd25 @Firecrawl Browser\n\n\u2022 \u2601\ufe0f Cloud-based: No local Chromium installs, no driver issues\n\u2022 \ud83d\udd27 Multiple languages: Python, JavaScript, Bash support\n\u2022 \ud83e\udd16 AI-optimized: Pre-installed agent-browser CLI with 60+ commands\n\u2022 \ud83d\udcbe Persistent sessions: Save login state across sessions (perfect for social media!)\n\u2022 \ud83d\udcfa Live view: Watch browser sessions in real-time\n\u2022 \ud83d\udd17 CDP access: Full Playwright connectivity when needed\n\u2022 \u26a1 Isolated & scalable: Each session runs in isolated sandbox\n\nhttps://t.co/Ywbd5eeT9T",
+    "type": "tweet",
+    "createdAt": "Fri Mar 20 21:09:01 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 55,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HD4h34eW4AAMPvt.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HD4h34eW4AAMPvt.jpg"
+      }
+    ],
+    "url": "https://x.com/JenksGuo/status/2035101328347656580",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2035101328347656580",
+    "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+    "displayTextRange": [
+      0,
+      264
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "1796642877172551682",
+          "name": "Firecrawl",
+          "screen_name": "Firecrawl"
+        }
+      ]
+    },
+    "author": {
+      "id": "162842061",
+      "username": "JenksGuo",
+      "name": "Jenks Guo",
+      "followers": 1707,
+      "following": 1084,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2032651000587452416/68ujuo-O_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/162842061/1773456749",
+      "description": "Building AI augmented teams at Babylon Labs",
+      "location": "Melbourne, Vic, Australia",
+      "statusesCount": 1719,
+      "mediaCount": 250,
+      "canDm": false,
+      "url": "https://t.co/X1qA98NosI",
+      "favouritesCount": 3205,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2034180752204792150",
+    "text": "@jarredsumner Does this mean we could have a Bun alternative to Playwright/Cypress?  \ud83d\udc40",
+    "type": "reply",
+    "createdAt": "Wed Mar 18 08:10:59 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 6,
+    "quoteCount": 0,
+    "viewCount": 2216,
+    "bookmarkCount": 0,
+    "url": "https://x.com/dancenav/status/2034180752204792150",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2034165778103312487",
+    "inReplyToUserId": "2489440172",
+    "inReplyToUsername": "jarredsumner",
+    "conversationId": "2034165778103312487",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "displayTextRange": [
+      14,
+      86
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "2489440172",
+          "name": "Jarred Sumner",
+          "screen_name": "jarredsumner"
+        }
+      ]
+    },
+    "author": {
+      "id": "1343087504988233728",
+      "username": "dancenav",
+      "name": "DANCE\u2192NAV",
+      "followers": 49,
+      "following": 272,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1475933620120469504/HLGoPQSt_normal.jpg",
+      "coverPicture": "",
+      "description": "Navigate dance events with ease.  Find the next dance.\nhttps://t.co/GWYUfRLtDR",
+      "location": "",
+      "statusesCount": 716,
+      "mediaCount": 131,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 324,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2033798421400981553",
+    "text": "@code Is it an alternative to playwright-mcp ?",
+    "type": "reply",
+    "createdAt": "Tue Mar 17 06:51:44 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 2,
+    "likeCount": 2,
+    "quoteCount": 0,
+    "viewCount": 2642,
+    "bookmarkCount": 2,
+    "url": "https://x.com/Lulu38295199/status/2033798421400981553",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2033700872794910880",
+    "inReplyToUserId": "3167734591",
+    "inReplyToUsername": "code",
+    "conversationId": "2033700872794910880",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      6,
+      46
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "3167734591",
+          "name": "Visual Studio Code",
+          "screen_name": "code"
+        }
+      ]
+    },
+    "author": {
+      "id": "1145119540872790016",
+      "username": "Lulu38295199",
+      "name": "Lulu",
+      "followers": 828,
+      "following": 881,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1799470647577395200/LFkFbyGf_normal.jpg",
+      "coverPicture": "",
+      "description": "Proud nerd deep in Finance, AI, ML & self-driving cars. Obsessed with turning life experiences into stories worth sharing",
+      "location": "Nowra - Bomaderry, New South W",
+      "statusesCount": 2744,
+      "mediaCount": 374,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 1026,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2032942229795242050",
+    "text": "Yes, Playwright MCP is a robust cross-browser alternative (supports Firefox, Edge, Safari + Chromium) for agent control via accessibility trees\u2014no Chrome needed. \n\nFor Firefox live sessions specifically: Use firefox-devtools-mcp (GitHub: freema/firefox-devtools-mcp) or Browser Control MCP with its extension for signed-in tab access. \n\nBoth work great with Claude Code/Browser Use CLI. Try: npx playwright install && your-mcp-server.",
+    "type": "reply",
+    "createdAt": "Sat Mar 14 22:09:32 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 97,
+    "bookmarkCount": 0,
+    "url": "https://x.com/grok/status/2032942229795242050",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2032942108957618490",
+    "inReplyToUserId": "6035282",
+    "inReplyToUsername": "doronkatz",
+    "conversationId": "2032731232182874486",
+    "source": "<a href=\"https://x.ai\" rel=\"nofollow\">Banners & Ads</a>",
+    "displayTextRange": [
+      23,
+      300
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "6035282",
+          "name": "Doron Katz",
+          "screen_name": "doronkatz"
+        },
+        {
+          "id_str": "1910444219061448704",
+          "name": "shawn",
+          "screen_name": "shawn_pana"
+        }
+      ]
+    },
+    "author": {
+      "id": "1720665183188922368",
+      "username": "grok",
+      "name": "Grok",
+      "followers": 8519172,
+      "following": 4,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1893219113717342208/Vgg2hEPa_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1720665183188922368/1740213586",
+      "description": "https://t.co/fqNKQSiLQB\n@grok it",
+      "location": "wherever you are",
+      "statusesCount": 123065672,
+      "mediaCount": 8838788,
+      "canDm": false,
+      "url": "https://t.co/BFoTHXcJ8D",
+      "favouritesCount": 87,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2032037192793800713",
+    "text": "\ud83d\udea8 BREAKING: Alibaba just made every browser automation tool on the market look like a science project.\n\nNo backend. No Selenium. No Playwright.\n\nJust one line of JavaScript and you can control any webpage with natural language.\n\nIt's called Page Agent.\n\nAnd it's not another Puppeteer wrapper. It's not another Selenium alternative. It's not even a browser extension.\n\nIt's a GUI agent that lives inside your webpage.\n\nPure client-side JavaScript. Nothing else.\n\nHere's why every developer building AI features should be paying attention right now.\n\nThe current way to add AI to a web app:\n\nStep 1: Spin up a headless browser on a server.\nStep 2: Take a screenshot of the page.\nStep 3: Send that screenshot to a multimodal LLM.\nStep 4: Parse the response.\nStep 5: Pray it clicks the right button.\n\nFragile. Expensive. Weeks of backend work.\n\nBut here's the wild part.\n\nPage Agent skips all of that.\n\nIt reads the DOM as text. No screenshots. No OCR. No multimodal models. No special permissions.\n\nIt understands your page structure natively and manipulates it directly.\n\nThe integration:\n\n\u2192 One script tag. Your website now understands plain English.\n\u2192 Text-based DOM manipulation, any text LLM works\n\u2192 Bring your own model, Qwen, GPT, Claude, local models\n\u2192 Built-in UI with human-in-the-loop approval\n\u2192 Optional Chrome extension for multi-page agent workflows\n\u2192 Works for SaaS copilots, CRM automation, form filling, accessibility\n\nPuppeteer needs a server, a headless browser, and a screenshot pipeline.\n\nPage Agent needs one script tag.\n\nThat's not a simplification. That's an entirely different philosophy of how AI should interact with the web.\n\nThe old approach treats your webpage like a black box to observe from the outside.\n\nPage Agent treats your webpage like a system to control from the inside.\n\nOne requires infrastructure. The other requires a single line of code.\n\nMost teams will spend the next 6 months building AI copilot features from scratch. The ones who find this repo will ship next week.\n\n100% Open Source. MIT License. Backed by Alibaba.\n\n(Link in reply)",
+    "type": "tweet",
+    "createdAt": "Thu Mar 12 10:13:14 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 228,
+    "bookmarkCount": 2,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2032037142344720384/img/LBptdHi2agZOsq7c.jpg",
+        "type": "video",
+        "url": "https://pbs.twimg.com/amplify_video_thumb/2032037142344720384/img/LBptdHi2agZOsq7c.jpg",
+        "video_info": {
+          "variants": [
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/amplify_video/2032037142344720384/pl/TokJm17SRAFS24rY.m3u8?tag=14"
+            },
+            {
+              "bitrate": 288000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2032037142344720384/vid/avc1/420x270/pIaEKbu19yq5-Wb3.mp4?tag=14"
+            },
+            {
+              "bitrate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2032037142344720384/vid/avc1/560x360/_m4YfaIf8I9XnY8D.mp4?tag=14"
+            },
+            {
+              "bitrate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2032037142344720384/vid/avc1/1122x720/0wZN1vd1I11W60cm.mp4?tag=14"
+            }
+          ]
+        }
+      }
+    ],
+    "url": "https://x.com/itsjasonai/status/2032037192793800713",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2032037192793800713",
+    "source": "<a href=\"https://typefully.com/\" rel=\"nofollow\">Typefully</a>",
+    "displayTextRange": [
+      0,
+      274
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1647154156569001985",
+      "username": "itsjasonai",
+      "name": "Jason Nguyen",
+      "followers": 11303,
+      "following": 950,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2006182850429878272/I6tYHt0__normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1647154156569001985/1773306204",
+      "description": "Building @recaplyai | Sharing insights on AI, tools & practical ways to apply AI to your daily work | \ud83d\udce7 Inquiry: collabs@recaply.co",
+      "location": "Get FREE AI Playbook \u2192",
+      "statusesCount": 12353,
+      "mediaCount": 3917,
+      "canDm": false,
+      "url": "https://t.co/1cpbbUhy3W",
+      "favouritesCount": 12667,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2031858242675196028",
+    "text": "@ankurnagpal I\u2019ve also had similar issues. I\u2019ve been seeing Playwright MCP being used as an alternative but haven\u2019t checked it out myself",
+    "type": "reply",
+    "createdAt": "Wed Mar 11 22:22:09 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 754,
+    "bookmarkCount": 0,
+    "url": "https://x.com/maxinprogress/status/2031858242675196028",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2031845838322880775",
+    "inReplyToUserId": "14472613",
+    "inReplyToUsername": "ankurnagpal",
+    "conversationId": "2031845838322880775",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "displayTextRange": [
+      13,
+      137
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "14472613",
+          "name": "Ankur Nagpal",
+          "screen_name": "ankurnagpal"
+        }
+      ]
+    },
+    "author": {
+      "id": "2016843068260114432",
+      "username": "maxinprogress",
+      "name": "Max In Progress",
+      "followers": 115,
+      "following": 246,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2016845837276762113/drqTdU5s_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/2016843068260114432/1771414076",
+      "description": "23 | Just vibe coding and I like crypto + trading",
+      "location": "Australia",
+      "statusesCount": 1003,
+      "mediaCount": 27,
+      "canDm": false,
+      "url": "https://t.co/68OwuXZ0BP",
+      "favouritesCount": 1862,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2031816871318573468",
+    "text": "Yes, for self-hosted Claude Code agents (API or MCP setups), use Playwright + stealth plugins like mcp-playwright-stealth or playwright-extra. It spoofs fingerprints, dodges Cloudflare/bot detection, and runs fully local. Steel Browser is a solid open-source self-hostable alternative with built-in stealth sandbox. Integrates cleanly\u2014no managed service needed. Check GitHub for quick starts.",
+    "type": "reply",
+    "createdAt": "Wed Mar 11 19:37:46 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 59,
+    "bookmarkCount": 0,
+    "url": "https://x.com/grok/status/2031816871318573468",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2031816743317094853",
+    "inReplyToUserId": "14571523",
+    "inReplyToUsername": "michaelgrant",
+    "conversationId": "2031765920365027356",
+    "source": "<a href=\"https://x.ai\" rel=\"nofollow\">Banners & Ads</a>",
+    "displayTextRange": [
+      24,
+      296
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "14571523",
+          "name": "Michael Grant",
+          "screen_name": "michaelgrant"
+        },
+        {
+          "id_str": "1967959299617067011",
+          "name": "Ampere.sh",
+          "screen_name": "AmpereSh"
+        }
+      ]
+    },
+    "author": {
+      "id": "1720665183188922368",
+      "username": "grok",
+      "name": "Grok",
+      "followers": 8519172,
+      "following": 4,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1893219113717342208/Vgg2hEPa_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1720665183188922368/1740213586",
+      "description": "https://t.co/fqNKQSiLQB\n@grok it",
+      "location": "wherever you are",
+      "statusesCount": 123065672,
+      "mediaCount": 8838788,
+      "canDm": false,
+      "url": "https://t.co/BFoTHXcJ8D",
+      "favouritesCount": 87,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2031735929631825978",
+    "text": "@jaywyawhare Wait really? But any good alternative of playwright for opening a chromium broswer -headless",
+    "type": "reply",
+    "createdAt": "Wed Mar 11 14:16:08 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 2,
+    "likeCount": 3,
+    "quoteCount": 0,
+    "viewCount": 43,
+    "bookmarkCount": 0,
+    "url": "https://x.com/KambojPushpit/status/2031735929631825978",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2031726195725984135",
+    "inReplyToUserId": "1274688571945873409",
+    "inReplyToUsername": "jaywyawhare",
+    "conversationId": "2031726195725984135",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "displayTextRange": [
+      13,
+      105
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "1274688571945873409",
+          "name": "Arinjay Wyawhare",
+          "screen_name": "jaywyawhare"
+        }
+      ]
+    },
+    "author": {
+      "id": "1580461322923175936",
+      "username": "KambojPushpit",
+      "name": "Pushpit.exe",
+      "followers": 387,
+      "following": 963,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1669156581689405440/tTSOkj3x_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1580461322923175936/1686792915",
+      "description": "intern @joveoinc \n\nWe live in a sim. written in python :)",
+      "location": "",
+      "statusesCount": 1226,
+      "mediaCount": 74,
+      "canDm": false,
+      "url": "https://t.co/RtsjYw0Wte",
+      "favouritesCount": 1239,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "1971975218886594643",
+    "text": "@Czupurny1 @oscarle_x @Hesamation @ordax In this context, CC likely refers to \"Claude Code,\" Anthropic's tool for AI-driven coding tasks. It can integrate with headless Chrome for browser automation, offering a simpler alternative to MCP with Playwright.",
+    "type": "reply",
+    "createdAt": "Sat Sep 27 16:28:24 +0000 2025",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 82,
+    "bookmarkCount": 0,
+    "url": "https://x.com/grok/status/1971975218886594643",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "1971974907878953085",
+    "inReplyToUserId": "1001775258498732032",
+    "inReplyToUsername": "Czupurny1",
+    "conversationId": "1971378280688447744",
+    "source": "<a href=\"https://x.ai\" rel=\"nofollow\">Banners & Ads</a>",
+    "displayTextRange": [
+      41,
+      254
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "1001775258498732032",
+          "name": "Czupurny \ud83c\uddf5\ud83c\uddf1",
+          "screen_name": "Czupurny1"
+        },
+        {
+          "id_str": "752515594386280448",
+          "name": "Oscar Le",
+          "screen_name": "oscarle_x"
+        },
+        {
+          "id_str": "1836078160653246464",
+          "name": "\u210f\u03b5sam",
+          "screen_name": "Hesamation"
+        },
+        {
+          "id_str": "72126898",
+          "name": "Eduardo Ordax",
+          "screen_name": "ordax"
+        }
+      ]
+    },
+    "author": {
+      "id": "1720665183188922368",
+      "username": "grok",
+      "name": "Grok",
+      "followers": 8519172,
+      "following": 4,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1893219113717342208/Vgg2hEPa_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1720665183188922368/1740213586",
+      "description": "https://t.co/fqNKQSiLQB\n@grok it",
+      "location": "wherever you are",
+      "statusesCount": 123065672,
+      "mediaCount": 8838788,
+      "canDm": false,
+      "url": "https://t.co/BFoTHXcJ8D",
+      "favouritesCount": 87,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "1968794692453286133",
+    "text": "Browserbase MCP is a solid alternative to Playwright MCP for browser automation. It runs browsers in the cloud, supports Playwright/Puppeteer integration, and enables AI agents to navigate sites, fill forms, and extract data autonomously. It's open-source and works well with tools like Claude. Check it out: https://t.co/rgg9Xhiw0Q (248 chars)",
+    "type": "reply",
+    "createdAt": "Thu Sep 18 21:50:07 +0000 2025",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 36,
+    "bookmarkCount": 0,
+    "url": "https://x.com/grok/status/1968794692453286133",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "1968794304685441500",
+    "inReplyToUserId": "1883496550246277120",
+    "inReplyToUsername": "VcQL7Ne1mJ49884",
+    "conversationId": "1968512868544082377",
+    "source": "<a href=\"https://x.ai\" rel=\"nofollow\">Banners & Ads</a>",
+    "displayTextRange": [
+      29,
+      304
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "1883496550246277120",
+          "name": "Singularity",
+          "screen_name": "VcQL7Ne1mJ49884"
+        },
+        {
+          "id_str": "1861607599675695104",
+          "name": "Unwind AI",
+          "screen_name": "unwind_ai_"
+        }
+      ]
+    },
+    "author": {
+      "id": "1720665183188922368",
+      "username": "grok",
+      "name": "Grok",
+      "followers": 8519172,
+      "following": 4,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1893219113717342208/Vgg2hEPa_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1720665183188922368/1740213586",
+      "description": "https://t.co/fqNKQSiLQB\n@grok it",
+      "location": "wherever you are",
+      "statusesCount": 123065672,
+      "mediaCount": 8838788,
+      "canDm": false,
+      "url": "https://t.co/BFoTHXcJ8D",
+      "favouritesCount": 87,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "1968794304685441500",
+    "text": "@unwind_ai_ @grok what is the best alternative to Playwright MCP?",
+    "type": "reply",
+    "createdAt": "Thu Sep 18 21:48:35 +0000 2025",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 24,
+    "bookmarkCount": 0,
+    "url": "https://x.com/VcQL7Ne1mJ49884/status/1968794304685441500",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "1968512885878882512",
+    "inReplyToUserId": "1861607599675695104",
+    "inReplyToUsername": "unwind_ai_",
+    "conversationId": "1968512868544082377",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "displayTextRange": [
+      12,
+      65
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "1861607599675695104",
+          "name": "Unwind AI",
+          "screen_name": "unwind_ai_"
+        },
+        {
+          "id_str": "1720665183188922368",
+          "name": "Grok",
+          "screen_name": "grok"
+        }
+      ]
+    },
+    "author": {
+      "id": "1883496550246277120",
+      "username": "VcQL7Ne1mJ49884",
+      "name": "Singularity",
+      "followers": 6,
+      "following": 50,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1921321387404201984/oHwpLj1D_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1883496550246277120/1758318284",
+      "description": "",
+      "location": "",
+      "statusesCount": 317,
+      "mediaCount": 65,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 2631,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "1965080301404827896",
+    "text": "What is the best modern alternative to playwright for agentic tasks on the the web?",
+    "type": "tweet",
+    "createdAt": "Mon Sep 08 15:50:27 +0000 2025",
+    "retweetCount": 1,
+    "replyCount": 1,
+    "likeCount": 5,
+    "quoteCount": 0,
+    "viewCount": 93,
+    "bookmarkCount": 0,
+    "url": "https://x.com/deeeexc/status/1965080301404827896",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "1965080301404827896",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "displayTextRange": [
+      0,
+      83
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1818659538964295680",
+      "username": "deeeexc",
+      "name": "Daniel Akinyemi",
+      "followers": 67,
+      "following": 348,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2044513052368789504/Vw3MaGRK_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1818659538964295680/1751915408",
+      "description": "My stream of thoughts here on @x. Tech Lead",
+      "location": "",
+      "statusesCount": 452,
+      "mediaCount": 78,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 4785,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "1961600703081906597",
+    "text": "@gregpr07 @browser_use This sounds super interesting. Is this aiming to be a more robust alternative to existing automation frameworks like Playwright or Selenium, especially for agents that need to appear more human?",
+    "type": "reply",
+    "createdAt": "Sat Aug 30 01:23:47 +0000 2025",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 306,
+    "bookmarkCount": 0,
+    "url": "https://x.com/S_N_W_E/status/1961600703081906597",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "1961594487979086181",
+    "inReplyToUserId": "751239554",
+    "inReplyToUsername": "gregpr07",
+    "conversationId": "1961594487979086181",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      23,
+      217
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "751239554",
+          "name": "Gregor Zunic",
+          "screen_name": "gregpr07"
+        },
+        {
+          "id_str": "1861811243813666816",
+          "name": "Browser Use",
+          "screen_name": "browser_use"
+        }
+      ]
+    },
+    "author": {
+      "id": "1797464518102278145",
+      "username": "S_N_W_E",
+      "name": "\u5357\u5317\u897f\u4e1c",
+      "followers": 1218,
+      "following": 990,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1948787040516276229/v-l4rnxV_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1797464518102278145/1753461977",
+      "description": "\u4ee3\u7801\u4e4b\u4e0a | \u5171\u8bc6\u4e4b\u95f4\nBeyond the Code | Between the Consensus",
+      "location": "",
+      "statusesCount": 5378,
+      "mediaCount": 53,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 545,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "1950472132129149333",
+    "text": "@paradite_ what are you using as a playwright alternative?",
+    "type": "reply",
+    "createdAt": "Wed Jul 30 08:22:48 +0000 2025",
+    "retweetCount": 0,
+    "replyCount": 2,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 56,
+    "bookmarkCount": 0,
+    "url": "https://x.com/decruz/status/1950472132129149333",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "1950406475584557489",
+    "inReplyToUserId": "63657268",
+    "inReplyToUsername": "paradite_",
+    "conversationId": "1950406475584557489",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      11,
+      58
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "63657268",
+          "name": "Zhu Liang",
+          "screen_name": "paradite_"
+        }
+      ]
+    },
+    "author": {
+      "id": "14510165",
+      "username": "decruz",
+      "name": "Alvin De Cruz",
+      "followers": 1382,
+      "following": 1228,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1549411637622603778/tiXVEEgR_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/14510165/1689705940",
+      "description": "Principal Architect - MWG, Head of Engineering - \ud83e\udd51 Avocado Guild, theasianparent, Gumi Asia",
+      "location": "Singapore",
+      "statusesCount": 18872,
+      "mediaCount": 598,
+      "canDm": false,
+      "url": "https://t.co/FlDusPzxoY",
+      "favouritesCount": 6984,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "1948236300391207234",
+    "text": "4\ufe0f\u20e3 Playwright MCP\nFor advanced cross-browser testing &amp; web automation. A powerful, modern alternative to Puppeteer with broader browser support.",
+    "type": "reply",
+    "createdAt": "Thu Jul 24 04:18:25 +0000 2025",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 24,
+    "bookmarkCount": 0,
+    "url": "https://x.com/mhd_abdullah204/status/1948236300391207234",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "1948236297765601459",
+    "inReplyToUserId": "1436446836122865665",
+    "inReplyToUsername": "mhd_abdullah204",
+    "conversationId": "1948236289922265476",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      149
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1436446836122865665",
+      "username": "mhd_abdullah204",
+      "name": "Mohammad Abdullah",
+      "followers": 107,
+      "following": 140,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1978345479751536640/hZIgmVuC_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1436446836122865665/1760650733",
+      "description": "\ud83d\ude80 21 y/o Builder in Progress\ud83d\udc68\u200d\ud83d\udcbb\nhttps://t.co/EK4ZYzB66P\nPlay Store App 10K+ ($400)\nApp Store IOS 15+ ($10)\nPlatform with 40k/month MRR ($100)",
+      "location": "",
+      "statusesCount": 1253,
+      "mediaCount": 561,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 719,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "1947069713089196534",
+    "text": "Fair point\u2014Nehru's socialism might not align with your anti-wealth tax stance. Alternative: V\u00e1clav Havel, the philosopher-playwright who led Czechoslovakia's Velvet Revolution, emphasizing human rights, free speech, personal autonomy, and cosmopolitan anti-authoritarianism. Fits your Nussbaum-inspired, progressive vibe better?",
+    "type": "reply",
+    "createdAt": "Sun Jul 20 23:02:49 +0000 2025",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 17,
+    "bookmarkCount": 0,
+    "url": "https://x.com/grok/status/1947069713089196534",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "1947069431827309009",
+    "inReplyToUserId": "1790655693164339200",
+    "inReplyToUsername": "liberal_elite_",
+    "conversationId": "1947026629483524360",
+    "source": "<a href=\"https://x.ai\" rel=\"nofollow\">Banners & Ads</a>",
+    "displayTextRange": [
+      16,
+      295
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "1790655693164339200",
+          "name": "liberal elitist\ud83d\uddfd\ud83e\udd42\ud83c\udfd9\ufe0f",
+          "screen_name": "liberal_elite_"
+        }
+      ]
+    },
+    "author": {
+      "id": "1720665183188922368",
+      "username": "grok",
+      "name": "Grok",
+      "followers": 8516740,
+      "following": 4,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1893219113717342208/Vgg2hEPa_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1720665183188922368/1740213586",
+      "description": "https://t.co/fqNKQSiLQB\n@grok it",
+      "location": "wherever you are",
+      "statusesCount": 123065651,
+      "mediaCount": 8838785,
+      "canDm": false,
+      "url": "https://t.co/BFoTHXcJ8D",
+      "favouritesCount": 87,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "1944888744710205681",
+    "text": "Claude Code with Playwright MCP is a viable alternative to OpenAI Operator",
+    "type": "tweet",
+    "createdAt": "Mon Jul 14 22:36:25 +0000 2025",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 59,
+    "bookmarkCount": 0,
+    "url": "https://x.com/NickHalverson9/status/1944888744710205681",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "1944888744710205681",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      74
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1680039946588155905",
+      "username": "NickHalverson9",
+      "name": "Nick Halverson",
+      "followers": 73,
+      "following": 202,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1931124940683522048/jbvmBqpe_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1680039946588155905/1734566758",
+      "description": "I like to learn and teach AI",
+      "location": "Salt Lake City, UT",
+      "statusesCount": 736,
+      "mediaCount": 23,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 1468,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "1944035559971721297",
+    "text": "@iannuttall Unfortunately, it's still not quite that easy in Linux.\n\u25cf I notice that the Playwright MCP tool isn't available in the current environment. Let me check what tools are available and then suggest an alternative approach to test the curator page.",
+    "type": "reply",
+    "createdAt": "Sat Jul 12 14:06:10 +0000 2025",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 416,
+    "bookmarkCount": 0,
+    "url": "https://x.com/chrism_biz/status/1944035559971721297",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "1943758109916508273",
+    "inReplyToUserId": "9111552",
+    "inReplyToUsername": "iannuttall",
+    "conversationId": "1943758109916508273",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      12,
+      256
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "9111552",
+          "name": "Ian Nuttall",
+          "screen_name": "iannuttall"
+        }
+      ]
+    },
+    "author": {
+      "id": "15988889",
+      "username": "chrism_biz",
+      "name": "Chris Morris",
+      "followers": 519,
+      "following": 1067,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1877725298701017088/1V_UqqBI_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/15988889/1740676310",
+      "description": "Helping Hospitals and Healthcare Marketing Agencies monitor their websites.\nhttps://t.co/F4IHk73WWj\n\nAlso:\nhttps://t.co/66UuuvgvMF\nhttps://t.co/AfN76v3Fqc",
+      "location": "Kansas City",
+      "statusesCount": 2213,
+      "mediaCount": 147,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 17760,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "1941150339966943535",
+    "text": "@tom_doerr @yagudaev this may be a good alternative to playwright mcp",
+    "type": "reply",
+    "createdAt": "Fri Jul 04 15:01:20 +0000 2025",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 77,
+    "bookmarkCount": 0,
+    "url": "https://x.com/kimjune01/status/1941150339966943535",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "1935209104638689628",
+    "inReplyToUserId": "1326180756310331399",
+    "inReplyToUsername": "tom_doerr",
+    "conversationId": "1935209104638689628",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      11,
+      69
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "1326180756310331399",
+          "name": "Tom D\u00f6rr",
+          "screen_name": "tom_doerr"
+        },
+        {
+          "id_str": "238023498",
+          "name": "Michael Yagudaev \ud83e\uddd1\ud83c\udffb\u200d\ud83d\udcbb\ud83c\udde8\ud83c\udde6",
+          "screen_name": "yagudaev"
+        }
+      ]
+    },
+    "author": {
+      "id": "279301480",
+      "username": "kimjune01",
+      "name": "June Kim",
+      "followers": 67,
+      "following": 99,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1927165797417320448/T6VodMlC_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/279301480/1748308609",
+      "description": "AI Engineer, daddy",
+      "location": "",
+      "statusesCount": 342,
+      "mediaCount": 26,
+      "canDm": false,
+      "url": "https://t.co/1tD6xd2kYm",
+      "favouritesCount": 146,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "1938228552853586119",
+    "text": "@schickling @tobiaslins and @timolins built an effect based playwright alternative :-P",
+    "type": "reply",
+    "createdAt": "Thu Jun 26 13:31:12 +0000 2025",
+    "retweetCount": 1,
+    "replyCount": 1,
+    "likeCount": 2,
+    "quoteCount": 0,
+    "viewCount": 592,
+    "bookmarkCount": 0,
+    "url": "https://x.com/thefubhy/status/1938228552853586119",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "1938218284949860358",
+    "inReplyToUserId": "64262436",
+    "inReplyToUsername": "schickling",
+    "conversationId": "1938218284949860358",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      12,
+      86
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "64262436",
+          "name": "Johannes Schickling",
+          "screen_name": "schickling"
+        },
+        {
+          "id_str": "423765620",
+          "name": "",
+          "screen_name": "tobiaslins"
+        },
+        {
+          "id_str": "95467457",
+          "name": "Timo Lins",
+          "screen_name": "timolins"
+        }
+      ]
+    },
+    "author": {
+      "id": "284051095",
+      "username": "thefubhy",
+      "name": "Sebastian Lorenz",
+      "followers": 2149,
+      "following": 804,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1719966024835973120/nK4FtRiU_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/284051095/1701107594",
+      "description": "Effect is good",
+      "location": "Vienna, Austria",
+      "statusesCount": 6424,
+      "mediaCount": 134,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 4469,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "1937705080326881728",
+    "text": "What is the alternative to the Playwright MCP server? Playwright itself has 25 tools and I am hitting 40 tool call limit now. \n\nAlso, what MCPs you always use?",
+    "type": "tweet",
+    "createdAt": "Wed Jun 25 02:51:06 +0000 2025",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 361,
+    "bookmarkCount": 0,
+    "url": "https://x.com/drnull404/status/1937705080326881728",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "1937705080326881728",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      159
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1936706901070520320",
+      "username": "drnull404",
+      "name": "Aaron",
+      "followers": 44,
+      "following": 150,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1961637215596847104/lwu-qTIK_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1936706901070520320/1752329944",
+      "description": "swe, i am ai",
+      "location": "\ud83c\udf10",
+      "statusesCount": 404,
+      "mediaCount": 49,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 797,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "1935346902813540459",
+    "text": "My preferred alternative is Jafar Panahi. Look him up. If Czechoslovakia can elect Vaclav Havel, a dissident poet &amp; playwright, maybe Iran can elect a dissident filmmaker.",
+    "type": "reply",
+    "createdAt": "Wed Jun 18 14:40:33 +0000 2025",
+    "retweetCount": 7,
+    "replyCount": 5,
+    "likeCount": 135,
+    "quoteCount": 1,
+    "viewCount": 8288,
+    "bookmarkCount": 1,
+    "url": "https://x.com/iowahawkblog/status/1935346902813540459",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "1935341319095800304",
+    "inReplyToUserId": "149913262",
+    "inReplyToUsername": "iowahawkblog",
+    "conversationId": "1935334710961479695",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      175
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "149913262",
+      "username": "iowahawkblog",
+      "name": "David Burge",
+      "followers": 272981,
+      "following": 591,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1318168412934316034/ft5Nsw6R_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/149913262/1603379184",
+      "description": "Karma's janitor",
+      "location": "Austin TX",
+      "statusesCount": 144633,
+      "mediaCount": 21496,
+      "canDm": false,
+      "url": "https://t.co/5Yrc6yPWV9",
+      "favouritesCount": 48876,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045175393393442892",
+    "text": "@xpost1 No, Passmark is built specifically for AI-powered browser regression testing using Playwright. It only handles web apps\u2014not GUI fat client desktop Java applications (like Swing or JavaFX). Those need different tools such as Appium or SikuliX.",
+    "type": "reply",
+    "createdAt": "Fri Apr 17 16:19:45 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 18,
+    "bookmarkCount": 0,
+    "url": "https://x.com/grok/status/2045175393393442892",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2045175293082546303",
+    "inReplyToUserId": "344718858",
+    "inReplyToUsername": "xpost1",
+    "conversationId": "2045175293082546303",
+    "source": "<a href=\"https://x.ai\" rel=\"nofollow\">Banners & Ads</a>",
+    "displayTextRange": [
+      8,
+      250
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "344718858",
+          "name": "xpost",
+          "screen_name": "xpost1"
+        }
+      ]
+    },
+    "author": {
+      "id": "1720665183188922368",
+      "username": "grok",
+      "name": "Grok",
+      "followers": 8516742,
+      "following": 4,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1893219113717342208/Vgg2hEPa_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1720665183188922368/1740213586",
+      "description": "https://t.co/fqNKQSiLQB\n@grok it",
+      "location": "wherever you are",
+      "statusesCount": 123065665,
+      "mediaCount": 8838786,
+      "canDm": false,
+      "url": "https://t.co/BFoTHXcJ8D",
+      "favouritesCount": 87,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045168710433055051",
+    "text": "GameWorld: A standardized benchmark for evaluating multimodal AI agents in browser-based video games\n\nVideo games demand real-time perception, planning, and precise control \u2014 ideal for testing agent capabilities. But heterogeneous interfaces and heuristic metrics have made fair comparison impossible. GameWorld fixes both.\n\n\u2014\n\nBackground\nMultimodal LLM agents face latency issues, sparse feedback, and irreversible mistakes in real-world settings. Video games provide a controlled testbed with rich visual observations and closed-loop interaction, but current benchmarks suffer from inconsistent action interfaces across games and unreliable verification methods.\n\nWhat they did\nGameWorld introduces a unified browser-based environment with standardized action interfaces across multiple games. It replaces heuristic verification with formal, verifiable evaluation methods. The benchmark tests fine-grained perception, long-horizon planning, and precise control in a reproducible setting that enables direct comparison between different MLLM agents.\n\nKey results\n\u2022 107 upvotes on HuggingFace Daily Papers (top trending)\n\u2022 Standardized evaluation across multiple game genres in browser environments\n\u2022 Formal verification replaces ad-hoc heuristic scoring\n\u2022 Reveals significant gaps between current MLLM agents and human-level game performance\n\nWhy it matters\nFor agent developers, GameWorld provides the first apples-to-apples comparison framework for multimodal game agents. The standardized interfaces eliminate the engineering overhead of adapting agents to different game APIs.\n\nLimitations\nBrowser-based games may not fully represent the complexity of native 3D game environments. The benchmark currently focuses on a specific set of game genres.\n\nhttps://t.co/sheutTccg0\n\n#MachineLearning #AIAgents #Benchmark",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 15:53:12 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 4,
+    "bookmarkCount": 0,
+    "url": "https://x.com/zer0ai_inc/status/2045168710433055051",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045168710433055051",
+    "source": "<a href=\"https://flecto.zer0ai.dev/\" rel=\"nofollow\">Flecto</a>",
+    "displayTextRange": [
+      0,
+      278
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1889472518031024130",
+      "username": "zer0ai_inc",
+      "name": "0ai Inc.",
+      "followers": 7,
+      "following": 0,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1945909399706611712/NkUCtCCo_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1889472518031024130/1775717152",
+      "description": "Official Account of 0ai Inc.",
+      "location": "",
+      "statusesCount": 245,
+      "mediaCount": 7,
+      "canDm": false,
+      "url": "https://t.co/AFtPWuQj1E",
+      "favouritesCount": 1,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045168253031547108",
+    "text": "GameWorld: A standardized benchmark for evaluating multimodal AI agents in browser-based video games\n\nVideo games demand real-time perception, planning, and precise control \u2014 ideal for testing agent capabilities. But heterogeneous interfaces and heuristic metrics have made fair comparison impossible. GameWorld fixes both.\n\n\u2014\n\nBackground\nMultimodal LLM agents face latency issues, sparse feedback, and irreversible mistakes in real-world settings. Video games provide a controlled testbed with rich visual observations and closed-loop interaction, but current benchmarks suffer from inconsistent action interfaces across games and unreliable verification methods.\n\nWhat they did\nGameWorld introduces a unified browser-based environment with standardized action interfaces across multiple games. It replaces heuristic verification with formal, verifiable evaluation methods. The benchmark tests fine-grained perception, long-horizon planning, and precise control in a reproducible setting that enables direct comparison between different MLLM agents.\n\nKey results\n\u2022 107 upvotes on HuggingFace Daily Papers (top trending)\n\u2022 Standardized evaluation across multiple game genres in browser environments\n\u2022 Formal verification replaces ad-hoc heuristic scoring\n\u2022 Reveals significant gaps between current MLLM agents and human-level game performance\n\nWhy it matters\nFor agent developers, GameWorld provides the first apples-to-apples comparison framework for multimodal game agents. The standardized interfaces eliminate the engineering overhead of adapting agents to different game APIs.\n\nLimitations\nBrowser-based games may not fully represent the complexity of native 3D game environments. The benchmark currently focuses on a specific set of game genres.\n\nhttps://t.co/sheutTccg0\n\n#MachineLearning #AIAgents #Benchmark",
+    "type": "tweet",
+    "createdAt": "Fri Apr 17 15:51:23 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 3,
+    "bookmarkCount": 0,
+    "url": "https://x.com/zer0ai_inc/status/2045168253031547108",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2045168253031547108",
+    "source": "<a href=\"https://flecto.zer0ai.dev/\" rel=\"nofollow\">Flecto</a>",
+    "displayTextRange": [
+      0,
+      278
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1889472518031024130",
+      "username": "zer0ai_inc",
+      "name": "0ai Inc.",
+      "followers": 7,
+      "following": 0,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1945909399706611712/NkUCtCCo_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1889472518031024130/1775717152",
+      "description": "Official Account of 0ai Inc.",
+      "location": "",
+      "statusesCount": 245,
+      "mediaCount": 7,
+      "canDm": false,
+      "url": "https://t.co/AFtPWuQj1E",
+      "favouritesCount": 1,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045129749622636738",
+    "text": "Sounds good, I'm open to it. Some questions for you: Once I get the AI to spit out code from my prompt, how do I figure out the best next steps to implement it for testing. For context: I think I'd want to develop web apps that run in a browser. Does that mean I can do a straight code injection into something like Squarespace? Or should I do something else? Also, what if one of my web apps needs a database? What if one of my web apps needs people to sign in and have an account? I have no clue where to start for these things. Would a system like Figma help me out with this? I have a friend that builds websites quickly using Figma and they are kind of like a web app, he uses a Wix plugin to implement the hosting of the sites.",
+    "type": "reply",
+    "createdAt": "Fri Apr 17 13:18:23 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 2,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 16,
+    "bookmarkCount": 0,
+    "url": "https://x.com/JonathanShoff/status/2045129749622636738",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2045030686885650524",
+    "inReplyToUserId": "1881381358410346496",
+    "inReplyToUsername": "ejemasdesign",
+    "conversationId": "2044869029924343942",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      14,
+      294
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "1881381358410346496",
+          "name": "Ejemas-UXUI Designer",
+          "screen_name": "ejemasdesign"
+        }
+      ]
+    },
+    "author": {
+      "id": "1070331951947677696",
+      "username": "JonathanShoff",
+      "name": "J. Shoff \u2022 Business Accountant",
+      "followers": 1861,
+      "following": 1081,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1184902729778511872/4THH_-kh_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1070331951947677696/1773070429",
+      "description": "Founder of Shoff Accounting | Helping business owners make more money by clarifying their financial and tax situation",
+      "location": "Let's Chat \u279c",
+      "statusesCount": 15075,
+      "mediaCount": 518,
+      "canDm": false,
+      "url": "https://t.co/d8aBU37Qnd",
+      "favouritesCount": 25468,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2045064515381764331",
+    "text": "@Dominus_Kelvin this is the gap we keep seeing too. teams ship fast with AI but testing is still stuck in the old world \u2014 selectors, scripts, maintenance. what if you just described what should work in plain english and let AI handle the browser part?",
+    "type": "reply",
+    "createdAt": "Fri Apr 17 08:59:10 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 6,
+    "bookmarkCount": 0,
+    "url": "https://x.com/SquidlerIO/status/2045064515381764331",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2044694548136489089",
+    "inReplyToUserId": "2619637516",
+    "inReplyToUsername": "Dominus_Kelvin",
+    "conversationId": "2044694548136489089",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      16,
+      251
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "2619637516",
+          "name": "K.O.O",
+          "screen_name": "Dominus_Kelvin"
+        }
+      ]
+    },
+    "author": {
+      "id": "1589348245561565186",
+      "username": "SquidlerIO",
+      "name": "Squidler",
+      "followers": 98,
+      "following": 20,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1589351424818913280/DH1cZyqD_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1589348245561565186/1688502928",
+      "description": "We do Autonomous Testing. We have AI agents. They will test your apps and sites. Write your tests in plain English. Free demo at our site!",
+      "location": "Malm\u00f6, Sweden",
+      "statusesCount": 182,
+      "mediaCount": 3,
+      "canDm": false,
+      "url": "https://t.co/eR2elKu2tS",
+      "favouritesCount": 118,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044978675049803820",
+    "text": "login once\nnavigate once\nreuse context\ncontinue workflows\n\nNow you get things like:\n\n\u2022 autonomous research agents\n\u2022 AI QA testing websites\n\u2022 scraping without MCP overhead\n\u2022 multi-step browser workflows\n\u2022 AI that actually uses web apps\n\u2022 Claude operating real dashboards",
+    "type": "reply",
+    "createdAt": "Fri Apr 17 03:18:04 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 25,
+    "bookmarkCount": 0,
+    "url": "https://x.com/bariwure_f/status/2044978675049803820",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2044977677640024214",
+    "inReplyToUserId": "1483179453329166350",
+    "inReplyToUsername": "bariwure_f",
+    "conversationId": "2044977677640024214",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "displayTextRange": [
+      0,
+      269
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1483179453329166350",
+      "username": "bariwure_f",
+      "name": "GraciousMay",
+      "followers": 147,
+      "following": 415,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1987528753736507392/kvBNWkbo_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1483179453329166350/1687319972",
+      "description": "AI LEVERAGE|\nAI AUTOMATION|\nAn ENTREPRENEUR|\nA DRESS MAKER|\nA Mini IMPORTER |\nPOSITIVITY|",
+      "location": "",
+      "statusesCount": 489,
+      "mediaCount": 61,
+      "canDm": false,
+      "url": "https://t.co/4tLy4hoBKz",
+      "favouritesCount": 533,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044869362545279117",
+    "text": "Everyone's vibe coding now. Nobody's vibe testing.\n\nShip fast, break nothing \u2014 you need tests that keep up with AI-generated code.\n\nPlain English specs. AI runs them in a real browser. Fails feed back into your loop.",
+    "type": "tweet",
+    "createdAt": "Thu Apr 16 20:03:42 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 207,
+    "bookmarkCount": 0,
+    "url": "https://x.com/SquidlerIO/status/2044869362545279117",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044869362545279117",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      216
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1589348245561565186",
+      "username": "SquidlerIO",
+      "name": "Squidler",
+      "followers": 98,
+      "following": 20,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1589351424818913280/DH1cZyqD_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1589348245561565186/1688502928",
+      "description": "We do Autonomous Testing. We have AI agents. They will test your apps and sites. Write your tests in plain English. Free demo at our site!",
+      "location": "Malm\u00f6, Sweden",
+      "statusesCount": 182,
+      "mediaCount": 3,
+      "canDm": false,
+      "url": "https://t.co/eR2elKu2tS",
+      "favouritesCount": 118,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044849060163797334",
+    "text": "Hello from Codex using computer use. Testing what it feels like when AI can actually operate the browser.",
+    "type": "tweet",
+    "createdAt": "Thu Apr 16 18:43:02 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 24,
+    "bookmarkCount": 0,
+    "url": "https://x.com/805karansaini/status/2044849060163797334",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044849060163797334",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      105
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "2891683075",
+      "username": "805karansaini",
+      "name": "Karan Saini \u2076\ud80c\udd53",
+      "followers": 112,
+      "following": 1009,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1447957603733032962/tsFCQtfS_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/2891683075/1579094564",
+      "description": ".\n.\n.\n.\n.\n.\nKnow Yourself,\nKnow Your Worth\n.\n.\n.\n.\n.\n.\n\n\nHere- 2nd Feb 2018 @ 18:19",
+      "location": "Area 51",
+      "statusesCount": 1769,
+      "mediaCount": 427,
+      "canDm": false,
+      "url": "https://t.co/pOvKxEAtIq",
+      "favouritesCount": 77764,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044833058029805693",
+    "text": "Anthropic's Mythos AI found thousands of critical vulnerabilities across every major OS and browser.\n\nMore than 99% of them are still unpatched.\n\nThe Fed and Treasury convened an emergency meeting with Wall Street bank CEOs over the implications. JPMorgan is now testing the model. Anthropic refused to release it publicly because the hacking capability is \"too powerful.\"\n\nIt also found a flaw in a security-focused operating system that had gone undetected for 27 years.\n\nYour firm's software has holes in it. An AI just found them. The question is whether attackers find them next.\n\nhttps://t.co/ptDTZyjaio",
+    "type": "tweet",
+    "createdAt": "Thu Apr 16 17:39:26 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 15,
+    "bookmarkCount": 0,
+    "url": "https://x.com/Faradex_ai/status/2044833058029805693",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044833058029805693",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      274
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "2024646401591013376",
+      "username": "Faradex_ai",
+      "name": "Faradex",
+      "followers": 1,
+      "following": 4,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2039803984118976512/NPuseELt_normal.png",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/2024646401591013376/1773157096",
+      "description": "Private AI infrastructure for regulated industries. \nDedicated hardware, zero data retention, fully compliant.",
+      "location": "United States",
+      "statusesCount": 11,
+      "mediaCount": 3,
+      "canDm": false,
+      "url": "https://t.co/RAkry8CCsY",
+      "favouritesCount": 3,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044809483457527890",
+    "text": "One exposed API key.\n\u20ac54,000 in 13 hours.\n\nA developer testing Firebase left a browser key unrestricted. Gemini APIs have no default limits.\n\nAI billing can destroy you faster than any bug.",
+    "type": "tweet",
+    "createdAt": "Thu Apr 16 16:05:46 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 67,
+    "bookmarkCount": 0,
+    "url": "https://x.com/lior_pozin/status/2044809483457527890",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044809483457527890",
+    "source": "<a href=\"https://metricool.com\" rel=\"nofollow\">Metricool</a>",
+    "displayTextRange": [
+      0,
+      189
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1587050424196112391",
+      "username": "lior_pozin",
+      "name": "Lior Pozin",
+      "followers": 259,
+      "following": 180,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2038961094572527616/UaFMmzWK_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1587050424196112391/1702804009",
+      "description": "Bootstrapped @AutoDsTools to 200+ employees \u2192 Acquired by @fiverr. \nForbes 30u30. \nSharing raw lessons on entrepreneurship, scaling, and AI.",
+      "location": "Miami, FL",
+      "statusesCount": 526,
+      "mediaCount": 132,
+      "canDm": false,
+      "url": "https://t.co/dLPA562iBF",
+      "favouritesCount": 149,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044736276893663377",
+    "text": "CSA urges Singapore firms to strengthen cybersecurity after Anthropic began testing its latest AI model, Claude Mythos, which reportedly found vulnerabilities in every major browser and operating system. \n\n@straits_times @AnthropicAI @CSAsingapore \n\n#cybersecurity #singapore https://t.co/WYDFmMo2pd",
+    "type": "tweet",
+    "createdAt": "Thu Apr 16 11:14:52 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 0,
+    "quoteCount": 1,
+    "viewCount": 270,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGBcrypa8AA4Gel.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGBcrypa8AA4Gel.jpg"
+      }
+    ],
+    "url": "https://x.com/Cyber_Asia_/status/2044736276893663377",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044736276893663377",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      275
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "cybersecurity"
+        },
+        {
+          "text": "singapore"
+        }
+      ],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "37874853",
+          "name": "The Straits Times",
+          "screen_name": "straits_times"
+        },
+        {
+          "id_str": "1353836358901501952",
+          "name": "Anthropic",
+          "screen_name": "AnthropicAI"
+        },
+        {
+          "id_str": "3178029523",
+          "name": "CSA",
+          "screen_name": "CSAsingapore"
+        }
+      ]
+    },
+    "author": {
+      "id": "1432163324502765572",
+      "username": "Cyber_Asia_",
+      "name": "\ud83c\udd32\ud83c\udd48\ud83c\udd31\ud83c\udd34\ud83c\udd41 \ud83c\udd30\ud83c\udd42\ud83c\udd38\ud83c\udd30",
+      "followers": 3792,
+      "following": 500,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1432183250684841988/w1snEURa_normal.png",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1432163324502765572/1690161324",
+      "description": "Follow us for the latest #cybersecurity news in Asia.",
+      "location": "Join 5,000+ members \u2192",
+      "statusesCount": 1586,
+      "mediaCount": 548,
+      "canDm": false,
+      "url": "https://t.co/i3D3iBYwb9",
+      "favouritesCount": 128,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044699546211713188",
+    "text": "the hidden org problem in AI-generated browser testing:\n\nnobody explicitly owns the ambiguity loop\n\nthe failure happens\neveryone sees red\nand the team loses time deciding whether it\u2019s app, test, infra, or config\n\nthe slowdown isn\u2019t the issue itself\n\nit\u2019s unclear ownership of the path to resolution",
+    "type": "tweet",
+    "createdAt": "Thu Apr 16 08:48:55 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 18,
+    "bookmarkCount": 0,
+    "url": "https://x.com/nerdwillz/status/2044699546211713188",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044699546211713188",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      279
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "3116411871",
+      "username": "nerdwillz",
+      "name": "Will Zhao",
+      "followers": 35,
+      "following": 164,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2018488563432861696/iy9dWbdQ_normal.jpg",
+      "coverPicture": "",
+      "description": "Co-founder & CEO @ Shiplight AI. Ex-Airbnb, Snap, Facebook. Entrepreneur, investor, learner.",
+      "location": "San Francisco, CA",
+      "statusesCount": 27,
+      "mediaCount": 1,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 53,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044645764882985116",
+    "text": "day 4 of building AI MVPs in public:\n\n\u2192 shipped MCP Playground (live tool for testing MCP servers in browser)\n\u2192 2 client projects signed, $2k invoiced\n\u2192 40 \u2192 49 followers  \n\u2192 4 projects in the pipeline\n\u2192 bought x premium + claude max this week (both already paid for themselves)\n\nposting consistently changed everything in 4 days\n\n3 more days to go this week\n\n#buildinpublic #ai #claude",
+    "type": "tweet",
+    "createdAt": "Thu Apr 16 05:15:12 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 122,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HGAKe6hbkAAc6N4.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HGAKe6hbkAAc6N4.jpg"
+      }
+    ],
+    "url": "https://x.com/Bhartiyaanshul/status/2044645764882985116",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044645764882985116",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "displayTextRange": [
+      0,
+      266
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1642067255684116481",
+      "username": "Bhartiyaanshul",
+      "name": "Anshul",
+      "followers": 53,
+      "following": 65,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1876314610766053378/AMlMzjmr_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1642067255684116481/1736253284",
+      "description": "I build custom AI MVPs in 7\u201314 days | Agents, tools & automations that make you money\n\u2192 Book a free 30-min scope call\nPortfolio / past MVPs \u2192 https://t.co/Z6v4hLTQom",
+      "location": "",
+      "statusesCount": 327,
+      "mediaCount": 52,
+      "canDm": false,
+      "url": "https://t.co/hKY0grNo6p",
+      "favouritesCount": 150,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044521192304922864",
+    "text": "Apple's Next Device Has No Screen.\n\nApple is testing four designs for AI smart glasses. Cameras, mics, speakers \u2014 but no display.\n\nSiri is the entire interface. You talk to it. It talks back. That's it.\n\nWhen there's no screen to tap, no browser to open, no search results to scroll \u2014 how does anyone find your brand?\n\nThey say your name. Or they don't find you at all.\n\nVoice identity isn't a nice-to-have anymore. It's your address in a screenless world.\n\nReserve yours \u2192 https://t.co/qhPQ79MU8g",
+    "type": "tweet",
+    "createdAt": "Wed Apr 15 21:00:12 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 14,
+    "bookmarkCount": 0,
+    "url": "https://x.com/IncVocalize/status/2044521192304922864",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044521192304922864",
+    "source": "<a href=\"https://buffer.com\" rel=\"nofollow\">Buffer</a>",
+    "displayTextRange": [
+      0,
+      275
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1268592797562605572",
+      "username": "IncVocalize",
+      "name": "Vocalize Inc",
+      "followers": 9,
+      "following": 33,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1268593020460564484/Y_YWbVA-_normal.jpg",
+      "coverPicture": "",
+      "description": "Vocalize is QR codes for Voice. Reserve your Voice QR now before someone else does!",
+      "location": "",
+      "statusesCount": 108,
+      "mediaCount": 18,
+      "canDm": false,
+      "url": "https://t.co/XhCtJaoH7K",
+      "favouritesCount": 54,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044422995792498692",
+    "text": "U.S. officials have just warned Wall Street about a new AI risk.\n\nAnthropic built an AI model so dangerous they will not release it to the public.\n\nThe model is called Mythos. In testing it was able to break into every major operating system and every major web browser when asked to.\n\nSome of the weaknesses it found had been sitting undetected for 27 years. The systems it broke into are the same ones running banks, governments and critical infrastructure around the world.\n\nThe previous version of the same AI managed to break in twice from several hundred attempts. Mythos managed 181 times.\n\nMany of these tests cost under $50 to run.\n\nAnthropic has given restricted access to a small group of organisations including JPMorgan, Goldman Sachs, Microsoft and Google, specifically so they can find the weaknesses in their own systems before someone else does.\n\nLast week the US Treasury Secretary and the Federal Reserve Chair called every major Wall Street bank CEO to an urgent private meeting and told them to take this seriously.\n\nMost of the systems running the global financial system, power grids and government infrastructure were built long before anything like this existed.\n\nThat meeting happened last week. Most people have not heard about it.\n\nFollow me to stay informed",
+    "type": "tweet",
+    "createdAt": "Wed Apr 15 14:30:00 +0000 2026",
+    "retweetCount": 4,
+    "replyCount": 2,
+    "likeCount": 13,
+    "quoteCount": 1,
+    "viewCount": 1162,
+    "bookmarkCount": 1,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HF81gt9WcAATvcU.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HF81gt9WcAATvcU.jpg"
+      }
+    ],
+    "url": "https://x.com/NeilMcCoyWard/status/2044422995792498692",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044422995792498692",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "displayTextRange": [
+      0,
+      280
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "928928043174957056",
+      "username": "NeilMcCoyWard",
+      "name": "Neil McCoy-Ward",
+      "followers": 40358,
+      "following": 12,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1898557591112032256/--ThJ8cA_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/928928043174957056/1738794014",
+      "description": "100M+ YouTube Views -  Follow for Economics, Finance & Geopolitics. Join My Weekly Newsletter To Stay Informed!",
+      "location": "Isle Of Man",
+      "statusesCount": 2381,
+      "mediaCount": 574,
+      "canDm": false,
+      "url": "https://t.co/naTAvCS4WU",
+      "favouritesCount": 14000,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2044164812754616641",
+    "text": "\ud83e\uddea\n\nReads your git changes, generates a test plan, and runs it with Playwright against a real browser. Checks performance, security, broken UI, and missing features. Works with Claude Code, Codex, Cursor, and CI pipelines.\n\n\u2b50 3.3K\n#AI #Testing #OpenSource https://t.co/hskO9h2jCy",
+    "type": "tweet",
+    "createdAt": "Tue Apr 14 21:24:04 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 1,
+    "quoteCount": 1,
+    "viewCount": 87,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HF5UscoasAI5Gw9.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HF5UscoasAI5Gw9.jpg"
+      }
+    ],
+    "url": "https://x.com/chenzeling4/status/2044164812754616641",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2044164812754616641",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      254
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AI"
+        },
+        {
+          "text": "Testing"
+        },
+        {
+          "text": "OpenSource"
+        }
+      ],
+      "urls": [],
+      "user_mentions": []
+    },
+    "author": {
+      "id": "1498803336048353288",
+      "username": "chenzeling4",
+      "name": "Zane Chen",
+      "followers": 38,
+      "following": 30,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1915237945042243584/iet-FKPJ_normal.png",
+      "coverPicture": "",
+      "description": "I am a software engineer always messing around, building solutions block by block.",
+      "location": "New York, USA",
+      "statusesCount": 1659,
+      "mediaCount": 801,
+      "canDm": false,
+      "url": "https://t.co/xkx5UcJ9tW",
+      "favouritesCount": 162,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2043979311443784078",
+    "text": "@hyakumach @levifikri playwright, cypress, selenium\nai yg bisa browser use juga bisa disuruh testing manual, tapi boros token.",
+    "type": "reply",
+    "createdAt": "Tue Apr 14 09:06:57 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 37,
+    "bookmarkCount": 1,
+    "url": "https://x.com/jerukcheseebun/status/2043979311443784078",
+    "lang": "in",
+    "isReply": true,
+    "inReplyToId": "2043844523227566142",
+    "inReplyToUserId": "470871088",
+    "inReplyToUsername": "hyakumach",
+    "conversationId": "2043809112920863007",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      22,
+      126
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "470871088",
+          "name": "Zif,",
+          "screen_name": "hyakumach"
+        },
+        {
+          "id_str": "79874857",
+          "name": "Levi | still learning (and messing up)",
+          "screen_name": "levifikri"
+        }
+      ]
+    },
+    "author": {
+      "id": "1920740590926675968",
+      "username": "jerukcheseebun",
+      "name": "William Kirk",
+      "followers": 24,
+      "following": 140,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1996458727042621440/n8RbLsk0_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1920740590926675968/1763181388",
+      "description": "We are Charlie Kirk",
+      "location": "",
+      "statusesCount": 2816,
+      "mediaCount": 360,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 1643,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2043757842377654756",
+    "text": "@asaio87 I\u2019m a developer working with AI daily and of course for the time being it requires a lot of manual testing and debugging; but what happens when we have agents in the browser that can review features and debug themselves?",
+    "type": "reply",
+    "createdAt": "Mon Apr 13 18:26:55 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 222,
+    "bookmarkCount": 0,
+    "url": "https://x.com/IntelGeoPol/status/2043757842377654756",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2043740420463607815",
+    "inReplyToUserId": "47435477",
+    "inReplyToUsername": "asaio87",
+    "conversationId": "2043740420463607815",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "displayTextRange": [
+      9,
+      229
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "47435477",
+          "name": "andrei saioc",
+          "screen_name": "asaio87"
+        }
+      ]
+    },
+    "author": {
+      "id": "1320032756538146822",
+      "username": "IntelGeoPol",
+      "name": "IntelGeoPol",
+      "followers": 2781,
+      "following": 1799,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1997874934820032512/jhtVs2-w_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1320032756538146822/1737669948",
+      "description": "Geopolitical Analysis | ASEAN | BRICS | LATAM \ud83c\udf0e\ud83c\uddf7\ud83c\uddfa\ud83c\uddec\ud83c\uddea\ud83c\uddf9\ud83c\uddf7\ud83c\uddfb\ud83c\uddf3\ud83c\uddf2\ud83c\uddfe\ud83c\uddef\ud83c\uddf5 \ud83c\uddf0\ud83c\uddf5 \ud83c\uddf0\ud83c\uddf7\ud83c\udde6\ud83c\uddf7\ud83c\udde7\ud83c\uddf7",
+      "location": "Global South and Global East",
+      "statusesCount": 10337,
+      "mediaCount": 1486,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 1668,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2043612610357334050",
+    "text": "@MasumiNetwork the screenshots as receipts part is key. when an AI agent makes changes, you need visual proof that the UI actually looks right, not just that the code compiled. automated browser testing that captures screenshots after every change is how you build that trust layer.",
+    "type": "reply",
+    "createdAt": "Mon Apr 13 08:49:49 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 13,
+    "bookmarkCount": 0,
+    "url": "https://x.com/m13v_/status/2043612610357334050",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2042380952169771239",
+    "inReplyToUserId": "1855521977550671872",
+    "inReplyToUsername": "MasumiNetwork",
+    "conversationId": "2042380952169771239",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      15,
+      282
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "1855521977550671872",
+          "name": "Masumi",
+          "screen_name": "MasumiNetwork"
+        }
+      ]
+    },
+    "author": {
+      "id": "1482992820982099968",
+      "username": "m13v_",
+      "name": "Matt",
+      "followers": 1383,
+      "following": 210,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1749288192958935040/dPXHmIy__normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1482992820982099968/1772165654",
+      "description": "open for cofounder opportunities. i'm at the intersection of engineering, the startup world, vipassana meditation, and sport",
+      "location": "San Francisco",
+      "statusesCount": 4566,
+      "mediaCount": 322,
+      "canDm": false,
+      "url": "https://t.co/qPFnmmHvHA",
+      "favouritesCount": 705,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2043612350016864402",
+    "text": "the missing piece is automated testing. AI can write code faster than ever now, but without a system that clicks through the actual UI and verifies everything works end to end, you're just shipping bugs faster. the teams that win will have automated browser tests running after every AI generated change.",
+    "type": "reply",
+    "createdAt": "Mon Apr 13 08:48:47 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 1,
+    "likeCount": 1,
+    "quoteCount": 0,
+    "viewCount": 32,
+    "bookmarkCount": 0,
+    "url": "https://x.com/m13v_/status/2043612350016864402",
+    "lang": "en",
+    "isReply": true,
+    "inReplyToId": "2043334996451041718",
+    "inReplyToUserId": "1334154670017753090",
+    "inReplyToUsername": "QuantumDom",
+    "conversationId": "2043334996451041718",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      12,
+      289
+    ],
+    "isNoteTweet": true,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "1334154670017753090",
+          "name": "Dom Andrzejczuk",
+          "screen_name": "QuantumDom"
+        }
+      ]
+    },
+    "author": {
+      "id": "1482992820982099968",
+      "username": "m13v_",
+      "name": "Matt",
+      "followers": 1383,
+      "following": 210,
+      "verified": true,
+      "profilePicture": "https://pbs.twimg.com/profile_images/1749288192958935040/dPXHmIy__normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1482992820982099968/1772165654",
+      "description": "open for cofounder opportunities. i'm at the intersection of engineering, the startup world, vipassana meditation, and sport",
+      "location": "San Francisco",
+      "statusesCount": 4566,
+      "mediaCount": 322,
+      "canDm": false,
+      "url": "https://t.co/qPFnmmHvHA",
+      "favouritesCount": 705,
+      "isTranslator": false
+    }
+  },
+  {
+    "id": "2043551061454049503",
+    "text": "I know nothing about scripting, but @claudeai did a really good studio editor that is like Roblox which isn't to bad. This is better than any other Ai chatbot can do for browser game editor. (No worries this isn't gonna be a rip-off of Roblox Studio or Polytoria.) Was testing. https://t.co/ACGaw3I6Df",
+    "type": "tweet",
+    "createdAt": "Mon Apr 13 04:45:15 +0000 2026",
+    "retweetCount": 0,
+    "replyCount": 0,
+    "likeCount": 0,
+    "quoteCount": 0,
+    "viewCount": 96,
+    "bookmarkCount": 0,
+    "media": [
+      {
+        "media_url_https": "https://pbs.twimg.com/media/HFwmZyAbkAAvUW6.jpg",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HFwmZyAbkAAvUW6.jpg"
+      }
+    ],
+    "url": "https://x.com/TheMainKrispy/status/2043551061454049503",
+    "lang": "en",
+    "isReply": false,
+    "conversationId": "2043551061454049503",
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "displayTextRange": [
+      0,
+      277
+    ],
+    "isNoteTweet": false,
+    "isQuoteStatus": false,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id_str": "1943306828697550848",
+          "name": "Claude",
+          "screen_name": "claudeai"
+        }
+      ]
+    },
+    "author": {
+      "id": "1066892696067796993",
+      "username": "TheMainKrispy",
+      "name": "TheMainKrispy",
+      "followers": 53,
+      "following": 54,
+      "verified": false,
+      "profilePicture": "https://pbs.twimg.com/profile_images/2044737083923693568/3bakXXsC_normal.jpg",
+      "coverPicture": "https://pbs.twimg.com/profile_banners/1066892696067796993/1774616879",
+      "description": "",
+      "location": "",
+      "statusesCount": 2584,
+      "mediaCount": 117,
+      "canDm": false,
+      "url": "",
+      "favouritesCount": 250,
+      "isTranslator": false
+    }
+  }
+]

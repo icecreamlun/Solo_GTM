@@ -22,8 +22,10 @@ MINDS_API_KEY = os.environ["MINDS_API_KEY"]
 
 CLAUDE_MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-4-5-20250929")
 APIFY_REDDIT_ACTOR_ID = "FgJtjDwJCLhRH9saM"
+APIFY_TWITTER_ACTOR_ID = "xquik/x-tweet-scraper"
 MINDS_BASE_URL = "https://getminds.ai/api/v1"
 MINDS_CONFIG_PATH = Path(__file__).parent / "minds_config.json"
 
 USE_CACHED_APIFY = os.environ.get("USE_CACHED_APIFY", "false").lower() == "true"
 CACHED_REDDIT_PATH = Path(__file__).parent / "spikes" / "axolotl_reddit_seed.json"
+CACHED_TWITTER_PATH = Path(__file__).parent / "spikes" / "axolotl_twitter_seed.json"

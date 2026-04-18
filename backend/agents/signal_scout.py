@@ -1,4 +1,4 @@
-"""Agent 2 — Signal Scout. Apify Reddit + HN Algolia + Claude analysis."""
+"""Agent 2 — Signal Scout. Apify Reddit + Apify Twitter + HN Algolia + Claude analysis."""
 
 import asyncio
 import json
@@ -10,8 +10,10 @@ from apify_client import ApifyClient
 from config import (
     APIFY_API_TOKEN,
     APIFY_REDDIT_ACTOR_ID,
+    APIFY_TWITTER_ACTOR_ID,
     USE_CACHED_APIFY,
     CACHED_REDDIT_PATH,
+    CACHED_TWITTER_PATH,
 )
 
 from ._llm import claude_json
@@ -20,7 +22,7 @@ from ._llm import claude_json
 _apify = ApifyClient(APIFY_API_TOKEN)
 
 
-def _call_apify_sync(keywords: List[str]) -> list:
+def _call_apify_reddit_sync(keywords: List[str]) -> list:
     run_input = {
         "searches": keywords[:3],
         "searchPosts": True,
@@ -40,15 +42,40 @@ def _call_apify_sync(keywords: List[str]) -> list:
     return list(_apify.dataset(run["defaultDatasetId"]).iterate_items())
 
 
+def _call_apify_twitter_sync(keywords: List[str]) -> list:
+    run_input = {
+        "searchTerms": keywords[:2],
+        "maxItems": 20,
+        "sort": "Top",
+        "tweetLanguage": "en",
+    }
+    run = _apify.actor(APIFY_TWITTER_ACTOR_ID).call(run_input=run_input)
+    items = list(_apify.dataset(run["defaultDatasetId"]).iterate_items())
+    # Drop Apify's sandbox {"noResults": true} placeholders if they ever sneak in
+    return [i for i in items if not i.get("noResults") and (i.get("text") or i.get("full_text"))]
+
+
 async def _load_reddit(keywords: List[str]) -> list:
     if USE_CACHED_APIFY and CACHED_REDDIT_PATH.exists():
         return json.loads(CACHED_REDDIT_PATH.read_text())
     try:
-        return await asyncio.to_thread(_call_apify_sync, keywords)
+        return await asyncio.to_thread(_call_apify_reddit_sync, keywords)
     except Exception as e:
-        print(f"[signal_scout] Apify failed ({e}); falling back to cached seed")
+        print(f"[signal_scout] Apify Reddit failed ({e}); falling back to cached seed")
         if CACHED_REDDIT_PATH.exists():
             return json.loads(CACHED_REDDIT_PATH.read_text())
+        return []
+
+
+async def _load_twitter(keywords: List[str]) -> list:
+    if USE_CACHED_APIFY and CACHED_TWITTER_PATH.exists():
+        return json.loads(CACHED_TWITTER_PATH.read_text())
+    try:
+        return await asyncio.to_thread(_call_apify_twitter_sync, keywords)
+    except Exception as e:
+        print(f"[signal_scout] Apify Twitter failed ({e}); falling back to cached seed")
+        if CACHED_TWITTER_PATH.exists():
+            return json.loads(CACHED_TWITTER_PATH.read_text())
         return []
 
 
@@ -87,6 +114,19 @@ def _summarize_reddit(items: list) -> str:
     return "\n".join(lines) if lines else "(no Reddit results)"
 
 
+def _summarize_twitter(items: list) -> str:
+    lines = []
+    for it in items[:25]:
+        author = (it.get("author") or {})
+        handle = author.get("username") or author.get("screen_name") or "?"
+        followers = author.get("followers") or 0
+        text = (it.get("text") or it.get("full_text") or "").replace("\n", " ")[:160]
+        likes = it.get("likeCount") or 0
+        retweets = it.get("retweetCount") or 0
+        lines.append(f"@{handle} ({followers}f): {text} ({likes}♥ {retweets}🔁)")
+    return "\n".join(lines) if lines else "(no Twitter results)"
+
+
 def _summarize_hn(items: list) -> str:
     lines = []
     for it in items[:20]:
@@ -99,7 +139,7 @@ def _summarize_hn(items: list) -> str:
 
 PROMPT = """You are a GTM strategist for developer tools.
 
-Based on REAL community data scraped from Reddit (via Apify) and Hacker News, analyze market signals.
+Based on REAL community data scraped from Reddit (via Apify), Twitter/X (via Apify), and Hacker News, analyze market signals.
 
 Product info:
 - product_name: {product_name}
@@ -111,6 +151,9 @@ Product info:
 Reddit data (scraped via Apify, {n_reddit} posts analyzed):
 {reddit_summary}
 
+Twitter/X data (scraped via Apify, {n_twitter} tweets analyzed):
+{twitter_summary}
+
 Hacker News data ({n_hn} stories analyzed):
 {hn_summary}
 
@@ -121,14 +164,15 @@ Output ONLY JSON:
   "recommended_narrative": "best angle based on real market data",
   "recommended_channels": [
     {{"channel": "r/SubredditName", "reason": "why", "fit_score": "high|medium|low"}},
-    {{"channel": "Hacker News", "reason": "why", "fit_score": "high|medium|low"}}
+    {{"channel": "Hacker News", "reason": "why", "fit_score": "high|medium|low"}},
+    {{"channel": "Twitter/X", "reason": "who to engage, what hashtags/angle lands", "fit_score": "high|medium|low"}}
   ],
   "competitive_angle": "how to differentiate",
   "timing_insight": "why now is good or bad",
   "signal_confidence": "high|medium|low",
   "data_sources_count": {total_sources},
   "key_data_points": [
-    {{"source": "r/programming", "insight": "what we learned", "relevance": "high|medium"}}
+    {{"source": "r/programming | twitter | HN", "insight": "what we learned", "relevance": "high|medium"}}
   ]
 }}"""
 
@@ -138,9 +182,12 @@ async def run(interpreter_output: dict) -> dict:
     if not keywords:
         keywords = [interpreter_output.get("product_name", "developer tools")]
 
-    reddit_task = _load_reddit(keywords)
-    hn_task = _fetch_hn(keywords)
-    reddit_items, hn_items = await asyncio.gather(reddit_task, hn_task)
+    # Fire all three data sources in parallel — Twitter is ~13s, Reddit ~130s, HN ~2s
+    reddit_items, twitter_items, hn_items = await asyncio.gather(
+        _load_reddit(keywords),
+        _load_twitter(keywords),
+        _fetch_hn(keywords),
+    )
 
     prompt = PROMPT.format(
         product_name=interpreter_output.get("product_name", ""),
@@ -150,13 +197,16 @@ async def run(interpreter_output: dict) -> dict:
         key_angles=interpreter_output.get("key_angles", []),
         n_reddit=len(reddit_items),
         reddit_summary=_summarize_reddit(reddit_items),
+        n_twitter=len(twitter_items),
+        twitter_summary=_summarize_twitter(twitter_items),
         n_hn=len(hn_items),
         hn_summary=_summarize_hn(hn_items),
-        total_sources=len(reddit_items) + len(hn_items),
+        total_sources=len(reddit_items) + len(twitter_items) + len(hn_items),
     )
     result = await claude_json(prompt)
     result["_meta"] = {
         "reddit_count": len(reddit_items),
+        "twitter_count": len(twitter_items),
         "hn_count": len(hn_items),
         "used_cached_apify": USE_CACHED_APIFY,
     }

@@ -4,7 +4,7 @@
     "input_type": "github_url",
     "timings": {
       "interpreter": 7.55,
-      "signal_scout": 129.22,
+      "signal_scout": 147.72,
       "content_engine": 87.3,
       "audience_sim": 76.1
     },
@@ -48,77 +48,94 @@
   },
   "signal_scout": {
     "trending_topics": [
-      "AI-powered test automation skepticism and value assessment",
-      "PR review workflows and testing responsibilities",
-      "Open-source automated QA tools and frameworks"
+      "AI-generated test automation and maintenance burden",
+      "QA career anxiety and market saturation",
+      "CI/CD integration and automated testing pipelines"
     ],
     "community_pain_points": [
-      "Uncertainty about real ROI of AI testing tools beyond marketing hype",
-      "Manual burden of testing changes during PR reviews",
-      "Difficulty maintaining and repairing brittle UI tests",
-      "Lack of visual proof that tests actually ran successfully"
+      "AI-generated tests are flaky, unreadable, and unmaintainable (direct quote from Twitter: 'AI can generate Playwright tests. But most are flaky, unreadable, unmaintainable')",
+      "QA professionals experiencing job market stress and role uncertainty (Reddit: 52 upvotes on 'Hey QA folks - how is your job search going as of 2026' with 79 comments)",
+      "Manual test maintenance becoming overwhelming as software evolves (stratpoint tweet: 'Traditional test automation struggles as software evolves, slowing QA')",
+      "Solo founders and small teams unable to dedicate time to QA without it becoming a full-time job",
+      "Disconnect between what clients want ('someone who can ship automated tests, integrate with CI/CD') vs traditional QA roles"
     ],
-    "recommended_narrative": "The PR reviewer's AI assistant: automatic browser tests on what changed, with visual proof before merge - no test maintenance, no hype, just evidence",
+    "recommended_narrative": "Position Axolotl as the 'second generation' of AI test automation - learning from the first wave's failures. Lead with: 'AI-generated tests failed because they were unreadable and unmaintainable. Axolotl tests what actually changed in your PR, in real browsers, with visual proof - no flaky scripts to maintain.' Focus on the PR-scoped testing (not generating thousands of tests) and the visual evidence angle that gives developers confidence without technical debt.",
     "recommended_channels": [
       {
-        "channel": "r/cscareerquestionsEU",
-        "reason": "Active discussion (20 comments) specifically about testing during PR reviews - direct pain point match",
+        "channel": "r/QualityAssurance",
+        "reason": "Highest engagement (52↑ 79c on job search thread) showing active, anxious community. Multiple threads about automation tools and career pivoting. Position Axolotl as empowering QA engineers rather than replacing them - 'finally, an AI tool that makes QA engineers look like heroes'",
         "fit_score": "high"
       },
       {
-        "channel": "r/ExperiencedDevs",
-        "reason": "15 comments on PR review process - mature audience that values productivity tools and has authority to adopt",
+        "channel": "Hacker News",
+        "reason": "Show HN posts for AI test automation getting modest traction (145pts for Magnitude framework, 16pts for similar tools). Community is receptive but skeptical. Lead with technical differentiation: PR-scoped testing vs full test suite generation. Post during peak hours with 'Show HN: Axolotl - AI tests only what changed in your PR (avoiding the flaky test problem)'",
         "fit_score": "high"
       },
       {
-        "channel": "Hacker News (Show HN)",
-        "reason": "Multiple Show HN posts for automated QA tools getting engagement (145pts for Magnitude, 16pts for similar tools) - receptive audience",
+        "channel": "r/SaaS",
+        "reason": "Direct pain point thread: 'how do you automate qa testing as a solo founder without it becoming a full time job' (1↑ 3c). Small teams are underserved segment. Position as 'QA co-pilot for solo devs'",
         "fit_score": "high"
       },
       {
-        "channel": "r/ArtificialInteligence",
-        "reason": "11 comments debating actual value of AI testing platforms - opportunity to address skepticism with concrete evidence-based approach",
+        "channel": "Twitter/X",
+        "reason": "Engage with @davidlake_ (discussing Playwright + AI patterns), @browserstack (asking 'when AI writes code, how do we test?'), @mushahyd (discussing modern QA expectations). Use hashtags #TestAutomation #DevTools #CICD. Lead with the flaky test problem quote as a hook. DevTools community is active but fragmented",
         "fit_score": "medium"
       },
       {
-        "channel": "r/QualityAssurance",
-        "reason": "11 comments on AI testing automation - but may be more focused on dedicated QA roles than developer workflows",
+        "channel": "r/developersIndia",
+        "reason": "Multiple QA career threads (2 in top 15) showing active Indian dev market concerned about automation replacing jobs. Position carefully as augmentation tool. Medium fit due to potential sensitivity around job displacement messaging",
         "fit_score": "medium"
       }
     ],
-    "competitive_angle": "Position as anti-hype: not another 'AI will write all your tests' promise, but a practical PR workflow enhancement that shows visual evidence of real browser testing on actual changes. Focus on the merge decision use case, not replacing QA teams.",
-    "timing_insight": "GOOD - Strong AI testing fatigue creates opportunity for evidence-based, practical positioning. Active discussions about PR testing responsibilities show developers currently shoulder this burden manually. Multiple competitors launching signals growing market category, but skepticism (11 comments questioning value) means differentiation through specificity (PR-focused, visual proof) will resonate.",
-    "signal_confidence": "medium",
-    "data_sources_count": 35,
+    "competitive_angle": "Differentiate from 'AI generates all your tests' tools (Qanairy, Leapwork AI Studio, Auto-Browse) by emphasizing: 1) PR-scoped testing (not generating thousands of unmaintainable tests), 2) Real browser execution with visual proof (not just assertions), 3) VS Code integration in developer workflow (not separate QA platform). Key message: 'We learned from the first wave of AI test tools - generation without context creates technical debt. Axolotl tests what matters: your actual code changes.'",
+    "timing_insight": "EXCELLENT timing. Market is experiencing 'AI test automation disillusionment' - first wave promised full automation but delivered flaky, unmaintainable tests. QA professionals are anxious about job security (2026 job search thread highly engaged). There's a clear gap for 'second generation' tools that solve the maintenance problem. The shift toward 'AI writes code, but who tests it?' (BrowserStack tweet) creates perfect positioning opportunity. Strike now while community is receptive to better solutions.",
+    "signal_confidence": "high",
+    "data_sources_count": 75,
     "key_data_points": [
       {
-        "source": "r/cscareerquestionsEU",
-        "insight": "20 comments on 'Do you test other peoples changes during a PR review?' - developers actively discussing if/how they test PRs",
+        "source": "Twitter (@davidlake_)",
+        "insight": "AI-generated Playwright tests are 'flaky, unreadable, unmaintainable' - this is the PRIMARY pain point to address in messaging",
         "relevance": "high"
       },
       {
-        "source": "r/ArtificialInteligence",
-        "insight": "11 comments questioning 'actual value in ai powered testing automation platforms beyond the hype' - skepticism barrier to address",
+        "source": "r/QualityAssurance",
+        "insight": "52 upvotes, 79 comments on '2026 job search' thread indicates high anxiety in QA community - position tool as empowering, not replacing",
         "relevance": "high"
       },
       {
-        "source": "Hacker News",
-        "insight": "Show HN: Magnitude (145pts, 40c) shows strong appetite for browser automation frameworks - validates technical approach",
+        "source": "Hacker News (Show HN posts)",
+        "insight": "8+ similar AI test automation tools posted in dataset with modest engagement (1-16pts mostly) - market is crowded but no clear winner, opportunity for differentiation",
         "relevance": "high"
       },
       {
-        "source": "r/buildinpublic",
-        "insight": "Developer built PR testing system for preview URLs, asking if people would pay - validates market need but low engagement (2c) suggests generic positioning issue",
+        "source": "r/SaaS",
+        "insight": "Solo founders explicitly asking how to automate QA without full-time commitment - underserved segment",
+        "relevance": "high"
+      },
+      {
+        "source": "Twitter (@browserstack)",
+        "insight": "'When AI writes the code, how do we test it?' - positions your tool perfectly at intersection of AI-generated code trend",
+        "relevance": "high"
+      },
+      {
+        "source": "Twitter (@stratpoint)",
+        "insight": "'Traditional test automation struggles as software evolves, slowing QA' - maintenance burden is universal pain point",
         "relevance": "medium"
       },
       {
-        "source": "Hacker News",
-        "insight": "Multiple 'AI QA testing' Show HN posts getting 1-3pts - market saturation for generic AI testing angle",
+        "source": "Twitter (@mushahyd)",
+        "insight": "'Clients want someone who can ship automated tests, integrate with CI/CD' - emphasize VS Code + PR workflow integration",
+        "relevance": "medium"
+      },
+      {
+        "source": "r/developersIndia",
+        "insight": "Multiple threads about QA career pivoting and growth potential - indicates market shift happening in real-time",
         "relevance": "medium"
       }
     ],
     "_meta": {
       "reddit_count": 15,
+      "twitter_count": 40,
       "hn_count": 20,
       "used_cached_apify": false
     }

@@ -19,6 +19,7 @@ export default function SignalPanel({ data }) {
   } = data;
 
   const reddit = _meta.reddit_count ?? 0;
+  const twitter = _meta.twitter_count ?? 0;
   const hn = _meta.hn_count ?? 0;
 
   return (
@@ -31,8 +32,13 @@ export default function SignalPanel({ data }) {
       </div>
 
       <div className="mb-5 p-3 bg-zinc-950/60 border border-cyan-400/20 rounded-lg text-sm font-mono text-zinc-400">
-        📊 Apify scanned <span className="text-cyan-400">{reddit}</span> Reddit posts +{" "}
-        <span className="text-cyan-400">{hn}</span> HN stories · confidence:{" "}
+        📊 Apify scanned <span className="text-cyan-400">{reddit}</span> Reddit posts
+        {twitter > 0 && (
+          <>
+            {" "}+ <span className="text-cyan-400">{twitter}</span> tweets
+          </>
+        )}
+        {" "}+ <span className="text-cyan-400">{hn}</span> HN stories · confidence:{" "}
         <span className="text-cyan-400">{signal_confidence}</span>
       </div>
 

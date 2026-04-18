@@ -1,5 +1,6 @@
 """Agent 1 — Interpreter. Product understanding + Launch Score."""
 
+import os
 import re
 from typing import Optional
 
@@ -17,20 +18,36 @@ async def _fetch_github_context(url: str) -> Optional[str]:
         return None
     owner, repo = m.group(1), m.group(2)
 
+    token = os.environ.get("GITHUB_TOKEN")
+    headers = {"Authorization": f"Bearer {token}"} if token else {}
+
     async with httpx.AsyncClient(timeout=15.0, follow_redirects=True) as client:
-        meta_task = client.get(f"https://api.github.com/repos/{owner}/{repo}")
+        meta_task = client.get(f"https://api.github.com/repos/{owner}/{repo}", headers=headers)
         readme_task = client.get(
             f"https://api.github.com/repos/{owner}/{repo}/readme",
-            headers={"Accept": "application/vnd.github.v3.raw"},
+            headers={**headers, "Accept": "application/vnd.github.v3.raw"},
         )
         commits_task = client.get(
             f"https://api.github.com/repos/{owner}/{repo}/commits",
-            params={"per_page": 5},
+            params={"per_page": 10},
+            headers=headers,
         )
         meta_r, readme_r, commits_r = (
             await meta_task,
             await readme_task,
             await commits_task,
+        )
+
+    # Fail loudly rather than hallucinate from the bare URL.
+    if meta_r.status_code == 403 or readme_r.status_code == 403:
+        raise RuntimeError(
+            "GitHub rate-limited the Interpreter. Set GITHUB_TOKEN in .env "
+            "for 5000/hr instead of 60/hr."
+        )
+    if readme_r.status_code != 200:
+        raise RuntimeError(
+            f"Could not fetch README for {owner}/{repo} "
+            f"(status={readme_r.status_code}). Refusing to interpret without it."
         )
 
     parts = [f"Repo: {owner}/{repo}"]
@@ -40,12 +57,11 @@ async def _fetch_github_context(url: str) -> Optional[str]:
         parts.append(f"Language: {m_data.get('language') or 'n/a'}")
         parts.append(f"Stars: {m_data.get('stargazers_count', 0)}")
         parts.append(f"Topics: {', '.join(m_data.get('topics', [])) or 'n/a'}")
-    if readme_r.status_code == 200:
-        parts.append(f"\n--- README (truncated) ---\n{readme_r.text[:3000]}")
+    parts.append(f"\n--- README (first 5000 chars) ---\n{readme_r.text[:5000]}")
     if commits_r.status_code == 200:
-        commits = commits_r.json()[:5]
+        commits = commits_r.json()[:10]
         commit_lines = [f"- {c['commit']['message'].splitlines()[0]}" for c in commits]
-        parts.append("\n--- Recent commits ---\n" + "\n".join(commit_lines))
+        parts.append("\n--- Recent 10 commits ---\n" + "\n".join(commit_lines))
     return "\n".join(parts)
 
 

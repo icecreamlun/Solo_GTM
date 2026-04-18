@@ -7,6 +7,7 @@ import SignalPanel from "./components/SignalPanel.jsx";
 import ContentTabs from "./components/ContentTabs.jsx";
 import AudienceSim from "./components/AudienceSim.jsx";
 import ActionPanel from "./components/ActionPanel.jsx";
+import IterationBanner from "./components/IterationBanner.jsx";
 import { MOCK } from "./mockData.js";
 
 const STEPS = ["interpreter", "signal_scout", "content_engine", "audience_sim"];
@@ -19,6 +20,7 @@ export default function App() {
   const [data, setData] = useState(null);
   const [isRunning, setIsRunning] = useState(false);
   const [error, setError] = useState(null);
+  const [selectedIter, setSelectedIter] = useState(null); // null = view final
 
   useEffect(() => {
     if (DEMO_MODE) {
@@ -32,6 +34,7 @@ export default function App() {
     setIsRunning(true);
     setData(null);
     setProgress({});
+    setSelectedIter(null);
 
     // Fake step-by-step reveal: mark each step running → done as it arrives
     // We only get one response from /api/launch, so we animate the reveal client-side
@@ -70,6 +73,7 @@ export default function App() {
     setIsRunning(true);
     setData(null);
     setProgress({});
+    setSelectedIter(null);
     try {
       const resp = await fetch("/api/fallback");
       if (!resp.ok) throw new Error("no fallback cached — run the pipeline once first");
@@ -109,15 +113,38 @@ export default function App() {
           </div>
         )}
 
-        {data && (
-          <>
-            <LaunchScore data={data.interpreter} />
-            <SignalPanel data={data.signal_scout} />
-            <ContentTabs data={data.content_engine} />
-            <AudienceSim data={data.audience_sim} />
-            <ActionPanel data={data.content_engine} onRegenerate={() => runPipeline(data.meta?.input || "", "github_url")} />
-          </>
-        )}
+        {data && (() => {
+          const iters = data.iterations || [];
+          const lastIdx = iters.length - 1;
+          const activeIter = selectedIter ?? lastIdx;
+          const displayContent =
+            iters[activeIter]?.content_engine || data.content_engine;
+          const displayAudience =
+            iters[activeIter]?.audience_sim || data.audience_sim;
+          const viewingFinal = activeIter === lastIdx || iters.length === 0;
+          return (
+            <>
+              <LaunchScore data={data.interpreter} />
+              <SignalPanel data={data.signal_scout} />
+              {iters.length > 0 && (
+                <IterationBanner
+                  iterations={iters}
+                  stopReason={data.meta?.stop_reason}
+                  selectedIdx={activeIter}
+                  onSelect={setSelectedIter}
+                />
+              )}
+              {!viewingFinal && (
+                <div className="text-xs text-amber-400 font-mono text-center -my-2">
+                  ↓ showing draft v{iters[activeIter].iteration} — click v{iters.length} above to jump back to final
+                </div>
+              )}
+              <ContentTabs data={displayContent} />
+              <AudienceSim data={displayAudience} />
+              <ActionPanel data={displayContent} onRegenerate={() => runPipeline(data.meta?.input || "", "github_url")} />
+            </>
+          );
+        })()}
       </main>
 
       <footer className="max-w-5xl mx-auto px-6 text-center text-xs text-zinc-600 font-mono">
@@ -147,7 +174,11 @@ async function stageReveal(setProgress, setData, full) {
     content_engine: "done",
     audience_sim: "running",
   });
-  setData((d) => ({ ...d, content_engine: full.content_engine }));
+  setData((d) => ({
+    ...d,
+    content_engine: full.content_engine,
+    iterations: full.iterations,
+  }));
   await delay(500);
   setProgress({
     interpreter: "done",

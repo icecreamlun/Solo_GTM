@@ -1,7 +1,9 @@
 """LaunchLayer FastAPI entrypoint.
 
-POST /api/launch — runs the 4-agent pipeline and returns the full result.
+POST /api/launch — runs the full pipeline with a bounded self-correction loop:
+  interpreter → signal_scout → (content → audience → stop?)×N  (N ≤ 3)
 GET  /api/health — liveness probe.
+GET  /api/fallback — return cached pipeline output for stage demos.
 """
 
 import json
@@ -26,12 +28,28 @@ app.add_middleware(
 )
 
 FALLBACK_PATH = Path(__file__).parent / "fallback_data.json"
+MAX_ITERATIONS = 3
+
+_ENGAGEMENT_RANK = {"low": 0, "medium": 1, "high": 2}
+
+
+def _score(audience: dict) -> int:
+    """Composite score: engagement weighted higher than single-persona wins."""
+    synthesis = audience.get("synthesis", {}) or {}
+    engagement = synthesis.get("predicted_engagement", "").lower()
+    rank = _ENGAGEMENT_RANK.get(engagement, -1)
+    upvotes = sum(
+        1 for p in audience.get("personas", []) if p.get("would_upvote")
+    )
+    # rank 0-2 × 3 → 0/3/6, plus 0-3 upvotes → max 9.
+    return max(rank, 0) * 3 + upvotes
 
 
 class LaunchRequest(BaseModel):
     input_text: str
     input_type: str = "github_url"
     use_fallback: bool = False
+    max_iterations: int = MAX_ITERATIONS
 
 
 @app.get("/api/health")
@@ -46,13 +64,38 @@ async def fallback():
     return json.loads(FALLBACK_PATH.read_text())
 
 
+def _should_stop(audience: dict, prev_score: int) -> tuple[bool, str]:
+    """Return (stop?, reason).
+
+    Stop when:
+    - predicted engagement reaches 'high' (best we can claim)
+    - all 3 personas would upvote (saturation)
+    - composite score didn't improve vs last iteration (drift guard)
+    """
+    synthesis = audience.get("synthesis", {}) or {}
+    engagement = synthesis.get("predicted_engagement", "").lower()
+
+    if engagement == "high":
+        return True, "engagement reached high"
+
+    personas = audience.get("personas", []) or []
+    if personas and all(p.get("would_upvote") for p in personas):
+        return True, "all personas would upvote"
+
+    score = _score(audience)
+    if prev_score >= 0 and score <= prev_score:
+        return True, f"no improvement over prev (score {prev_score}→{score}) — avoiding drift"
+
+    return False, ""
+
+
 @app.post("/api/launch")
 async def launch(req: LaunchRequest):
     if req.use_fallback and FALLBACK_PATH.exists():
         return json.loads(FALLBACK_PATH.read_text())
 
-    timings = {}
-    result = {"meta": {"input": req.input_text, "input_type": req.input_type}}
+    timings: dict = {}
+    result: dict = {"meta": {"input": req.input_text, "input_type": req.input_type}}
 
     t0 = time.time()
     result["interpreter"] = await interpreter.run(req.input_text, req.input_type)
@@ -62,15 +105,57 @@ async def launch(req: LaunchRequest):
     result["signal_scout"] = await signal_scout.run(result["interpreter"])
     timings["signal_scout"] = round(time.time() - t0, 2)
 
-    t0 = time.time()
-    result["content_engine"] = await content_engine.run(
-        result["interpreter"], result["signal_scout"]
-    )
-    timings["content_engine"] = round(time.time() - t0, 2)
+    iterations: list = []
+    content_time_total = 0.0
+    audience_time_total = 0.0
+    prev_content: dict | None = None
+    prev_audience: dict | None = None
+    prev_score = -1
+    stop_reason = "hit max iterations"
 
-    t0 = time.time()
-    result["audience_sim"] = await audience_sim.run(result["content_engine"])
-    timings["audience_sim"] = round(time.time() - t0, 2)
+    for i in range(1, max(1, min(req.max_iterations, MAX_ITERATIONS)) + 1):
+        t0 = time.time()
+        content = await content_engine.run(
+            result["interpreter"],
+            result["signal_scout"],
+            previous_attempt=prev_content,
+            audience_feedback=prev_audience,
+            iteration=i,
+        )
+        content_time_total += time.time() - t0
 
+        t0 = time.time()
+        audience = await audience_sim.run(content)
+        audience_time_total += time.time() - t0
+
+        engagement = (audience.get("synthesis") or {}).get("predicted_engagement", "").lower()
+        iterations.append({
+            "iteration": i,
+            "engagement": engagement,
+            "upvote_count": sum(1 for p in audience.get("personas", []) if p.get("would_upvote")),
+            "content_engine": content,
+            "audience_sim": audience,
+        })
+
+        stop, reason = _should_stop(audience, prev_score)
+        if stop:
+            stop_reason = reason
+            break
+
+        prev_content = content
+        prev_audience = audience
+        prev_score = _score(audience)
+
+    # Final = last iteration's content + audience
+    result["content_engine"] = iterations[-1]["content_engine"]
+    result["audience_sim"] = iterations[-1]["audience_sim"]
+    # Keep full content+audience per iteration so the UI can let users
+    # click back and see exactly what changed between drafts.
+    result["iterations"] = iterations
+
+    timings["content_engine"] = round(content_time_total, 2)
+    timings["audience_sim"] = round(audience_time_total, 2)
     result["meta"]["timings"] = timings
+    result["meta"]["iteration_count"] = len(iterations)
+    result["meta"]["stop_reason"] = stop_reason
     return result

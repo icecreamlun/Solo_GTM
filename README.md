@@ -10,6 +10,12 @@
 
 ![Repocket · Overview](docs/overview.png)
 
+<div align="center">
+
+**▶ [Watch the live walkthrough](https://screen.studio/share/BIcqdVCl)** · full end-to-end demo, no local setup
+
+</div>
+
 ---
 
 ## The problem

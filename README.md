@@ -8,6 +8,8 @@
 
 </div>
 
+![Repocket · Overview](docs/overview.png)
+
 ---
 
 ## The problem

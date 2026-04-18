@@ -14,10 +14,15 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from agents import interpreter, signal_scout, content_engine, audience_sim
+from agents import interpreter, signal_scout, content_engine, audience_sim, monitor
 
 
 app = FastAPI(title="LaunchLayer")
+
+
+@app.on_event("startup")
+async def _boot_monitor_scheduler():
+    monitor.start_scheduler()
 
 app.add_middleware(
     CORSMiddleware,
@@ -62,6 +67,29 @@ async def fallback():
     if not FALLBACK_PATH.exists():
         raise HTTPException(404, "no fallback data yet — run the pipeline once to seed it")
     return json.loads(FALLBACK_PATH.read_text())
+
+
+@app.get("/api/monitor/{slug}")
+async def monitor_get(slug: str):
+    record = monitor.read(slug)
+    if not record:
+        raise HTTPException(404, f"no monitoring data for {slug}")
+    return {
+        **record,
+        "next_scrape_in_seconds": monitor.seconds_until_next(record),
+        "interval_hours": monitor.MONITOR_INTERVAL_HOURS,
+    }
+
+
+@app.post("/api/monitor/refresh/{slug}")
+async def monitor_refresh(slug: str):
+    record = monitor.read(slug)
+    if not record:
+        raise HTTPException(404, f"{slug} is not tracked yet")
+    updated = await monitor.record_snapshot(
+        slug, record["interpreter"], record["github_url"]
+    )
+    return {"ok": True, "snapshots": len(updated["snapshots"])}
 
 
 def _should_stop(audience: dict, prev_score: int) -> tuple[bool, str]:

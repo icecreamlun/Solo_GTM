@@ -125,7 +125,7 @@ export default function App() {
           return (
             <>
               <LaunchScore data={data.interpreter} />
-              <SignalPanel data={data.signal_scout} />
+              <SignalPanel data={data.signal_scout} inputUrl={data.meta?.input} />
               {iters.length > 0 && (
                 <IterationBanner
                   iterations={iters}

@@ -1,0 +1,203 @@
+{
+  "repo_slug": "Axolotl-QA-Axolotl",
+  "github_url": "https://github.com/Axolotl-QA/Axolotl",
+  "interpreter": {
+    "product_name": "Axolotl",
+    "what_it_does": "AI-powered VS Code extension that automatically generates and runs real browser tests on code changes before merging.",
+    "update_summary": "Project rebranding and documentation improvements with new GIFs demonstrating the QA process, star history tracking, and package renaming to Axolotl across configurations.",
+    "user_value": "Prevents production bugs by automatically testing actual user flows in real browsers before merge, eliminating the gap between code changes and test coverage.",
+    "update_type": "improvement",
+    "target_audiences": [
+      "frontend developers",
+      "QA engineers",
+      "development teams using pull requests"
+    ],
+    "launch_score": {
+      "novelty": 4,
+      "user_impact": 5,
+      "shareability": 4,
+      "timing_relevance": 5,
+      "overall": 4.5
+    },
+    "launch_recommendation": "full_launch",
+    "key_angles": [
+      "AI agent that prevents production bugs by testing what actually changed in your PR",
+      "Automated end-to-end testing in real browsers without writing test code",
+      "Evidence-backed merge decisions with visual proof of test execution"
+    ],
+    "search_keywords": [
+      "AI test automation",
+      "automated QA",
+      "PR testing",
+      "end-to-end testing",
+      "VS Code testing",
+      "browser automation",
+      "merge validation",
+      "code change analysis"
+    ]
+  },
+  "snapshots": [
+    {
+      "timestamp": "2026-04-15T20:15:33.337203+00:00",
+      "signal_scout": {
+        "trending_topics": [
+          "AI-generated test automation (Playwright + Claude/AI agents)",
+          "Test maintenance burden and flaky tests",
+          "Budget-friendly AI testing alternatives"
+        ],
+        "community_pain_points": [
+          "AI-generated Playwright tests are flaky, unreadable, and unmaintainable despite being quick to create",
+          "Token costs exploding when using Claude/AI with browser automation tools",
+          "High maintenance overhead for test suites as codebases evolve",
+          "Need for visual/evidence-based validation that tests actually work",
+          "Lack of patterns/structure when AI writes tests from scratch"
+        ],
+        "recommended_narrative": "The AI test generator that doesn't create technical debt. Axolotl auto-generates maintainable browser tests scoped to your actual PR changes, runs them in real browsers, and gives you visual proof—not flaky scripts you'll regret in 3 months.",
+        "competitive_angle": "Position against the 'AI test generation' wave: Most AI tools generate hundreds of flaky tests. Axolotl is scoped, surgical, and evidence-based—it only tests what actually changed in your PR, runs real browser validation, and shows you visual proof. You're not inheriting unmaintainable test debt; you're getting merge confidence.",
+        "timing_insight": "NOW is optimal. Market is in the 'AI test automation disillusionment' phase—developers tried Claude/GPT to write Playwright tests, hit token costs, maintenance nightmares, and flakiness. They're actively seeking 'AI done right' solutions. The @davidlake_ tweet (AI tests are flaky/unreadable) captures this perfectly. Strike while pain is acute.",
+        "signal_confidence": "high",
+        "key_data_points": [
+          {
+            "source": "twitter",
+            "insight": "@davidlake_: 'AI can generate Playwright tests. But most are flaky, unreadable, unmaintainable.' This is THE core objection to overcome.",
+            "relevance": "high"
+          },
+          {
+            "source": "r/ClaudeAI",
+            "insight": "Multiple posts about 'Playwright + Claude = token hell' and seeking budget alternatives. Cost and efficiency are blocking adoption.",
+            "relevance": "high"
+          },
+          {
+            "source": "HN",
+            "insight": "'The State of Open-Source AI-Powered Test Automation' (14pts) and Magnitude (145pts) show strong appetite for new approaches. Community wants open discussion.",
+            "relevance": "high"
+          },
+          {
+            "source": "r/QualityAssurance",
+            "insight": "QA engineers asking 'Which AI besides Claude' and seeking 'budget friendly but efficient' tools. Price-conscious, quality-focused buyer segment.",
+            "relevance": "high"
+          },
+          {
+            "source": "twitter",
+            "insight": "@AegisSoftTech: 'AI can now: Create test cases, Self-heal broken scripts, Predict defects' - these are perceived AI capabilities. Axolotl needs to show it delivers on the promise.",
+            "relevance": "medium"
+          }
+        ],
+        "_meta": {
+          "reddit_count": 15,
+          "twitter_count": 81,
+          "hn_count": 20,
+          "used_cached_apify": true
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-17T20:16:10.719249+00:00",
+      "signal_scout": {
+        "trending_topics": [
+          "AI-generated Playwright tests (quality and maintenance concerns)",
+          "Cost/token efficiency of AI testing tools (Claude alternatives)",
+          "Self-hosted and open-source test automation solutions"
+        ],
+        "community_pain_points": [
+          "AI-generated tests are flaky, unreadable, and unmaintainable (multiple mentions across Twitter/Reddit)",
+          "Token costs for AI + browser automation (Claude + Playwright = 'token hell')",
+          "High maintenance burden of existing test frameworks as software evolves",
+          "Need for visual/evidence-based validation of tests",
+          "Gap between AI writing code and trustworthy QA processes"
+        ],
+        "recommended_narrative": "The anti-flaky AI testing tool: 'AI-generated tests fail because they don't understand what actually changed. Axolotl only tests your PR diff in real browsers, giving you visual proof without the maintenance nightmare.' Position as the disciplined, PR-focused alternative to generic AI test generators.",
+        "competitive_angle": "Most AI testing tools generate tests blindly across entire codebases (causing flaky, expensive, unmaintainable tests). Axolotl is PR-scoped: it only tests what changed, runs in real browsers automatically, and provides visual evidence. You're not building a test suite—you're getting merge confidence. Position against both traditional E2E frameworks (too much manual work) and AI test generators (too unfocused/flaky).",
+        "timing_insight": "STRONG timing. Market is at peak frustration with first-gen AI testing tools—'AI can generate Playwright tests but most are flaky/unreadable' is becoming consensus. Developers are seeking budget alternatives to Claude for automation. The backlash window is open: be the 'second wave' solution that learned from gen-1 mistakes. Strike now before this pain point gets crowded.",
+        "signal_confidence": "high",
+        "key_data_points": [
+          {
+            "source": "twitter",
+            "insight": "@davidlake_: 'AI can generate Playwright tests. But most are flaky, unreadable, unmaintainable.' Direct validation of quality problem with AI-generated tests.",
+            "relevance": "high"
+          },
+          {
+            "source": "twitter",
+            "insight": "@browserstack: 'when AI writes the code, how do we test it?' Major player questioning AI code reliability—validates need for evidence-based validation.",
+            "relevance": "high"
+          },
+          {
+            "source": "r/ClaudeAI",
+            "insight": "'Playwright/Chrome DevTools + Claude = token hell' (2↑ 12c) + 'Looking for something more budget friendly' in r/QualityAssurance. Cost pain is real and recurring.",
+            "relevance": "high"
+          },
+          {
+            "source": "r/Playwright",
+            "insight": "'Which VS Code tool would annoy you most to lose' (4↑ 8c)—shows developers are emotionally attached to their VS Code extensions. Axolotl fits this workflow.",
+            "relevance": "high"
+          },
+          {
+            "source": "HN",
+            "insight": "'The State of Open-Source AI-Powered Test Automation' (14pts, 2c)—best performing story shows appetite for meta-discussion on AI testing landscape. Room for thought leadership.",
+            "relevance": "medium"
+          }
+        ],
+        "_meta": {
+          "reddit_count": 15,
+          "twitter_count": 81,
+          "hn_count": 20,
+          "used_cached_apify": true
+        }
+      }
+    },
+    {
+      "timestamp": "2026-04-18T17:16:48.677409+00:00",
+      "signal_scout": {
+        "trending_topics": [
+          "AI-powered Playwright automation",
+          "Test maintenance burden and flaky tests",
+          "Cost concerns with AI testing tokens (Claude integration)"
+        ],
+        "community_pain_points": [
+          "Playwright tests generated by AI are flaky, unreadable, and unmaintainable (Twitter: @davidlake_)",
+          "Token costs exploding when using Claude with Playwright/Chrome DevTools for testing (r/ClaudeAI: 12 comments on token hell)",
+          "Need for budget-friendly AI testing alternatives beyond Claude (r/QualityAssurance)",
+          "Desire for less maintenance overhead in testing frameworks (r/opensource: 'less maintenance for open source projects')",
+          "Teams want automation without writing test code, but current AI solutions create technical debt"
+        ],
+        "recommended_narrative": "The anti-flaky AI testing solution: 'We only test what changed in your PR, so our AI generates focused, reliable tests instead of bloated test suites. No token hell, no maintenance nightmare, just evidence your code works before merge.' Position against unfocused AI test generators that create unmaintainable messes.",
+        "competitive_angle": "Differentiate against broad AI test generators (Qanairy, Leapwork AI Studio, Auto-Browse) by emphasizing SCOPE LIMITATION: 'We don't generate tests for your entire app—we analyze your PR diff and test only what changed. This creates maintainable, focused tests instead of flaky kitchen-sink suites.' Attack the 'AI generates everything' approach as creating technical debt.",
+        "timing_insight": "NOW IS EXCELLENT. Market is experiencing AI testing fatigue—early adopters hit the 'flaky test wall' and token cost ceiling. Your PR-scoped approach solves the exact pain points emerging from first-generation AI testing tools. The @davidlake_ tweet (AI tests are 'flaky, unreadable, unmaintainable') represents a turning point where the market wants smarter AI testing, not just more AI testing.",
+        "signal_confidence": "high",
+        "key_data_points": [
+          {
+            "source": "twitter",
+            "insight": "@davidlake_: 'AI can generate Playwright tests. But most are flaky, unreadable, unmaintainable.' Direct validation that AI-generated test quality is THE problem to solve.",
+            "relevance": "high"
+          },
+          {
+            "source": "r/ClaudeAI",
+            "insight": "'Playwright/Chrome DevTools + Claude = token hell' (12 comments). Cost of running comprehensive AI tests is prohibitive. Scope-limited testing directly addresses this.",
+            "relevance": "high"
+          },
+          {
+            "source": "r/QualityAssurance",
+            "insight": "Active search for 'budget friendly' AI alternatives to Claude for Playwright. Price-sensitive market segment exists.",
+            "relevance": "high"
+          },
+          {
+            "source": "HN",
+            "insight": "Multiple AI test automation launches (Supercheck.io, Qanairy, Magnitude) getting 1-3 points. Market is saturated with generic pitches. Need sharp differentiation.",
+            "relevance": "high"
+          },
+          {
+            "source": "r/opensource",
+            "insight": "'Playwright alternative less maintenance for open source projects' - maintenance burden is a primary decision factor, not just features.",
+            "relevance": "high"
+          }
+        ],
+        "_meta": {
+          "reddit_count": 15,
+          "twitter_count": 81,
+          "hn_count": 20,
+          "used_cached_apify": true
+        }
+      }
+    }
+  ]
+}

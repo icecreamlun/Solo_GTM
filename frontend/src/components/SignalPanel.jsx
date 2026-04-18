@@ -1,11 +1,19 @@
+import MonitorTimeline from "./MonitorTimeline.jsx";
+
+function slugFromUrl(url) {
+  const m = url?.match(/github\.com[/:]([\w.-]+)\/([\w.-]+?)(?:\.git|\/|$)/);
+  return m ? `${m[1]}-${m[2]}` : null;
+}
+
 const FIT_COLOR = {
   high: "text-cyan-400 border-cyan-400/40 bg-cyan-400/10",
   medium: "text-amber-400 border-amber-400/40 bg-amber-400/10",
   low: "text-zinc-500 border-zinc-700 bg-zinc-800/40",
 };
 
-export default function SignalPanel({ data }) {
+export default function SignalPanel({ data, inputUrl }) {
   if (!data) return null;
+  const slug = slugFromUrl(inputUrl);
   const {
     trending_topics = [],
     community_pain_points = [],
@@ -79,6 +87,8 @@ export default function SignalPanel({ data }) {
           </ul>
         </div>
       )}
+
+      <MonitorTimeline slug={slug} />
     </section>
   );
 }
